@@ -1,26 +1,240 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+/*font 'Inter' from fonts.google.com */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-a {
-  color: inherit;
-  text-decoration: none;
+/*tailwind css*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --lightest-blue: #F2FAFFl;
+    --light-blue: #479FDE;
+    --dark-blue: #18214D;
+    --gray: #747474;
 }
 
 * {
-  box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    transition: all .1s ease-in-out;
+    color: var(--dark-blue);
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+/*fonts*/
+.text-16-20-400 {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.text-16-24-400 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.text-16-19-600 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+}
+
+.text-16-20-500 {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.text-18-26-500 {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 500;
+}
+
+.text-20-26-500 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.text-20-24-700 {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.text-20-30-500 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.text-24-30-500 {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.text-30-44-600 {
+    font-size: 30px;
+    line-height: 44px;
+    font-weight: 600;
+}
+
+.text-30-44-700 {
+    font-size: 30px;
+    line-height: 44px;
+    font-weight: 700;
+}
+
+.text-32-44-700 {
+    font-size: 32px;
+    line-height: 44px;
+    font-weight: 700;
+}
+
+.text-48-70-700 {
+    font-size: 48px;
+    line-height: 70px;
+    font-weight: 700;
+}
+
+.text-40-56-700 {
+    font-size: 40px;
+    line-height: 56px;
+    font-weight: 700;
+}
+
+.text-50-60-800 {
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 800;
+}
+
+/* fonts */
+/* shadows */
+.shadow-c {
+    box-shadow: 0 8px 24px rgba(24, 33, 77, 0.05);
+}
+
+.shadow-h {
+    box-shadow: 0 2px 4px rgba(24, 33, 77, 0.05);
+}
+
+.shadow-b {
+    box-shadow: 0 4px 16px rgba(71, 159, 222, 0.1);
+}
+
+/**/
+/* container */
+.container {
+    max-width: 1200px !important;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* widths */
+.w-1200 {
+    width: 1200px;
+}
+
+/* navbar */
+.dropdown::after {
+    content: '';
+    display: inline-block;
+    height: 1rem;
+    width: 1.5rem;
+    background: url("../public/dropdown.svg") 90% 95% no-repeat;
+}
+
+.dropdown::after:hover {
+    background: url("../public/dropdown.svg") 90% 95% no-repeat;
+}
+
+.nav-link {
+    position: relative;
+}
+
+.nav-link.phone::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    left: -1.5rem;
+    height: 1rem;
+    width: 1.5rem;
+    background: url("../public/Phone.svg") 0 100% no-repeat;
+    background-size: 15px;
+}
+
+.nav-link.phone-mobile::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    left: -1.5rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    background: url("../public/Phone.svg") 0 20% no-repeat;
+    background-size: 20px;
+}
+
+.nav-item {
+    margin-left: 2.5rem;
+}
+
+.nav-item.phone {
+    margin-left: 5.5rem;
+}
+
+/*first-section*/
+.first-section {
+    height: calc(100vh - 80px);
+    background-image: url("../public/1.svg"), url("../public/Vector-2.svg"), url("../public/Vector-1.svg"), url("../public/Ellipse 2.svg");
+    background-position: 95% 14%, 5% 20%, 0 64%, 90% 70%;
+    background-repeat: no-repeat, no-repeat;
+}
+
+/* stats */
+.stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.navbar-brand {
+    height: 80px;
+    width: 180px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (max-width: 950px) {
+    .nav-item {
+        margin-left: 2rem;
+    }
+
+    .nav-item.phone {
+        margin-left: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 901px) {
+    .navbar-toggle {
+        display: inline-block !important;
+    }
+
+    .navbar-menu {
+        display: none;
+    }
+
+    .nav-item {
+        margin-left: 0;
+    }
+
+    nav.container {
+        width: 90% !important;
+    }
 }
