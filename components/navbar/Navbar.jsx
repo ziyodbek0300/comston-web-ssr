@@ -1,6 +1,6 @@
 import React, {useEffect, useRef, useState} from 'react';
 import Image from 'next/image'
-
+import Logo from "../../public/Logo.svg";
 import useResizeObserver from '@react-hook/resize-observer'
 
 const useSize = (target) => {
@@ -44,8 +44,7 @@ function Navbar() {
         <nav className={"container flex items-center justify-between relative"}>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a href="#" className={"navbar-brand"}>
-                <Image src='/Logo.svg' height={80}
-                       width={180} className={"navbar-brand__img"} alt="navbar-brand"/>
+                <Image src={Logo} className={"navbar-brand__img"} alt="navbar-brand"/>
             </a>
             <Image
                 onClick={handleOpenNav}
