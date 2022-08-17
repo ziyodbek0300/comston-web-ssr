@@ -5,22 +5,34 @@ import ThirdSection from "./ThirdSection";
 import FourthSection from "./FourthSection";
 import FifthSection from "./FifthSection";
 import SixthSection from "./SixthSection";
+import SeventhSection from "./SeventhSection";
+import EighthSection from "./EighthSection";
+import NinthSection from "./NinthSection";
+import Ten from "./Ten";
+import Eleventh from "./Eleventh";
+import Twelve from "./Twelve";
+import Thirteen from "./Thirdteen";
+import Fourteen from "./Forteen";
+import Footer from "../../components/footer";
 
 function HomePage() {
 
-    const contentRef = useRef(null);
-
-    function handleMove(e) {
-        console.log("asdhba",e)
-    }
-
     return (<div>
-        <FirstSection contentRef={contentRef} handleMove={handleMove} />
-        <SecondSection />
-        <ThirdSection />
-        <FourthSection />
-        <FifthSection />
-        <SixthSection />
+        <FirstSection/>
+        <SecondSection/>
+        <ThirdSection/>
+        <FourthSection/>
+        <FifthSection/>
+        <SixthSection/>
+        <SeventhSection/>
+        <EighthSection/>
+        <NinthSection/>
+        <Ten/>
+        <Eleventh/>
+        <Twelve/>
+        <Thirteen/>
+        <Fourteen/>
+        <Footer/>
     </div>)
 }
 

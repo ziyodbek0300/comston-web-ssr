@@ -26,12 +26,12 @@ function SixthSection() {
         </div>
         <div className={"mt-8 p-0 m-0"}>
             <div className={"flex items-center container p-0 justify-between"}>
-                <div><Image src={P1} alt={"hubspot"}/></div>
-                <div><Image src={P2} alt={"hubspot"}/></div>
-                <div><Image src={P3} alt={"hubspot"}/></div>
-                <div><Image src={P4} alt={"hubspot"}/></div>
-                <div><Image src={P5} alt={"hubspot"}/></div>
-                <div><Image src={P6} alt={"hubspot"}/></div>
+                <div><Image src={P1} className={"opacity-60 hover:opacity-100 hover:grayscale-0 transition-all grayscale"} alt={"hubspot"}/></div>
+                <div><Image src={P2} className={"opacity-40 hover:opacity-100 hover:grayscale-0 transition-all grayscale"} alt={"hubspot"}/></div>
+                <div><Image src={P3} className={"opacity-40 hover:opacity-100 hover:grayscale-0 transition-all grayscale"} alt={"hubspot"}/></div>
+                <div><Image src={P4} className={"opacity-60 hover:opacity-100 hover:grayscale-0 transition-all grayscale"} alt={"hubspot"}/></div>
+                <div><Image src={P5} className={"opacity-40 hover:opacity-100 hover:grayscale-0 transition-all grayscale"} alt={"hubspot"}/></div>
+                <div><Image src={P6} className={"opacity-40 hover:opacity-100 hover:grayscale-0 transition-all grayscale"} alt={"hubspot"}/></div>
             </div>
         </div>
     </div>);

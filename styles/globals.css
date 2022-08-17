@@ -162,6 +162,18 @@
     box-shadow: 0 0 44px rgba(147, 145, 255, .6);
 }
 
+.shadow-card {
+    box-shadow: 0 13px 34px rgba(0, 0, 0, 0.07);
+}
+
+.shadow-card:hover * {
+    color: white !important;
+}
+
+.shadow-a {
+    box-shadow: 0 2px 8px rgba(24, 33, 77, 0.1);
+}
+
 /**/
 /* container */
 .container {
@@ -247,6 +259,93 @@ body {
     padding: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+.partner-image {
+    -webkit-filter: grayscale(100%) !important;
+    filter: grayscale(100%) !important;
+}
+
+.card-human1 {
+    background-image: url("../public/shapes/2.svg"), url("../public/shapes/11.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0, right;
+    transition: all .5s ease-in-out;
+    background-size: 55%, 20%;
+}
+
+.card-human2 {
+    background-image: url("../public/shapes/1.svg"), url("../public/shapes/22.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0, right;
+    transition: all .5s ease-in-out;
+    background-size: 75%, 15%;
+}
+
+.card-human2:hover {
+    background-size: 85%, 20%;
+}
+
+.card-human3 {
+    background-image: url("../public/shapes/3.svg"), url("../public/shapes/33.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0, right;
+    transition: all .5s ease-in-out;
+    background-size: 45%, 20%;
+}
+
+.card-human4 {
+    background-image: url("../public/shapes/4.svg"), url("../public/shapes/44.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0, right;
+    transition: all .5s ease-in-out;
+    background-size: 45%, 20%;
+}
+
+.card-human1:hover,
+.card-human2:hover,
+.card-human3:hover,
+.card-human4:hover {
+    transition: all .5s ease-in-out;
+    background-size: 65%, 25%;
+}
+
+.card-human1 img,
+.card-human2 img,
+.card-human3 img,
+.card-human4 img {
+    transition: all .5s ease-in-out;
+    border-radius: 16px !important;
+}
+
+.card-human1:hover img,
+.card-human2:hover img,
+.card-human3:hover img,
+.card-human4:hover img {
+    transform: scale(1.05);
+    border-radius: 16px !important;
+}
+
+.card-human3:hover img {
+    transform: scale(1.02);
+    border-radius: 16px !important;
+}
+
+.bg-gradient {
+    background: linear-gradient(167.11deg, #05ACB7 0%, #5A05C9 120.47%);
+}
+
+.nineSection {
+    background-image: url("../public/right1bg.svg"), url("../public/left1bg.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: right bottom, left bottom;
+}
+
+.bg-rectangle {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 38.89%, rgba(0, 0, 0, 0.6) 75.23%), url('../public/Rectangle 2.png');
+    background-size: 100% 100%;
+    border-radius: 1rem;
+    padding: 30px 40px;
 }
 
 @media screen and (max-width: 950px) {

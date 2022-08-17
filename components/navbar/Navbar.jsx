@@ -40,7 +40,7 @@ function Navbar() {
         setOpened(prev => !prev);
     }
 
-    return (<div className={"shadow-h bg-white sticky top-0"} ref={target}>
+    return (<div className={"shadow-h bg-white sticky z-40 top-0"} ref={target}>
         <nav className={"container flex items-center justify-between relative"}>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a href="#" className={"navbar-brand"}>
