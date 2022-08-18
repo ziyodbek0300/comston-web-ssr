@@ -243,6 +243,10 @@
     background-repeat: no-repeat, no-repeat;
 }
 
+.first-section-web {
+    height: calc(100vh - 80px);
+}
+
 /* stats */
 .stats {
     display: grid;
@@ -347,6 +351,56 @@ body {
     border-radius: 1rem;
     padding: 30px 40px;
 }
+/* web-development's fourth-section */
+.development-fourthSection{
+    /* height: calc(100vh - 80px); */
+    background-image: url("../public/bgs/vector2.svg"), url("../public/bgs/vector1.svg"), url("../public/bgs/vector4.svg"), url("../public/bgs/vector1.svg");
+    background-position: 95% 14%, 5% 20%, 0 64%, 90% 70%;
+    background-repeat: no-repeat, no-repeat;
+}
+.cards-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:6rem;
+    margin:0 auto;
+}
+.cards-section .card{
+    max-width:378px
+}
+
+.circle-div{
+    background: var(--dark-blue);
+    margin-right:1rem;
+    width:40px;
+    border-radius:50%;
+    height:40px;
+}
+.circle-div span{
+    color: #fff;
+}
+/* fifthsection of the web-development */
+.client-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:1.8rem;
+}
+.client-cards .card{
+    background:white;
+    padding:1.8rem
+}
+.client-cards .card-body p{
+    color:#18214D;
+}
+.client-cards .card-header{
+    display: flex;
+    align-items:center;
+    gap:1rem;
+    padding-bottom: 1.5rem;
+}
+.for-img img{
+    width: 100%;
+}
+
 
 @media screen and (max-width: 950px) {
     .nav-item {
