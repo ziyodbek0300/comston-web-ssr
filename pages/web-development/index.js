@@ -5,7 +5,7 @@ import FirstSection from "./FirstSection";
 import FourthSection from './FourthSection';
 import SecondSection from './SecondSection';
 import ThirdSection from './ThirdSection';
-
+import SixthSection from './SixthSection';
 
 function WebDevelopment() {
     return (
@@ -16,6 +16,7 @@ function WebDevelopment() {
             <ThirdSection/>
             <FourthSection/>
             <FifthSection/>
+            <SixthSection/>
         </div>
     );
 }
