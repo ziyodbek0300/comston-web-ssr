@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@react-hook/resize-observer": "^1.2.6",
-    "next": "12.2.5",
+    "next": "^12.2.5",
     "react": "18.2.0",
     "react-countup": "^6.3.0",
     "react-dom": "18.2.0"
