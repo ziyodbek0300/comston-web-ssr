@@ -6,6 +6,7 @@ import FourthSection from './FourthSection';
 import SecondSection from './SecondSection';
 import ThirdSection from './ThirdSection';
 import SixthSection from './SixthSection';
+import Footer from '../../.idea/components/components/footer/Footer';
 
 function WebDevelopment() {
     return (
@@ -17,6 +18,7 @@ function WebDevelopment() {
             <FourthSection/>
             <FifthSection/>
             <SixthSection/>
+            <Footer/>
         </div>
     );
 }
