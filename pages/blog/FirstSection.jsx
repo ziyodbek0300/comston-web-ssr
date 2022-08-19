@@ -12,17 +12,17 @@ export default function FirstSection() {
     <div className={"container"}>
       <div className={"py-24"}>
        <div>
-          <h2 className={"capitalize text-32-44-700 text-center mb-6"}>
+          <h2 className={"capitalize text-30-44-600 text-center mb-6"}>
             Lorem ipsum dolor sit amet consectetur adipisicing <br/> elit. Ultrices quam facillisi praesent ipsum{" "}
           </h2>
           <p className={"text-16-24-400 text-gray-450 text-center  mb-14"}>
            Lorem ipsum dolor sit amet consectetur adipisicing elit.Ultrices quam facillisi praesent ipsum, urna, <br/> faucibus sed id dictumst. Cursus laoreet {" "}
           </p>
        </div>
-        <div className={"blog-cards grid grid-cols-3 gap-7"}>
+        <div className={"blog-cards grid grid-cols-3 gap-x-7 gap-y-12"}>
           <div className={"card shadow-md rounded-2xl"}>
             <div className="card-header rounded-t-full">
-              <Image src={Img1} className={"w-full"} />
+              <Image src={Img1} className={"w-full"}  alt={'card-manufacturing'}/>
             </div>
             <div className="card-body p-4">
               <p className='text-18-26-500 text-blue-550 pb-4 uppercase'>manufacturing</p>
@@ -34,7 +34,7 @@ export default function FirstSection() {
           </div>
           <div className={"card shadow-md rounded-2xl"}>
             <div className="card-header rounded-t-full">
-              <Image src={Img2} className={"w-full"} />
+              <Image src={Img2} className={"w-full"}  alt={'card-manufacturing'} />
             </div>
             <div className="card-body p-4">
               <p className='text-18-26-500 text-blue-550 pb-4 uppercase'>manufacturing</p>
@@ -46,7 +46,7 @@ export default function FirstSection() {
           </div>
           <div className={"card shadow-md rounded-2xl"}>
             <div className="card-header rounded-t-full">
-              <Image src={Img3} className={"w-full"} />
+              <Image src={Img3} className={"w-full"}   alt={'card-manufacturing'}/>
             </div>
             <div className="card-body p-4">
               <p className='text-18-26-500 text-blue-550 pb-4 uppercase'>manufacturing</p>
@@ -58,7 +58,7 @@ export default function FirstSection() {
           </div>
           <div className={"card shadow-md rounded-2xl"}>
             <div className="card-header rounded-t-full">
-              <Image src={Img4} className={"w-full"} />
+              <Image src={Img4} className={"w-full"}   alt={'card-manufacturing'}/>
             </div>
             <div className="card-body p-4">
               <p className='text-18-26-500 text-blue-550 pb-4 uppercase'>digital twin</p>
@@ -70,7 +70,7 @@ export default function FirstSection() {
           </div>
           <div className={"card shadow-md rounded-2xl"}>
             <div className="card-header rounded-t-full">
-              <Image src={Img5} className={"w-full"} />
+              <Image src={Img5} className={"w-full"}   alt={'card-manufacturing'}/>
             </div>
             <div className="card-body p-4">
               <p className='text-18-26-500 text-blue-550 pb-4 uppercase'>digital twin</p>
@@ -82,7 +82,7 @@ export default function FirstSection() {
           </div>
           <div className={"card shadow-md rounded-2xl"}>
             <div className="card-header rounded-t-full">
-              <Image src={Img6} className={"w-full"} />
+              <Image src={Img6} className={"w-full"}  alt={'card-manufacturing'}/>
             </div>
             <div className="card-body p-4">
               <p className='text-18-26-500 text-blue-550 pb-4 uppercase'>digital twin</p>
@@ -94,7 +94,7 @@ export default function FirstSection() {
           </div>
           <div className={"card shadow-md rounded-2xl"}>
             <div className="card-header rounded-t-full">
-              <Image src={Img4} className={"w-full"} />
+              <Image src={Img4} className={"w-full"}  alt={'card-manufacturing'} />
             </div>
             <div className="card-body p-4">
               <p className='text-18-26-500 text-blue-550 pb-4 uppercase'>digital twin</p>
@@ -106,7 +106,7 @@ export default function FirstSection() {
           </div>
           <div className={"card shadow-md rounded-2xl"}>
             <div className="card-header rounded-t-full">
-              <Image src={Img5} className={"w-full"} />
+              <Image src={Img5} className={"w-full"}  alt={'card-manufacturing'}/>
             </div>
             <div className="card-body p-4">
               <p className='text-18-26-500 text-blue-550 pb-4 uppercase'>digital twin</p>
@@ -118,7 +118,7 @@ export default function FirstSection() {
           </div>
           <div className={"card shadow-md rounded-2xl"}>
             <div className="card-header rounded-t-full">
-              <Image src={Img6} className={"w-full"} />
+              <Image src={Img6} className={"w-full"}  alt={'card-manufacturing'}/>
             </div>
             <div className="card-body p-4">
               <p className='text-18-26-500 text-blue-550 pb-4 uppercase'>digital twin</p>

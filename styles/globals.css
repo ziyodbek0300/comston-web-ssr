@@ -404,7 +404,14 @@ body {
 .blog-cards .card{
     max-width:380px;
 }
-
+/* blog details */
+.details-img{
+max-width:62.1875rem;
+}
+.details-wrapper{
+    max-width: 995px;
+    margin:0 auto;
+}
 @media screen and (max-width: 950px) {
     .nav-item {
         margin-left: 2rem;
