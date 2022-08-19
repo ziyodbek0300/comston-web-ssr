@@ -443,3 +443,17 @@ body {
 .blog-cards .card{
     max-width:380px;
 }
+
+/* final page */
+
+.finalPage__img{
+    background-image: url("../public/final-page images/Rectangle 383.png");
+    background-repeat: no-repeat;
+    background-position: cover;
+    width: 20%;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
