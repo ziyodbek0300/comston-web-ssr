@@ -1,8 +1,8 @@
 import React from "react";
 import Button from "/components/button";
 import Image from "next/image";
-import Interface from "../../public/app-dev-second-section-group-photo.png";
-import appDevEllipse from "../../public/app-dev-ellipse.svg";
+import Interface from "../../public/app-development-images/app-dev-second-section-group-photo.png";
+import appDevEllipse from "../../public/app-development-images/app-dev-ellipse.svg";
 
 function SecondSection() {
   return (

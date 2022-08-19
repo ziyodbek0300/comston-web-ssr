@@ -1,7 +1,5 @@
 import React from "react";
-import Interface from "../../public/app-development__bg.png";
 import Button from "/components/button";
-import Image from "next/image";
 
 function FirstSection() {
   return (

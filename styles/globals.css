@@ -384,7 +384,7 @@ body {
 
 
 .app-dev-section {
-    background-image: url("../public/app-development__bg.png");
+    background-image: url("../public/app-development-images/app-development__bg.png");
     background-repeat: no-repeat;
     background-position: cover;
 }
