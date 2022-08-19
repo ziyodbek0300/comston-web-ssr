@@ -6,7 +6,7 @@ import Img2 from '../../public/blog/img7.png';
 export default function Details() {
   return (
     <div className={"container"}>
-       <div className="details-wrapper">
+       <div className="sections-wrapper">
        <div className={"pt-10"}>
             <p className={"text-blue-550 text-16-19-600 pb-4"}>25 July, 2022</p>
             <p className={"text-30-44-600"}>Siemens Opens New Technology Hub in Charlotte, NC to Accelerate Industrialization of Additive Manufacturing</p>

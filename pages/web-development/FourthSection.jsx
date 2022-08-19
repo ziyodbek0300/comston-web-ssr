@@ -11,11 +11,11 @@ import Img5 from '../../public/web-development-images/img5.svg';
 function FourthSection() {
     return (
         <div className={'development-fourthSection'}>
-            <div className={'py-24 container'}>
+            <div className={' container'}>
                 <h2 className={"capitalize text-32-44-700 text-center my-24"}>Our website <span
                     className={"text-blue-550"}>Design & development</span>  Process</h2>
                 <div className="flex justify-center items-center container">
-                    <div className={'cards-section'}>
+                    <div className={'cards-section pb-10'}>
 
                         <div className={"card flex items-center justify-center"}>
                             <div>
