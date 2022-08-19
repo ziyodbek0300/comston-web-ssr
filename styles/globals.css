@@ -400,7 +400,10 @@ body {
 .for-img img{
     width: 100%;
 }
-
+/* blog */
+.blog-cards .card{
+    max-width:380px;
+}
 
 @media screen and (max-width: 950px) {
     .nav-item {
