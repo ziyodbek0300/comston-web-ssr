@@ -8,7 +8,7 @@ export default function FifthSection() {
         <div className={"container"}>
         <h2 className={"capitalize text-32-44-700 text-center mt-14"}>what our clients say</h2>
         <p className={"text-16-24-400 text-gray-450 text-center capitalize mb-14 mt-1"}>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit <br /> officia consequat duis enim velit mollit.</p>
-        <div className="client-cards pb-14">
+        <div className="client-cards grid grid-cols-3 gap-7  pb-14">
         <div className="card rounded-2xl shadow-sm">
                 <div className={"card-header flex "}>
                     <div className="for-img">

@@ -379,11 +379,7 @@ body {
     color: #fff;
 }
 /* fifthsection of the web-development */
-.client-cards{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap:1.8rem;
-}
+
 .client-cards .card{
     background:white;
     padding:1.8rem
