@@ -140,8 +140,24 @@
     font-weight: 800;
 }
 
+.text-blue-gr {
+    background: linear-gradient(146.73deg, rgba(143, 0, 255, 0.65) 0%, #479FDE 51.91%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
 /* fonts */
 /* shadows */
+.shadow-ab {
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.05);
+}
+
+.shadow-ca {
+    box-shadow: 0 14px 40px rgba(24, 33, 77, 0.05);
+}
+
 .shadow-c {
     box-shadow: 0 8px 24px rgba(24, 33, 77, 0.05);
 }
@@ -337,6 +353,24 @@ body {
 
 .bg-gradient {
     background: linear-gradient(167.11deg, #05ACB7 0%, #5A05C9 120.47%);
+}
+
+.bg-card-gr {
+    background: white;
+    transition: .3s ease-in-out;
+}
+
+.bg-card-gr:hover {
+    background: linear-gradient(146.73deg, rgba(143, 0, 255, 0.65) 0%, #479FDE 51.91%);
+    transition: .3s ease-in-out;
+}
+
+.bg-card-gr:hover * {
+    color: white !important;
+}
+
+.bg-gradient-btn {
+    background: linear-gradient(146.73deg, rgba(143, 0, 255, 0.65) 0%, #479FDE 51.91%, #479FDE 51.92%);
 }
 
 .nineSection {

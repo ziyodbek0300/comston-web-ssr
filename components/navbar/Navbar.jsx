@@ -2,6 +2,7 @@ import React, {useEffect, useRef, useState} from 'react';
 import Image from 'next/image'
 import Logo from "../../public/Logo.svg";
 import useResizeObserver from '@react-hook/resize-observer'
+import Link from "next/link";
 
 const useSize = (target) => {
     const [size, setSize] = React.useState()
@@ -60,11 +61,11 @@ function Navbar() {
                 </li>
                 <ul className={!opened ? "m-0 p-0 absolute -left-2 top-8 shadow-c rounded-lg bg-white hidden" : "m-0 p-0 absolute -left-2 top-12 shadow-c rounded-lg bg-white hidden"}
                     ref={dropRef}>
-                    <li className={"p-5 hover:bg-blue-50 hover:text-blue-550 cursor-pointer rounded-t-lg"}>App
-                        Development
+                    <li className={"p-5 hover:bg-blue-50 hover:text-blue-550 cursor-pointer rounded-t-lg"}>
+                        <Link href={'/app-development'}>App Development</Link>
                     </li>
-                    <li className={"p-5 hover:bg-blue-50 hover:text-blue-550 cursor-pointer rounded-b-lg"}>Web
-                        Development
+                    <li className={"p-5 hover:bg-blue-50 hover:text-blue-550 cursor-pointer rounded-b-lg"}>
+                        <Link href={'/web-development'}>Web Development</Link>
                     </li>
                 </ul>
                 <li className={"nav-item hover:text-blue-550 cursor-pointer inline-block"}>Projects</li>
