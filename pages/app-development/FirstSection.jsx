@@ -8,7 +8,6 @@ function FirstSection() {
         <div className={"container flex"} style={{padding: "100px 20px"}}>
             <div className={"pt-10"} style={{width: "45%"}}>
                 <h3 className={"text-40-56-700 uppercase mb-6"}>
-                    {/* eslint-disable-next-line react/no-unescaped-entities */}
                     Full-cycle mobile <span className={"text-blue-550"}>app
                     development</span> company
                     in
@@ -21,9 +20,6 @@ function FirstSection() {
                 </p>
                 <Button text={"Get started"} classes={"bg-blue-950 hover:bg-blue-1000"}/>
             </div>
-            {/*<div style={{width: "55%"}}>*/}
-            {/*    <Image className={"w-full"} src={Interface} alt={"interface"}/>*/}
-            {/*</div>*/}
         </div>
     </div>);
 }

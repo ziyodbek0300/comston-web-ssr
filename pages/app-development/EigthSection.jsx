@@ -2,7 +2,6 @@ import React from 'react'
 import Image from "next/image";
 import Human11 from '../../public/humans/Ellipse-1.png';
 import Human22 from '../../public/humans/Ellipse.png';
-import Human33 from '../../public/humans/avatar.png';
 
 export default function EigthSection() {
     return (
@@ -25,8 +24,7 @@ export default function EigthSection() {
                         </div>
                         <div className={'card-body'}>
                             <p className={'text-16-24-400'}>“Aura used Comston to conduct rigorous A/B testing and
-                                {/* eslint-disable-next-line react/no-unescaped-entities */}
-                                iterate rapidly in a period of high growth.Comston has been an integral part of Aura's
+                                iterate rapidly in a period of high growth.Comston has been an integral part of Aura`s
                                 growth to millions of users.”</p>
                         </div>
                     </div>
@@ -41,8 +39,7 @@ export default function EigthSection() {
                             </div>
                         </div>
                         <div className={'card-body'}>
-                            {/* eslint-disable-next-line react/no-unescaped-entities */}
-                            <p className={'text-16-24-400'}>"Comston" combination of prebuilt and custom options made it
+                            <p className={'text-16-24-400'}>`Comston` combination of prebuilt and custom options made it
                                 a good fit that was in my price range, as opposed to more traditional custom development
                                 shops.”</p>
                         </div>
@@ -59,7 +56,7 @@ export default function EigthSection() {
                         </div>
                         <div className={'card-body'}>
                             <p className={'text-16-24-400'}>“Aura used Comston to conduct rigorous A/B testing and
-                                iterate rapidly in a period of high growth.Comston has been an integral part of Aura's
+                                iterate rapidly in a period of high growth.Comston has been an integral part of Aura`s
                                 growth to millions of users.”</p>
                         </div>
                     </div>
