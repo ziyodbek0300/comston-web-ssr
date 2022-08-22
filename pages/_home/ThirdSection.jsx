@@ -7,8 +7,8 @@ import Button from "/components/button";
 import Image from "next/image";
 
 function ThirdSection() {
-    return (<div className={"container flex gap-14"} style={{padding: "100px 20px"}}>
-        <div className={"pt-10"} style={{ width: '70%' }}>
+    return (<div className={"container second-section-home"} style={{padding: "100px 20px"}}>
+        <div className={"md:pt-10"} style={{ width: '70%' }}>
             <h3 className={"text-30-44-700 capitalize mb-6"}>
                 {/* eslint-disable-next-line react/no-unescaped-entities */}
                 We've taken a <span className={"text-blue-550"}>founder-first</span> approach, building a program for

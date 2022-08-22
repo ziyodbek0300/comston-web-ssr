@@ -13,7 +13,7 @@ export default function EigthSection() {
                     mollit.</p>
                 <div className="client-cards flex gap-8 pb-14">
                     <div className="card bg-white p-8 rounded-2xl">
-                        <div className={"card-header flex mb-5 items-center gap-3"}>
+                        <div className={"card-header flex mb-5 items-center gap-4"}>
                             <div className="for-img">
                                 <Image src={Human22} alt={'Pamela_brown'}/>
                             </div>
@@ -29,12 +29,12 @@ export default function EigthSection() {
                         </div>
                     </div>
                     <div className="card bg-white p-8 rounded-2xl">
-                        <div className={"card-header flex mb-5 items-center gap-3"}>
+                        <div className={"card-header flex mb-5 items-center gap-4"}>
                             <div className="for-img">
                                 <Image src={Human11} alt={'mayk_taylor'}/>
                             </div>
                             <div className="for-text">
-                                <span className='text-20-26-500'>Mayk Taylor</span>
+                                <span className='text-20-26-500'>Mark Taylor</span>
                                 <p className='text-18-26-500 text-blue-550 mt-2'>CEO, Showcasing.io</p>
                             </div>
                         </div>
@@ -45,7 +45,7 @@ export default function EigthSection() {
                         </div>
                     </div>
                     <div className="card bg-white p-8 rounded-2xl">
-                        <div className={"card-header flex mb-5 items-center gap-3"}>
+                        <div className={"card-header flex mb-5 items-center gap-4"}>
                             <div className="for-img">
                                 <Image src={Human22} alt={'Pamela_brown'}/>
                             </div>

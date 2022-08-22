@@ -107,7 +107,7 @@ function Thirteen() {
                                 <Image src={Arrow} className={"ccc"} alt={"arrow-down"}/>
                             </div>
                         </div>
-                        <div ref={body5} className="accordion-body overflow-hidden p-0 h-0">
+                        <div id={"contacts"} ref={body5} className="accordion-body overflow-hidden p-0 h-0">
                             <p className={"text-16-24-400 text-gray-450 lg:w-1/2"}>It depends on the scope of the
                                 project,
                                 for example, average time for app development

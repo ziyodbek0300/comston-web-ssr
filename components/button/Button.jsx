@@ -1,8 +1,8 @@
 import React from 'react';
 
-function Button({text, classes}) {
+function Button({text, classes, id}) {
     return (
-        <button className={`${classes} rounded-2xl border hover:opacity-90 text-white py-3.5 px-14`}>{text}</button>
+        <button id={id} className={`${classes} rounded-2xl border hover:opacity-90 text-white py-3.5 md:px-14 px-8`}>{text}</button>
     );
 }
 

@@ -8,7 +8,7 @@ function Twelve() {
                 className={"text-blue-550"}>our office</span> in
                 Sunshine state</h2>
                 <div className={"h-80 flex items-end my-12 bg-rectangle"}>
-                    <p className={"text-white text-30-44-600"}>8010 Sunport dr, Suite #122, Orlando, FL 32809</p>
+                    <p className={"text-white text-30-44-600"} id={"faqs"}>8010 Sunport dr, Suite #122, Orlando, FL 32809</p>
                 </div>
             </div>
         </div>

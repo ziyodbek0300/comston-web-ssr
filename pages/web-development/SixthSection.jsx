@@ -70,21 +70,21 @@ function Fourteen() {
                             <div className={"mb-4"}>
                                 <label className={"text-16-20-500"} htmlFor="name">Your Name</label>
                                 <input type="text" id={"name"} placeholder={"John Smith"}
-                                       className={"bg-gray-350 p-3 rounded outline-blue-550 w-full"}/>
+                                       className={"bg-gray-350 mt-2 p-3 text-16-24-400 rounded outline-blue-550 w-full"}/>
                             </div>
                             <div className={"mb-4"}>
                                 <label className={"text-16-20-500"} htmlFor="email">Your Email</label>
                                 <input type="text" id={"email"} placeholder={"johnsmith@example.com"}
-                                       className={"bg-gray-350 p-3 rounded outline-blue-550 w-full"}/>
+                                       className={"bg-gray-350 mt-2 p-3 text-16-24-400 rounded outline-blue-550 w-full"}/>
                             </div>
                             <div className={"mb-4"}>
                                 <label className={"text-16-20-500"} htmlFor="phone">Your Phone</label>
                                 <input type="text" id={"phone"} placeholder={"+1 (999) 999-9999"}
-                                       className={"bg-gray-350 p-3 rounded outline-blue-550 w-full"}/>
+                                       className={"bg-gray-350 mt-2 p-3 text-16-24-400 rounded outline-blue-550 w-full"}/>
                             </div>
                             <div className={"mb-4"}>
                                 <label className={"text-16-20-500"} htmlFor="name">Describe Your Project</label>
-                                <textarea className={"bg-gray-350 p-3 rounded outline-blue-550 w-full"}
+                                <textarea className={"bg-gray-350 mt-2 p-3 text-16-24-400 rounded outline-blue-550 w-full"}
                                           name="description" id="description" cols="30" rows="10"></textarea>
                             </div>
                             <div className={"mb-4"}>

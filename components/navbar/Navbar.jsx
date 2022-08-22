@@ -44,7 +44,7 @@ function Navbar() {
     return (<div className={"shadow-h bg-white sticky z-40 top-0"} ref={target}>
         <nav className={"container flex items-center justify-between relative"}>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-            <a href="#" className={"navbar-brand"}>
+            <a href="/" className={"navbar-brand"}>
                 <Image src={Logo} className={"navbar-brand__img"} alt="navbar-brand"/>
             </a>
             <Image
@@ -68,12 +68,22 @@ function Navbar() {
                         <Link href={'/web-development'}>Web Development</Link>
                     </li>
                 </ul>
-                <li className={"nav-item hover:text-blue-550 cursor-pointer inline-block"}>Projects</li>
-                <li className={"nav-item hover:text-blue-550 cursor-pointer inline-block"}>Reviews</li>
-                <li className={"nav-item hover:text-blue-550 cursor-pointer inline-block"}>Blog</li>
+                <li className={"nav-item hover:text-blue-550 cursor-pointer inline-block"}>
+                    <Link href={"/projects"}>Projects</Link>
+                </li>
+                <li className={"nav-item hover:text-blue-550 cursor-pointer inline-block"}>
+                    <Link href="/#comments">Reviews</Link>
+                </li>
+                <li className={"nav-item hover:text-blue-550 cursor-pointer inline-block"}>
+                    <Link href={'/blog'}>Blog</Link>
+                </li>
                 {/* eslint-disable-next-line react/no-unescaped-entities */}
-                <li className={"nav-item hover:text-blue-550 cursor-pointer inline-block"}>FAQ's</li>
-                <li className={"nav-item hover:text-blue-550 cursor-pointer inline-block"}>Contacts</li>
+                <li className={"nav-item hover:text-blue-550 cursor-pointer inline-block"}>
+                    <Link href={"/#faqs"}>FAQ`s</Link>
+                </li>
+                <li className={"nav-item hover:text-blue-550 cursor-pointer inline-block"}>
+                    <Link href={"/#contacts"}>Contacts</Link>
+                </li>
                 <li className={"nav-item phone hover:text-blue-550 cursor-pointer inline-block"}>
                     <a href="tel:+3212455850" className={!opened ? "nav-link phone" : "nav-link phone-mobile"}>(321)
                         245-5850</a>

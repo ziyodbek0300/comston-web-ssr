@@ -5,7 +5,7 @@ import React from 'react';
 function FourthSection() {
     return (
         <div className={"bg-blue-950 py-16"}>
-            <div className={"container py-14 flex gap-14 text-center"}>
+            <div className={"container py-14 flex md:flex-row flex-col gap-14 text-center"}>
                 <div className={"rounded-lg"}>
                     <p className="card-title text-60-56-800 text-blue-550 mb-6">82%</p>
                     <p className={"text-24-30-500 mb-4 text-white"}>Lower Cost</p>
