@@ -49,6 +49,7 @@ function FourthSection() {
                                     <p className={'text-30-44-600 capitalize'}>Ideation</p>
                                 </div>
                                 <div className="card-body">
+                                    {/* eslint-disable-next-line react/no-unescaped-entities */}
                                     After we've done our research, our professional website designers will sketch up the fundamental design concepts. These designs are just blueprints or mockups that serve as a starting point for building great online experiences that will convey and connect your business with your customers.
                                 </div>
                             </div>

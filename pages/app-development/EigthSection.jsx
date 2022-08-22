@@ -25,6 +25,7 @@ export default function EigthSection() {
                         </div>
                         <div className={'card-body'}>
                             <p className={'text-16-24-400'}>“Aura used Comston to conduct rigorous A/B testing and
+                                {/* eslint-disable-next-line react/no-unescaped-entities */}
                                 iterate rapidly in a period of high growth.Comston has been an integral part of Aura's
                                 growth to millions of users.”</p>
                         </div>
@@ -40,6 +41,7 @@ export default function EigthSection() {
                             </div>
                         </div>
                         <div className={'card-body'}>
+                            {/* eslint-disable-next-line react/no-unescaped-entities */}
                             <p className={'text-16-24-400'}>"Comston" combination of prebuilt and custom options made it
                                 a good fit that was in my price range, as opposed to more traditional custom development
                                 shops.”</p>
