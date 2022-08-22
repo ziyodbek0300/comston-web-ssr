@@ -20,108 +20,108 @@ export default function FirstSection() {
           </p>
        </div>
         <div className={"blog-cards grid grid-cols-3 gap-x-7 gap-y-12"}>
-          <div className={"card shadow-md rounded-2xl"}>
+          <div className={"card shadow-bl rounded-2xl"}>
             <div className="card-header rounded-t-full">
               <Image src={Img1} className={"w-full"}  alt={'card-manufacturing'}/>
             </div>
             <div className="card-body p-4">
-              <p className='text-18-26-500 text-blue-550 pb-4 uppercase'>manufacturing</p>
+              <p className='text-16-19-600 text-blue-550 pb-4 uppercase'>manufacturing</p>
               <p className='text-20-26-500 mb-5 w-100'>New Siemens tech hub accelerates additive manufacturing</p>
             </div>
             <div className="card-footer p-4">
               <p className={"text-16-24-400 text-gray-450"}>3 days ago</p>
             </div>
           </div>
-          <div className={"card shadow-md rounded-2xl"}>
+          <div className={"card shadow-bl rounded-2xl"}>
             <div className="card-header rounded-t-full">
               <Image src={Img2} className={"w-full"}  alt={'card-manufacturing'} />
             </div>
             <div className="card-body p-4">
-              <p className='text-18-26-500 text-blue-550 pb-4 uppercase'>manufacturing</p>
+              <p className='text-16-19-600 text-blue-550 pb-4 uppercase'>manufacturing</p>
               <p className='text-20-26-500 mb-5 w-100'>Siemens + Xerox: Boosting metal additive-manufacturing capabilities</p>
             </div>
             <div className="card-footer p-4">
               <p className={"text-16-24-400 text-gray-450"}>3 days ago</p>
             </div>
           </div>
-          <div className={"card shadow-md rounded-2xl"}>
+          <div className={"card shadow-bl rounded-2xl"}>
             <div className="card-header rounded-t-full">
               <Image src={Img3} className={"w-full"}   alt={'card-manufacturing'}/>
             </div>
             <div className="card-body p-4">
-              <p className='text-18-26-500 text-blue-550 pb-4 uppercase'>manufacturing</p>
+              <p className='text-16-19-600 text-blue-550 pb-4 uppercase'>manufacturing</p>
               <p className='text-20-26-500 mb-5 w-100'>Siemens + Roboze: Accelerating the industrialization of 3D printing</p>
             </div>
             <div className="card-footer p-4">
               <p className={"text-16-24-400 text-gray-450"}>3 days ago</p>
             </div>
           </div>
-          <div className={"card shadow-md rounded-2xl"}>
+          <div className={"card shadow-bl rounded-2xl"}>
             <div className="card-header rounded-t-full">
               <Image src={Img4} className={"w-full"}   alt={'card-manufacturing'}/>
             </div>
             <div className="card-body p-4">
-              <p className='text-18-26-500 text-blue-550 pb-4 uppercase'>digital twin</p>
+              <p className='text-16-19-600 text-blue-550 pb-4 uppercase'>digital twin</p>
               <p className='text-20-26-500 mb-5 w-100'>Siemens awarded $1.78M FDA contract for advancing digital design and manufacturing</p>
             </div>
             <div className="card-footer p-4">
               <p className={"text-16-24-400 text-gray-450"}>3 days ago</p>
             </div>
           </div>
-          <div className={"card shadow-md rounded-2xl"}>
+          <div className={"card shadow-bl rounded-2xl"}>
             <div className="card-header rounded-t-full">
               <Image src={Img5} className={"w-full"}   alt={'card-manufacturing'}/>
             </div>
             <div className="card-body p-4">
-              <p className='text-18-26-500 text-blue-550 pb-4 uppercase'>digital twin</p>
+              <p className='text-16-19-600 text-blue-550 pb-4 uppercase'>digital twin</p>
               <p className='text-20-26-500 mb-5 w-100'>Rapid design iteration: Using Siemens software and digital twin to test concepts</p>
             </div>
             <div className="card-footer p-4">
               <p className={"text-16-24-400 text-gray-450"}>3 days ago</p>
             </div>
           </div>
-          <div className={"card shadow-md rounded-2xl"}>
+          <div className={"card shadow-bl rounded-2xl"}>
             <div className="card-header rounded-t-full">
               <Image src={Img6} className={"w-full"}  alt={'card-manufacturing'}/>
             </div>
             <div className="card-body p-4">
-              <p className='text-18-26-500 text-blue-550 pb-4 uppercase'>digital twin</p>
+              <p className='text-16-19-600 text-blue-550 pb-4 uppercase'>digital twin</p>
               <p className='text-20-26-500 mb-5 w-100'>Siemens + Dow: Partnering to create a process-manufacturing digital twin testbed</p>
             </div>
             <div className="card-footer p-4">
               <p className={"text-16-24-400 text-gray-450"}>3 days ago</p>
             </div>
           </div>
-          <div className={"card shadow-md rounded-2xl"}>
+          <div className={"card shadow-bl rounded-2xl"}>
             <div className="card-header rounded-t-full">
               <Image src={Img4} className={"w-full"}  alt={'card-manufacturing'} />
             </div>
             <div className="card-body p-4">
-              <p className='text-18-26-500 text-blue-550 pb-4 uppercase'>digital twin</p>
+              <p className='text-16-19-600 text-blue-550 pb-4 uppercase'>digital twin</p>
               <p className='text-20-26-500 mb-5 w-100'>Siemens awarded $1.78M FDA contract for advancing digital design and manufacturing</p>
             </div>
             <div className="card-footer p-4">
               <p className={"text-16-24-400 text-gray-450"}>3 days ago</p>
             </div>
           </div>
-          <div className={"card shadow-md rounded-2xl"}>
+          <div className={"card shadow-bl rounded-2xl"}>
             <div className="card-header rounded-t-full">
               <Image src={Img5} className={"w-full"}  alt={'card-manufacturing'}/>
             </div>
             <div className="card-body p-4">
-              <p className='text-18-26-500 text-blue-550 pb-4 uppercase'>digital twin</p>
+              <p className='text-16-19-600 text-blue-550 pb-4 uppercase'>digital twin</p>
               <p className='text-20-26-500 mb-5 w-100'>Rapid design iteration: Using Siemens software and digital twin to test concepts</p>
             </div>
             <div className="card-footer p-4">
               <p className={"text-16-24-400 text-gray-450"}>3 days ago</p>
             </div>
           </div>
-          <div className={"card shadow-md rounded-2xl"}>
+          <div className={"card shadow-bl rounded-2xl"}>
             <div className="card-header rounded-t-full">
               <Image src={Img6} className={"w-full"}  alt={'card-manufacturing'}/>
             </div>
             <div className="card-body p-4">
-              <p className='text-18-26-500 text-blue-550 pb-4 uppercase'>digital twin</p>
+              <p className='text-16-19-600 text-blue-550 pb-4 uppercase'>digital twin</p>
               <p className='text-20-26-500 mb-5 w-100'>Siemens + Dow: Partnering to create a process-manufacturing digital twin testbed</p>
             </div>
             <div className="card-footer p-4">

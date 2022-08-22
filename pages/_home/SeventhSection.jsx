@@ -15,7 +15,7 @@ function SeventhSection() {
                     className={"text-blue-550"}>excelled in</span></h2>
                 <div className={"grid grid-cols-3 gap-8"}>
                     <div>
-                        <div className={"mb-4 bg-blue-50 w-16 h-16 rounded-xl flex items-center justify-center"}>
+                        <div className={"mb-4 bg-blue-150 w-16 h-16 rounded-xl flex items-center justify-center"}>
                             <Image src={Icon1} className={""} alt={"telemedicine"}/>
                         </div>
                         <p className={"text-18-26-500 mb-4"}>Telemedicine</p>
@@ -25,7 +25,7 @@ function SeventhSection() {
                         </p>
                     </div>
                     <div>
-                        <div className={"mb-4 bg-blue-50 w-16 h-16 rounded-xl flex items-center justify-center"}>
+                        <div className={"mb-4 bg-blue-150 w-16 h-16 rounded-xl flex items-center justify-center"}>
                             <Image src={Icon2} className={""} alt={"telemedicine"}/>
                         </div>
                         <p className={"text-18-26-500 mb-4"}>Government</p>
@@ -34,7 +34,7 @@ function SeventhSection() {
                         </p>
                     </div>
                     <div>
-                        <div className={"mb-4 bg-blue-50 w-16 h-16 rounded-xl flex items-center justify-center"}>
+                        <div className={"mb-4 bg-blue-150 w-16 h-16 rounded-xl flex items-center justify-center"}>
                             <Image src={Icon3} className={""} alt={"telemedicine"}/>
                         </div>
                         <p className={"text-18-26-500 mb-4"}>Dating Apps</p>
@@ -43,7 +43,7 @@ function SeventhSection() {
                         </p>
                     </div>
                     <div>
-                        <div className={"mb-4 bg-blue-50 w-16 h-16 rounded-xl flex items-center justify-center"}>
+                        <div className={"mb-4 bg-blue-150 w-16 h-16 rounded-xl flex items-center justify-center"}>
                             <Image src={Icon4} className={""} alt={"telemedicine"}/>
                         </div>
                         <p className={"text-18-26-500 mb-4"}>E-commerce</p>
@@ -53,7 +53,7 @@ function SeventhSection() {
                         </p>
                     </div>
                     <div>
-                        <div className={"mb-4 bg-blue-50 w-16 h-16 rounded-xl flex items-center justify-center"}>
+                        <div className={"mb-4 bg-blue-150 w-16 h-16 rounded-xl flex items-center justify-center"}>
                             <Image src={Icon5} className={""} alt={"telemedicine"}/>
                         </div>
                         <p className={"text-18-26-500 mb-4"}>Social Media</p>
@@ -62,7 +62,7 @@ function SeventhSection() {
                         </p>
                     </div>
                     <div>
-                        <div className={"mb-4 bg-blue-50 w-16 h-16 rounded-xl flex items-center justify-center"}>
+                        <div className={"mb-4 bg-blue-150 w-16 h-16 rounded-xl flex items-center justify-center"}>
                             <Image src={Icon6} className={""} alt={"telemedicine"}/>
                         </div>
                         <p className={"text-18-26-500 mb-4"}>Marketplaces</p>

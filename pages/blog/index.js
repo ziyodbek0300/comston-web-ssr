@@ -1,7 +1,7 @@
 import React from 'react'
 import FirstSection from './FirstSection'
 import Navbar from "../../components/navbar";
-import Footer from '../../.idea/components/components/footer/Footer';
+import Footer from '../../components/footer/Footer';
 
 
 export default function index() {

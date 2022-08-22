@@ -41,7 +41,7 @@ function Thirteen() {
                 <div className="accordion">
                     <div className="accordion-item mb-4 shadow-a rounded-lg">
                         <div onClick={() => handleCollapse(0)}
-                             className="accordion-header flex justify-between items-center cursor-pointer hover:bg-blue-50 rounded-t-lg p-4">
+                             className="accordion-header flex justify-between items-center cursor-pointer hover:bg-blue-150 rounded-t-lg p-4">
                             <p className={"text-18-26-500"}>How can I protect my idea from ...</p>
                             <div ref={icon1}>
                                 <Image src={Arrow} className={"ccc"} alt={"arrow-down"}/>
@@ -56,7 +56,7 @@ function Thirteen() {
                     </div>
                     <div className="accordion-item mb-4 shadow-a rounded-lg">
                         <div onClick={() => handleCollapse(1)}
-                             className="accordion-header flex justify-between items-center cursor-pointer hover:bg-blue-50 rounded-t-lg p-4">
+                             className="accordion-header flex justify-between items-center cursor-pointer hover:bg-blue-150 rounded-t-lg p-4">
                             <p className={"text-18-26-500"}>How can I protect my idea from ...</p>
                             <div ref={icon2}>
                                 <Image src={Arrow} className={"ccc"} alt={"arrow-down"}/>
@@ -71,7 +71,7 @@ function Thirteen() {
                     </div>
                     <div className="accordion-item mb-4 shadow-a rounded-lg">
                         <div onClick={() => handleCollapse(2)}
-                             className="accordion-header flex justify-between items-center cursor-pointer hover:bg-blue-50 rounded-t-lg p-4">
+                             className="accordion-header flex justify-between items-center cursor-pointer hover:bg-blue-150 rounded-t-lg p-4">
                             <p className={"text-18-26-500"}>How can I protect my idea from ...</p>
                             <div ref={icon3}>
                                 <Image src={Arrow} className={"ccc"} alt={"arrow-down"}/>
@@ -86,7 +86,7 @@ function Thirteen() {
                     </div>
                     <div className="accordion-item mb-4 shadow-a rounded-lg">
                         <div onClick={() => handleCollapse(3)}
-                             className="accordion-header flex justify-between items-center cursor-pointer hover:bg-blue-50 rounded-t-lg p-4">
+                             className="accordion-header flex justify-between items-center cursor-pointer hover:bg-blue-150 rounded-t-lg p-4">
                             <p className={"text-18-26-500"}>How can I protect my idea from ...</p>
                             <div ref={icon4}>
                                 <Image src={Arrow} className={"ccc"} alt={"arrow-down"}/>
@@ -101,7 +101,7 @@ function Thirteen() {
                     </div>
                     <div className="accordion-item mb-4 shadow-a rounded-lg">
                         <div onClick={() => handleCollapse(4)}
-                             className="accordion-header flex justify-between items-center cursor-pointer hover:bg-blue-50 rounded-t-lg p-4">
+                             className="accordion-header flex justify-between items-center cursor-pointer hover:bg-blue-150 rounded-t-lg p-4">
                             <p className={"text-18-26-500"}>How can I protect my idea from ...</p>
                             <div ref={icon5}>
                                 <Image src={Arrow} className={"ccc"} alt={"arrow-down"}/>

@@ -9,7 +9,7 @@ import Image from "next/image";
 
 function Eleventh() {
     return (
-        <div className={"bg-blue-50 py-12"}>
+        <div className={"bg-blue-150 py-12"}>
             <div className="container flex justify-between items-center">
                 <div className={"w-full"}>
                     <h2 className={"text-40-56-700 mb-6 capitalize"}>Some of our humble <br/> <span

@@ -6,7 +6,7 @@ import Human33 from '../../public/humans/avatar.png';
 
 export default function EigthSection() {
     return (
-        <div className={"bg-blue-50 justify-center flex items-center"}>
+        <div className={"bg-blue-150 justify-center flex items-center"}>
             <div className={"container"}>
                 <h2 className={"capitalize text-32-44-700 text-center mt-24"}>what our clients say</h2>
                 <p className={"text-16-24-400 text-gray-450 text-center capitalize mb-12 mt-1"}>Amet minim mollit non

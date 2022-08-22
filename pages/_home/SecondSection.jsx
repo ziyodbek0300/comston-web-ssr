@@ -3,7 +3,7 @@ import CountUp from "react-countup";
 
 function SecondSection() {
     return (
-        <div className={"bg-blue-50 pb-14 pt-12"}>
+        <div className={"bg-blue-150 pb-14 pt-12"}>
             <div className={"container"}>
                 <h2 className={"text-40-56-700 text-center capitalize"}>We create digital solutions that are <span
                     className={"text-blue-550 block"}>seen & heard</span></h2>

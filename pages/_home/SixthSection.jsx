@@ -11,7 +11,7 @@ import P6 from '../../public/image 48.png';
 // import Button from "../../components/button";
 
 function SixthSection() {
-    return (<div className={"bg-blue-50 py-12"}>
+    return (<div className={"bg-blue-150 py-12"}>
         <div className={"flex justify-between container gap-10 pb-14"}>
             <div className={"w-full"}>
                 <h2 className={"text-32-44-700 capitalize"}>We are a trusted technology partner for recognized <span

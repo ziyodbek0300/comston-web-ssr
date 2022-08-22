@@ -4,7 +4,7 @@ import Human11 from '../../public/humans/Ellipse-1.png';
 import Human22 from '../../public/humans/Ellipse.png';
 export default function FifthSection() {
   return (
-    <div className={"bg-blue-50 justify-center flex items-center mt-10"}>
+    <div className={"bg-blue-150 justify-center flex items-center mt-10"}>
         <div className={"container"}>
         <h2 className={"capitalize text-32-44-700 text-center mt-14"}>what our clients say</h2>
         <p className={"text-16-24-400 text-gray-450 text-center capitalize mb-14 mt-1"}>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit <br /> officia consequat duis enim velit mollit.</p>

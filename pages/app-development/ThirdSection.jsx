@@ -10,7 +10,7 @@ import AbsolutePart from "./Absolute-part";
 
 function ThirdSection() {
     return (
-        <div className={"bg-blue-50 py-12 pb-24 relative"}>
+        <div className={"bg-blue-150 py-12 pb-24 relative"}>
             <div className="container flex justify-between items-center">
                 <div className={"w-full"}>
                     <h2 className={"text-40-56-700 mb-6 capitalize"}>Some of our humble <br/> <span
