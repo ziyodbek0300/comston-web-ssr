@@ -34,7 +34,7 @@ function Thirteen() {
 
     return (<div className={"container"}>
         <div className={"pb-16"}>
-            <h2 className={"capitalize text-center text-40-56-700"}>Get answers for <span
+            <h2 className={"capitalize lg:text-center text-left text-40-56-700"}>Get answers for <span
                 className={"text-blue-550"}>your questions</span> here <br/> and <span className={"text-blue-550"}>call us</span> to
                 discuss your idea!</h2>
             <div className={"py-5"}>

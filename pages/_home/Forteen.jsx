@@ -10,8 +10,8 @@ function Fourteen() {
     return (
         <div className={"container"}>
             <div className={"py-12"}>
-                <div className={"flex gap-10"}>
-                    <div style={{width: '55%'}}>
+                <div className={"flex lg:flex-row flex-col gap-10"}>
+                    <div className={"lg:w-[55%]"}>
                         <h2 className={"text-40-56-700 capitalize mb-5"}>Discuss <span
                             className={"text-blue-550"}>your idea</span> with our IT consultants now!</h2>
                         {/* eslint-disable-next-line react/no-unescaped-entities */}
@@ -65,8 +65,8 @@ function Fourteen() {
                             </div>
                         </div>
                     </div>
-                    <div style={{width: '45%'}}>
-                        <form className={"p-10 shadow-a rounded-2xl"}>
+                    <div className={"lg:w-[45%] w-full sm:w-2/3 mx-auto lg:m-0"}>
+                        <form className={"md:p-10 p-4 shadow-a rounded-2xl"}>
                             <div className={"mb-4"}>
                                 <label className={"text-16-20-500"} htmlFor="name">Your Name</label>
                                 <input type="text" id={"name"} placeholder={"John Smith"}

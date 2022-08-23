@@ -7,9 +7,10 @@ import Human4 from '../../public/humans/image 36.png';
 
 function EighthSection() {
     return (<div className={"container py-20"}>
-            <h2 className={"capitalize text-40-56-700 text-center mb-12"}>Introducing company <span
-                className={"text-blue-550"}>leadership</span></h2>
-            <div className={"flex gap-3 justify-between mb-20"}>
+        <h2 className={"capitalize text-40-56-700 text-center mb-12"}>Introducing company <span
+            className={"text-blue-550"}>leadership</span></h2>
+        <div className="overflow-auto mb-16">
+            <div className={"flex gap-3 min-w-max justify-between mb-4"}>
                 <div>
                     <div className={"card-human1 overflow-hidden flex bg-blue-950 pt-16 rounded-2xl mb-4"}>
                         <Image src={Human1} alt={"human 1"}/>
@@ -21,25 +22,26 @@ function EighthSection() {
                     <div className={"card-human2 overflow-hidden flex bg-blue-950 pt-16 rounded-2xl mb-4"}>
                         <Image src={Human2} alt={"human 2"}/>
                     </div>
-                    <p className={"text-20-24-700 mb-2"}>Brett Fraser</p>
-                    <p className={"text-18-26-500 text-gray-450"}>Board Advisor</p>
+                    <p className={"text-20-24-700 mb-2"}>Kenny Abdul</p>
+                    <p className={"text-18-26-500 text-gray-450"}>Chief Exclusive Officer</p>
                 </div>
                 <div>
                     <div className={"card-human3 overflow-hidden flex bg-blue-950 pt-16 rounded-2xl mb-4"}>
                         <Image src={Human3} alt={"human 3"}/>
                     </div>
-                    <p className={"text-20-24-700 mb-2"}>Brett Fraser</p>
-                    <p className={"text-18-26-500 text-gray-450"}>Board Advisor</p>
+                    <p className={"text-20-24-700 mb-2"}>Abror Khaytbayev</p>
+                    <p className={"text-18-26-500 text-gray-450"}>Chief Technical Officer</p>
                 </div>
                 <div>
                     <div className={"card-human4 overflow-hidden flex bg-blue-950 pt-16 rounded-2xl mb-4"}>
                         <Image src={Human4} alt={"human 4"}/>
                     </div>
-                    <p className={"text-20-24-700 mb-2"}>Brett Fraser</p>
-                    <p className={"text-18-26-500 text-gray-450"}>Board Advisor</p>
+                    <p className={"text-20-24-700 mb-2"}>Abror Damanov</p>
+                    <p className={"text-18-26-500 text-gray-450"}>Project Manager</p>
                 </div>
             </div>
-        </div>);
+        </div>
+    </div>);
 }
 
 export default EighthSection;

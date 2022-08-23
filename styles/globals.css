@@ -431,6 +431,29 @@ body {
 }
 
 @media screen and (max-width: 901px) {
+    .text-30-44-600 {
+        font-size: 24px;
+        line-height: 32px;
+        font-weight: 600;
+    }
+
+    .bg-rectangle {
+        background-size: cover;
+    }
+
+    .nineSection {
+        background-image: url("../public/right1bg.svg"), url("../public/left1bg.svg");
+        background-repeat: no-repeat, no-repeat;
+        background-position: right bottom, left bottom;
+        background-size: 40%, 40%;
+    }
+
+    .container {
+        width: 100% !important;
+        max-width: 95% !important;
+        padding: 0 .5rem;
+    }
+
     .second-section-home {
         display: flex;
         flex-direction: column;
@@ -463,10 +486,21 @@ body {
     nav.container {
         width: 90% !important;
     }
+
+    .text-40-56-700 {
+        font-size: 30px;
+        line-height: 32px;
+    }
 }
 
 
 @media screen and (max-width: 500px) {
+    .text-32-44-700 {
+        font-size: 24px;
+        line-height: 26px;
+        font-weight: 700;
+    }
+
     .second-home-stats {
         display: grid;
         grid-template-columns: 1fr;

@@ -42,54 +42,56 @@ function Navbar() {
     }
 
     return (<div className={"shadow-h bg-white sticky z-40 top-0"} ref={target}>
-        <nav className={"container flex items-center justify-between relative"}>
-            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-            <a href="/" className={"navbar-brand"}>
-                <Image src={Logo} className={"navbar-brand__img"} alt="navbar-brand"/>
-            </a>
-            <Image
-                onClick={handleOpenNav}
-                src={opened ? '/times.svg' : '/Vector.svg'}
-                height={iSize.height}
-                width={iSize.width}
-                alt="menu-icon"
-                className={"navbar-toggle"}
-            />
-            <ul className={!opened ? "navbar-menu relative text-16-20-500 bg-white" : "shadow-c navbar-menu-mobile absolute top-full flex flex-col gap-6 m-auto py-5 text-16-20-500 w-full bg-white"}>
-                <li className={"nav-item hover:text-blue-550 cursor-pointer inline-block dropdown"}
-                    onClick={handleOpen}>Services
-                </li>
-                <ul className={!opened ? "m-0 p-0 absolute -left-2 top-8 shadow-c rounded-lg bg-white hidden" : "m-0 p-0 absolute -left-2 top-12 shadow-c rounded-lg bg-white hidden"}
-                    ref={dropRef}>
-                    <li className={"p-5 hover:bg-blue-150 hover:text-blue-550 cursor-pointer rounded-t-lg"}>
-                        <Link href={'/app-development'}>App Development</Link>
+        <div className={"relative"}>
+            <nav className={"container flex items-center justify-between"}>
+                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid,@next/next/no-html-link-for-pages */}
+                <a href="/" className={"navbar-brand"}>
+                    <Image src={Logo} className={"navbar-brand__img"} alt="navbar-brand"/>
+                </a>
+                <Image
+                    onClick={handleOpenNav}
+                    src={opened ? '/times.svg' : '/Vector.svg'}
+                    height={iSize.height}
+                    width={iSize.width}
+                    alt="menu-icon"
+                    className={"navbar-toggle"}
+                />
+                <ul className={!opened ? "navbar-menu relative text-16-20-500 bg-white" : "shadow-c navbar-menu-mobile absolute top-full left-0 flex flex-col gap-6 m-auto p-5 text-16-20-500 w-full bg-white"}>
+                    <li className={"nav-item hover:text-blue-550 cursor-pointer inline-block dropdown"}
+                        onClick={handleOpen}>Services
                     </li>
-                    <li className={"p-5 hover:bg-blue-150 hover:text-blue-550 cursor-pointer rounded-b-lg"}>
-                        <Link href={'/web-development'}>Web Development</Link>
+                    <ul className={!opened ? "m-0 p-0 absolute -left-2 top-8 shadow-c rounded-lg bg-white hidden" : "m-0 p-0 absolute -left-2 top-12 shadow-c rounded-lg bg-white hidden"}
+                        ref={dropRef}>
+                        <li className={"p-5 hover:bg-blue-150 hover:text-blue-550 cursor-pointer rounded-t-lg"}>
+                            <Link href={'/app-development'}>App Development</Link>
+                        </li>
+                        <li className={"p-5 hover:bg-blue-150 hover:text-blue-550 cursor-pointer rounded-b-lg"}>
+                            <Link href={'/web-development'}>Web Development</Link>
+                        </li>
+                    </ul>
+                    <li className={"nav-item hover:text-blue-550 cursor-pointer inline-block"}>
+                        <Link href={"/projects"}>Projects</Link>
+                    </li>
+                    <li className={"nav-item hover:text-blue-550 cursor-pointer inline-block"}>
+                        <Link href="/#comments">Reviews</Link>
+                    </li>
+                    <li className={"nav-item hover:text-blue-550 cursor-pointer inline-block"}>
+                        <Link href={'/blog'}>Blog</Link>
+                    </li>
+                    {/* eslint-disable-next-line react/no-unescaped-entities */}
+                    <li className={"nav-item hover:text-blue-550 cursor-pointer inline-block"}>
+                        <Link href={"/#faqs"}>FAQ`s</Link>
+                    </li>
+                    <li className={"nav-item hover:text-blue-550 cursor-pointer inline-block"}>
+                        <Link href={"/#contacts"}>Contacts</Link>
+                    </li>
+                    <li className={"nav-item phone hover:text-blue-550 cursor-pointer inline-block"}>
+                        <a href="tel:+3212455850" className={!opened ? "nav-link phone" : "nav-link phone-mobile"}>(321)
+                            245-5850</a>
                     </li>
                 </ul>
-                <li className={"nav-item hover:text-blue-550 cursor-pointer inline-block"}>
-                    <Link href={"/projects"}>Projects</Link>
-                </li>
-                <li className={"nav-item hover:text-blue-550 cursor-pointer inline-block"}>
-                    <Link href="/#comments">Reviews</Link>
-                </li>
-                <li className={"nav-item hover:text-blue-550 cursor-pointer inline-block"}>
-                    <Link href={'/blog'}>Blog</Link>
-                </li>
-                {/* eslint-disable-next-line react/no-unescaped-entities */}
-                <li className={"nav-item hover:text-blue-550 cursor-pointer inline-block"}>
-                    <Link href={"/#faqs"}>FAQ`s</Link>
-                </li>
-                <li className={"nav-item hover:text-blue-550 cursor-pointer inline-block"}>
-                    <Link href={"/#contacts"}>Contacts</Link>
-                </li>
-                <li className={"nav-item phone hover:text-blue-550 cursor-pointer inline-block"}>
-                    <a href="tel:+3212455850" className={!opened ? "nav-link phone" : "nav-link phone-mobile"}>(321)
-                        245-5850</a>
-                </li>
-            </ul>
-        </nav>
+            </nav>
+        </div>
     </div>);
 }
 

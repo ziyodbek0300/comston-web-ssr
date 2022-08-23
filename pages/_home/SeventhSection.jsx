@@ -13,7 +13,7 @@ function SeventhSection() {
             <div className={"py-24"}>
                 <h2 className={"capitalize text-32-44-700 text-center mb-14"}>Industries we’ve <span
                     className={"text-blue-550"}>excelled in</span></h2>
-                <div className={"grid grid-cols-3 gap-8"}>
+                <div className={"grid lg:grid-cols-3 md:grid-cols-2 gap-8"}>
                     <div>
                         <div className={"mb-4 bg-blue-150 w-16 h-16 rounded-xl flex items-center justify-center"}>
                             <Image src={Icon1} className={""} alt={"telemedicine"}/>

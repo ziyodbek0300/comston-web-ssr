@@ -10,7 +10,7 @@ import Image from "next/image";
 function Eleventh() {
     return (
         <div className={"bg-blue-150 py-12"}>
-            <div className="container flex justify-between items-center">
+            <div className="container flex lg:flex-row flex-col gap-4 lg:text-left text-center justify-between items-center">
                 <div className={"w-full"}>
                     <h2 className={"text-40-56-700 mb-6 capitalize"}>Some of our humble <br/> <span
                         className={"text-blue-550"}>regonitions</span></h2>
@@ -20,7 +20,7 @@ function Eleventh() {
                     </p>
                 </div>
                 <div className={"w-full"}>
-                    <div className={"w-2/3 ml-auto grid grid-cols-3 gap-4 p-4 text-center"}>
+                    <div className={"w-2/3 lg:ml-auto mx-auto grid grid-cols-3 gap-4 p-4 text-center"}>
                         <div><Image src={Logo1} alt={"Logo 1"}/></div>
                         <div><Image src={Logo2} alt={"Logo 1"}/></div>
                         <div><Image src={Logo3} alt={"Logo 1"}/></div>

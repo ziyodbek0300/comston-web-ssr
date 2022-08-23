@@ -1,7 +1,6 @@
 import React from 'react';
 import Image from "next/image";
 import Right from "../../public/right.svg";
-
 // import Button from "../../components/button";
 
 function FifthSection() {

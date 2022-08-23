@@ -23,15 +23,15 @@ function HomePage() {
         <ThirdSection/>
         <FourthSection/>
         <FifthSection/>
-        {/*<SixthSection/>*/}
-        {/*<SeventhSection/>*/}
-        {/*<EighthSection/>*/}
-        {/*<NinthSection/>*/}
-        {/*<Ten/>*/}
-        {/*<Eleventh/>*/}
-        {/*<Twelve/>*/}
-        {/*<Thirteen/>*/}
-        {/*<Fourteen/>*/}
+        <SixthSection/>
+        <SeventhSection/>
+        <EighthSection/>
+        <NinthSection/>
+        <Ten/>
+        <Eleventh/>
+        <Twelve/>
+        <Thirteen/>
+        <Fourteen/>
         {/*<Footer/>*/}
     </div>)
 }
