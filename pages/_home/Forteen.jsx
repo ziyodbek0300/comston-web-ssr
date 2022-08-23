@@ -19,7 +19,7 @@ function Fourteen() {
                             competition.Fill
                             {/* eslint-disable-next-line react/no-unescaped-entities */}
                             out the form and we'll send you a few times to chat.</p>
-                        <div className={"w-full grid grid-cols-2 gap-14"}>
+                        <div className={"w-full grid sm:grid-cols-2 grid-cols-1 gap-14"}>
                             <div className={"rounded-lg pb-6"}>
                                 <div className={"mb-5"}>
                                     <Image src={Computer} alt="computer" className={"mb-5"}/>

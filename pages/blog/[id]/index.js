@@ -15,7 +15,7 @@ export default function Details() {
                     <p className={"text-30-44-600"}>Siemens Opens New Technology Hub in Charlotte, NC to Accelerate
                         Industrialization of Additive Manufacturing</p>
                 </div>
-                <div className={"py-10 text-18-28-400 text-gray-450"}>
+                <div className={"md:py-10 py-6 text-18-28-400 text-gray-450"}>
                     <p>
                         Today, Siemens is announcing the opening of its new Charlotte Advanced Technology
                         Collaboration
@@ -30,14 +30,14 @@ export default function Details() {
                         ensure
                         the successful industrialization of additive manufacturing.
                     </p>
-                    <p className={'py-10'}>
+                    <p className={'md:py-10 py-5'}>
                         In conjunction with this announcement, Siemens also recently announced partnerships with
                         ExOne,
                         Xerox and Roboze, leaders in building industrial 3D printers. This partnership will ensure
                         that
                         Siemens and its collaborators have the most advanced hardware on the market.
                     </p>
-                    <p className={'pb-10'}>
+                    <p className={'md:pb-10 pb-5'}>
                         “We are excited to launch this new additive manufacturing hub and to begin inviting
                         customers in
                         to collaborate and find ways to accelerate the industrialization of this technology,” said
@@ -68,7 +68,7 @@ export default function Details() {
                 <div className={"details-img"}>
                     <Image src={Img1} className={"w-full"} alt={'scientist'}/>
                 </div>
-                <div className={"py-10 text-18-28-400 text-gray-450"}>
+                <div className={"md:py-10 py-6 text-18-28-400 text-gray-450"}>
                     <p>
                         As a leader in industrial digitalization, Siemens will also look to continue its leadership
                         through additive manufacturing, as it is the first truly digital manufacturing technology.​
@@ -81,7 +81,7 @@ export default function Details() {
                         them
                         closer to the point of purchase and creating a more resilient supply chain.
                     </p>
-                    <p className={'py-10'}>
+                    <p className={'md:py-10 py-5'}>
                         To support our customers along their journey at CATCH, Siemens has accumulated a group of
                         world-class experts from several Siemens businesses and operating companies. CATCH will
                         become
@@ -103,7 +103,7 @@ export default function Details() {
                 <div className={"details-img"}>
                     <Image src={Img2} className={"w-full"} alt={'microscop'}/>
                 </div>
-                <div className={"py-10 text-18-28-400 text-gray-450"}>
+                <div className={"md:py-10 py-6 text-18-28-400 text-gray-450"}>
                     <p>
                         Siemens Corporation is a subsidiary of Siemens AG, a technology company focused on industry,
                         infrastructure, transport, and healthcare. From more resource-efficient factories, resilient
@@ -127,7 +127,7 @@ export default function Details() {
                         fiscal
                         2021, Siemens Group USA generated revenue of nearly $20 billion.
                     </p>
-                    <p className={'py-10'}>
+                    <p className={'md:py-10 py-5'}>
                         Siemens Digital Industries (DI) is an innovation leader in automation and digitalization.
                         Closely collaborating with partners and customers, DI drives the digital transformation in
                         the

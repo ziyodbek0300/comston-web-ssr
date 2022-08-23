@@ -29,14 +29,14 @@ export default function FirstSection() {
                             urna, <br/> faucibus sed id dictumst. Cursus laoreet {" "}
                         </p>
                     </div>
-                    <div className={"blog-cards grid grid-cols-3 gap-x-7 gap-y-12"}>
+                    <div className={"blog-cards grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-x-7 gap-y-12"}>
                         <Link href={'/blog/1'}>
                             <div className={"card shadow-bl rounded-2xl"}>
-                                <div className="card-header rounded-t-full">
-                                    <Image src={Img1} className={"w-full"} alt={'card-manufacturing'}/>
+                                <div className="card-header rounded-t-full w-full">
+                                    <Image layout={"responsive"} src={Img1} alt={'card-manufacturing'}/>
                                 </div>
                                 <div className="card-body p-4">
-                                    <p className='text-16-19-600 text-blue-550 pb-4 uppercase'>manufacturing</p>
+                                    <p className='text-16-19-600 text-blue-550 pb-5 pt-3 uppercase'>manufacturing</p>
                                     <p className='text-20-26-500 mb-5 w-100'>New Siemens tech hub accelerates additive
                                         manufacturing</p>
                                 </div>
@@ -47,10 +47,10 @@ export default function FirstSection() {
                         </Link>
                         <div className={"card shadow-bl rounded-2xl"}>
                             <div className="card-header rounded-t-full">
-                                <Image src={Img2} className={"w-full"} alt={'card-manufacturing'}/>
+                                <Image layout={"responsive"} src={Img2} className={"w-full"} alt={'card-manufacturing'}/>
                             </div>
                             <div className="card-body p-4">
-                                <p className='text-16-19-600 text-blue-550 pb-4 uppercase'>manufacturing</p>
+                                <p className='text-16-19-600 text-blue-550 pb-5 pt-3 uppercase'>manufacturing</p>
                                 <p className='text-20-26-500 mb-5 w-100'>Siemens + Xerox: Boosting metal
                                     additive-manufacturing capabilities</p>
                             </div>
@@ -60,10 +60,10 @@ export default function FirstSection() {
                         </div>
                         <div className={"card shadow-bl rounded-2xl"}>
                             <div className="card-header rounded-t-full">
-                                <Image src={Img3} className={"w-full"} alt={'card-manufacturing'}/>
+                                <Image layout={"responsive"} src={Img3} className={"w-full"} alt={'card-manufacturing'}/>
                             </div>
                             <div className="card-body p-4">
-                                <p className='text-16-19-600 text-blue-550 pb-4 uppercase'>manufacturing</p>
+                                <p className='text-16-19-600 text-blue-550 pb-5 pt-3 uppercase'>manufacturing</p>
                                 <p className='text-20-26-500 mb-5 w-100'>Siemens + Roboze: Accelerating the
                                     industrialization of 3D printing</p>
                             </div>
@@ -73,10 +73,10 @@ export default function FirstSection() {
                         </div>
                         <div className={"card shadow-bl rounded-2xl"}>
                             <div className="card-header rounded-t-full">
-                                <Image src={Img4} className={"w-full"} alt={'card-manufacturing'}/>
+                                <Image layout={"responsive"} src={Img4} className={"w-full"} alt={'card-manufacturing'}/>
                             </div>
                             <div className="card-body p-4">
-                                <p className='text-16-19-600 text-blue-550 pb-4 uppercase'>digital twin</p>
+                                <p className='text-16-19-600 text-blue-550 pb-5 pt-3 uppercase'>digital twin</p>
                                 <p className='text-20-26-500 mb-5 w-100'>Siemens awarded $1.78M FDA contract for
                                     advancing
                                     digital design and manufacturing</p>
@@ -87,10 +87,10 @@ export default function FirstSection() {
                         </div>
                         <div className={"card shadow-bl rounded-2xl"}>
                             <div className="card-header rounded-t-full">
-                                <Image src={Img5} className={"w-full"} alt={'card-manufacturing'}/>
+                                <Image layout={"responsive"} src={Img5} className={"w-full"} alt={'card-manufacturing'}/>
                             </div>
                             <div className="card-body p-4">
-                                <p className='text-16-19-600 text-blue-550 pb-4 uppercase'>digital twin</p>
+                                <p className='text-16-19-600 text-blue-550 pb-5 pt-3 uppercase'>digital twin</p>
                                 <p className='text-20-26-500 mb-5 w-100'>Rapid design iteration: Using Siemens software
                                     and
                                     digital twin to test concepts</p>
@@ -101,10 +101,10 @@ export default function FirstSection() {
                         </div>
                         <div className={"card shadow-bl rounded-2xl"}>
                             <div className="card-header rounded-t-full">
-                                <Image src={Img6} className={"w-full"} alt={'card-manufacturing'}/>
+                                <Image layout={"responsive"} src={Img6} className={"w-full"} alt={'card-manufacturing'}/>
                             </div>
                             <div className="card-body p-4">
-                                <p className='text-16-19-600 text-blue-550 pb-4 uppercase'>digital twin</p>
+                                <p className='text-16-19-600 text-blue-550 pb-5 pt-3 uppercase'>digital twin</p>
                                 <p className='text-20-26-500 mb-5 w-100'>Siemens + Dow: Partnering to create a
                                     process-manufacturing digital twin testbed</p>
                             </div>
@@ -114,10 +114,10 @@ export default function FirstSection() {
                         </div>
                         <div className={"card shadow-bl rounded-2xl"}>
                             <div className="card-header rounded-t-full">
-                                <Image src={Img4} className={"w-full"} alt={'card-manufacturing'}/>
+                                <Image layout={"responsive"} src={Img4} className={"w-full"} alt={'card-manufacturing'}/>
                             </div>
                             <div className="card-body p-4">
-                                <p className='text-16-19-600 text-blue-550 pb-4 uppercase'>digital twin</p>
+                                <p className='text-16-19-600 text-blue-550 pb-5 pt-3 uppercase'>digital twin</p>
                                 <p className='text-20-26-500 mb-5 w-100'>Siemens awarded $1.78M FDA contract for
                                     advancing
                                     digital design and manufacturing</p>
@@ -128,10 +128,10 @@ export default function FirstSection() {
                         </div>
                         <div className={"card shadow-bl rounded-2xl"}>
                             <div className="card-header rounded-t-full">
-                                <Image src={Img5} className={"w-full"} alt={'card-manufacturing'}/>
+                                <Image layout={"responsive"} src={Img5} className={"w-full"} alt={'card-manufacturing'}/>
                             </div>
                             <div className="card-body p-4">
-                                <p className='text-16-19-600 text-blue-550 pb-4 uppercase'>digital twin</p>
+                                <p className='text-16-19-600 text-blue-550 pb-5 pt-3 uppercase'>digital twin</p>
                                 <p className='text-20-26-500 mb-5 w-100'>Rapid design iteration: Using Siemens software
                                     and
                                     digital twin to test concepts</p>
@@ -142,10 +142,10 @@ export default function FirstSection() {
                         </div>
                         <div className={"card shadow-bl rounded-2xl"}>
                             <div className="card-header rounded-t-full">
-                                <Image src={Img6} className={"w-full"} alt={'card-manufacturing'}/>
+                                <Image layout={"responsive"} src={Img6} className={"w-full"} alt={'card-manufacturing'}/>
                             </div>
                             <div className="card-body p-4">
-                                <p className='text-16-19-600 text-blue-550 pb-4 uppercase'>digital twin</p>
+                                <p className='text-16-19-600 text-blue-550 pb-5 pt-3 uppercase'>digital twin</p>
                                 <p className='text-20-26-500 mb-5 w-100'>Siemens + Dow: Partnering to create a
                                     process-manufacturing digital twin testbed</p>
                             </div>

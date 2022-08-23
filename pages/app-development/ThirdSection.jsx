@@ -9,7 +9,7 @@ import Image from "next/image";
 import AbsolutePart from "./Absolute-part";
 
 function ThirdSection() {
-    return (<div className={"bg-blue-150 py-12 relative"}>
+    return (<div className={"bg-blue-150 py-12 pb-32 relative"}>
             <div
                 className="container flex lg:flex-row flex-col gap-4 lg:text-left text-center justify-between items-center">
                 <div className={"w-full"}>

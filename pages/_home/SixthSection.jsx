@@ -15,7 +15,7 @@ function SixthSection() {
                     className={"text-blue-550"}>brands</span></h2>
             </div>
             <div className={"w-full"}>
-                <p className={"text-16-24-400 text-gray-450 mt-2"}>
+                <p className={"text-16-24-400 text-gray-450 mt-4"}>
                     We have worked for the top brands and government institutions in the USA from Dept of Defense to
                     Discover channel host Peter Nielsen in our 7 years in business. You are in a good company!
                 </p>

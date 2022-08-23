@@ -14,12 +14,12 @@ function FourthSection() {
             <h2 className={"capitalize text-32-44-700 text-center mt-20 mb-14"}>Our website <span
                 className={"text-blue-550"}>Design & development</span> Process</h2>
             <div className="container-md relative">
-                <div className={"absolute left-1/2 dashed w-1 h-full"}>
+                <div className={"absolute lg:left-1/2 left-0 dashed w-1 h-full"}>
                     <div className={"h-full relative"}>
-                        <div className={"w-2 h-64 bg-blue-550 rounded sticky top-40"} style={{ marginLeft: "-2px" }}></div>
+                        <div className={"w-2 h-64 bg-blue-550 rounded sticky top-64"} style={{ marginLeft: "-2px" }}></div>
                     </div>
                 </div>
-                <div className={"card flex items-center mb-24 justify-between gap-60"}>
+                <div className={"card flex lg:flex-row flex-col items-center mb-24 justify-between lg:gap-60 gap-10"}>
                     <div className={"p-5 w-full"}>
                         <div className={"card-header flex gap-4 mb-6"}>
                             <div
@@ -38,7 +38,7 @@ function FourthSection() {
                     </div>
                 </div>
 
-                <div className={"card flex items-center mb-24 justify-between gap-60"}>
+                <div className={"card flex lg:flex-row flex-col-reverse items-center mb-24 justify-between lg:gap-60 gap-10"}>
                     <div className={"w-full"}>
                         <Image src={Img2} className={'w-100'} alt={'ideation'}/>
                     </div>
@@ -58,7 +58,7 @@ function FourthSection() {
                     </div>
                 </div>
 
-                <div className={"card flex items-center mb-24 justify-between gap-60"}>
+                <div className={"card flex lg:flex-row flex-col items-center mb-24 justify-between lg:gap-60 gap-10"}>
                     <div className={"p-5 w-full"}>
                         <div className={"card-header flex gap-4 mb-6"}>
                             <div
@@ -77,7 +77,7 @@ function FourthSection() {
                     </div>
                 </div>
 
-                <div className={"card flex items-center mb-24 justify-between gap-60"}>
+                <div className={"card flex lg:flex-row flex-col-reverse items-center mb-24 justify-between lg:gap-60 gap-10"}>
                     <div className={"w-full"}>
                         <Image src={Img4} className={'w-100'} alt={'ideation'}/>
                     </div>
@@ -97,7 +97,7 @@ function FourthSection() {
                     </div>
                 </div>
 
-                <div className={"card flex items-center mb-24 justify-between gap-60"}>
+                <div className={"card flex lg:flex-row flex-col items-center mb-24 justify-between lg:gap-60 gap-10"}>
                     <div className={"p-5 w-full"}>
                         <div className={"card-header flex gap-4 mb-6"}>
                             <div

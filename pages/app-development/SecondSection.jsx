@@ -6,14 +6,14 @@ import appDevEllipse from "../../public/app-development-images/app-dev-ellipse.s
 
 function SecondSection() {
     return (
-        <div className={"container flex lg:flex-row flex-col-reverse"} style={{padding: "50px 20px"}}>
-            <div className={"pt-10 w-full text-center"}>
+        <div className={"container flex lg:flex-row flex-col-reverse py-[20px]"}>
+            <div className={"py-10 w-full text-center"}>
                 <Image className={"w-full mx-auto"} src={Interface} alt={"interface"}/>
             </div>
             <div className={" pt-14 lg:text-left text-center"}>
                 <h2 className={"capitalize text-32-44-700 sm:w-2/3 mx-auto text-left"}>
                     Comston <span className={"text-blue-550"}>App Development</span> services</h2>
-                <p className={"text-16-24-400 text-gray-450 pt-6 pb-9 sm:w-2/3 mx-auto text-left"}>
+                <p className={"text-16-24-400 text-gray-450 pt-6 pb-5 sm:w-2/3 mx-auto text-left"}>
                     Our software development center provides you with the best resources,
                     expertise.
                 </p>

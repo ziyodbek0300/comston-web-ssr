@@ -9,12 +9,12 @@ import Icon6 from '../../public/icons-web-development/Vector-5.svg';
 
 function SecondSection() {
     return (<div className={"container"}>
-        <div className={"py-24"}>
-            <h2 className={"capitalize text-32-44-700 text-center mb-1"}>Comston Web <span
+        <div className={"lg:py-24 py-20"}>
+            <h2 className={"capitalize text-32-44-700 text-center mb-4 lg:w-full w-[90%] mx-auto"}>Comston Web <span
                 className={"text-blue-550"}>Development</span> Services</h2>
-            <p className={"text-16-24-400 text-gray-450 text-center capitalize mb-14"}>Grow Your business with a
+            <p className={"text-16-24-400 text-gray-450 text-center capitalize mb-10 lg:w-full w-[90%] mx-auto"}>Grow Your business with a
                 conversion-driven website </p>
-            <div className={"grid grid-cols-3 gap-16"}>
+            <div className={"grid lg:grid-cols-3 md:grid-cols-2 gap-8"}>
                 <div>
                     <div className={"mb-6 w-16 h-16 flex items-center justify-center"}>
                         <Image src={Icon1} className={""} alt={"telemedicine"}/>
@@ -67,8 +67,7 @@ function SecondSection() {
                     <div className={"mb-4 w-16 h-16  flex items-center justify-center"}>
                         <Image src={Icon5} className={""} alt={"telemedicine"}/>
                     </div>
-                    <p className={"text-20-24-700 uppercase mb-4"}>Conten<span
-                        className="text-16-24-700 lowercase">t</span> management</p>
+                    <p className={"text-20-24-700 uppercase mb-4"}>CONTENT management</p>
                     <p className={"text-16-24-400 text-gray-450"}>
                         Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
                         consequat duis enim velit mollitsome. Amet minim mollit non deserunt ullamco est sit aliqua

@@ -430,6 +430,13 @@ body {
     gap: 3.5rem;
 }
 
+.development-fourthSection {
+    background-image: url("../public/bg/Vector.svg"), url("../public/bg/Vector-1.svg"), url("../public/bg/Vector-2.svg"), url("../public/bg/Vector-3.svg");
+    background-repeat: no-repeat, no-repeat,no-repeat, no-repeat;
+    background-position: left 20%, right top, left 80%, right;
+    background-size: 10%, 10%, 10%, 10%;
+}
+
 @media (min-width: 902px) and (max-width: 1024px) {
     .first-section-app {
         background-image: url("../public/mockup1.png");
@@ -441,6 +448,13 @@ body {
 }
 
 @media screen and (max-width: 901px) {
+    .development-fourthSection {
+        background-image: url("../public/bg/Vector.svg"), url("../public/bg/Vector-1.svg"), url("../public/bg/Vector-2.svg"), url("../public/bg/Vector-3.svg");
+        background-repeat: no-repeat, no-repeat,no-repeat, no-repeat;
+        background-position: left 20%, right top, left 80%, right;
+        background-size: 18%, 18%, 18%, 18%;
+    }
+
     .first-section-app {
         background-image: url("../public/mockup1.png");
         background-repeat: no-repeat;
@@ -511,13 +525,23 @@ body {
     }
 }
 
+.image {
+    width: 100% !important;
+}
+
 
 @media screen and (max-width: 500px) {
+    .development-fourthSection {
+        background-image: url("../public/bg/Vector.svg"), url("../public/bg/Vector-1.svg"), url("../public/bg/Vector-2.svg"), url("../public/bg/Vector-3.svg");
+        background-repeat: no-repeat, no-repeat,no-repeat, no-repeat;
+        background-position: left 20%, right top, left 90%, right;
+        background-size: 25%, 25%, 25%, 25%;
+    }
     .first-section-app {
         background-image: url("../public/mockup1.png");
         background-repeat: no-repeat;
-        background-size: 100%;
-        background-position: center 80%;
+        background-size: 95%;
+        background-position: 0 100%;
         height: calc(100vh - 80px);
     }
 
@@ -594,6 +618,17 @@ body {
         line-height: 26px;
         font-weight: 800;
     }
+}
+
+div::-webkit-scrollbar {
+    width: 2px;
+    background: aliceblue;
+    border-radius: 5px;
+}
+
+div::-webkit-scrollbar-thumb {
+    background: #479FDE;
+    border-radius: 10px;
 }
 
 

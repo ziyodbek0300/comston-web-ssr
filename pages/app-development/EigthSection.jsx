@@ -11,53 +11,55 @@ export default function EigthSection() {
                 <p className={"text-16-24-400 text-gray-450 text-center capitalize mb-12 mt-1"}>Amet minim mollit non
                     deserunt ullamco est sit aliqua dolor do amet sint. Velit <br/> officia consequat duis enim velit
                     mollit.</p>
-                <div className="client-cards flex gap-8 pb-14">
-                    <div className="card bg-white p-8 rounded-2xl">
-                        <div className={"card-header flex mb-5 items-center gap-4"}>
-                            <div className="for-img">
-                                <Image src={Human22} alt={'Pamela_brown'}/>
+                <div className={""}>
+                    <div className="client-cards flex lg:flex-row flex-col gap-8 pb-14">
+                        <div className="card bg-white p-8 rounded-2xl">
+                            <div className={"card-header flex mb-5 items-center gap-4"}>
+                                <div className="for-img">
+                                    <Image src={Human22} alt={'Pamela_brown'}/>
+                                </div>
+                                <div className="for-text">
+                                    <span className='text-20-26-500'>Pamela Brown</span>
+                                    <p className='text-18-26-500 text-blue-550 mt-2'>CEO, Aura Health</p>
+                                </div>
                             </div>
-                            <div className="for-text">
-                                <span className='text-20-26-500'>Pamela Brown</span>
-                                <p className='text-18-26-500 text-blue-550 mt-2'>CEO, Aura Health</p>
-                            </div>
-                        </div>
-                        <div className={'card-body'}>
-                            <p className={'text-16-24-400'}>“Aura used Comston to conduct rigorous A/B testing and
-                                iterate rapidly in a period of high growth.Comston has been an integral part of Aura`s
-                                growth to millions of users.”</p>
-                        </div>
-                    </div>
-                    <div className="card bg-white p-8 rounded-2xl">
-                        <div className={"card-header flex mb-5 items-center gap-4"}>
-                            <div className="for-img">
-                                <Image src={Human11} alt={'mayk_taylor'}/>
-                            </div>
-                            <div className="for-text">
-                                <span className='text-20-26-500'>Mark Taylor</span>
-                                <p className='text-18-26-500 text-blue-550 mt-2'>CEO, Showcasing.io</p>
+                            <div className={'card-body'}>
+                                <p className={'text-16-24-400'}>“Aura used Comston to conduct rigorous A/B testing and
+                                    iterate rapidly in a period of high growth.Comston has been an integral part of Aura`s
+                                    growth to millions of users.”</p>
                             </div>
                         </div>
-                        <div className={'card-body'}>
-                            <p className={'text-16-24-400'}>`Comston` combination of prebuilt and custom options made it
-                                a good fit that was in my price range, as opposed to more traditional custom development
-                                shops.”</p>
-                        </div>
-                    </div>
-                    <div className="card bg-white p-8 rounded-2xl">
-                        <div className={"card-header flex mb-5 items-center gap-4"}>
-                            <div className="for-img">
-                                <Image src={Human22} alt={'Pamela_brown'}/>
+                        <div className="card bg-white p-8 rounded-2xl">
+                            <div className={"card-header flex mb-5 items-center gap-4"}>
+                                <div className="for-img">
+                                    <Image src={Human11} alt={'mayk_taylor'}/>
+                                </div>
+                                <div className="for-text">
+                                    <span className='text-20-26-500'>Mark Taylor</span>
+                                    <p className='text-18-26-500 text-blue-550 mt-2'>CEO, Showcasing.io</p>
+                                </div>
                             </div>
-                            <div className="for-text">
-                                <span className='text-20-26-500'>Pamela Brown</span>
-                                <p className='text-18-26-500 text-blue-550 mt-2'>CEO, Aura Health</p>
+                            <div className={'card-body'}>
+                                <p className={'text-16-24-400'}>`Comston` combination of prebuilt and custom options made it
+                                    a good fit that was in my price range, as opposed to more traditional custom development
+                                    shops.”</p>
                             </div>
                         </div>
-                        <div className={'card-body'}>
-                            <p className={'text-16-24-400'}>“Aura used Comston to conduct rigorous A/B testing and
-                                iterate rapidly in a period of high growth.Comston has been an integral part of Aura`s
-                                growth to millions of users.”</p>
+                        <div className="card bg-white p-8 rounded-2xl">
+                            <div className={"card-header flex mb-5 items-center gap-4"}>
+                                <div className="for-img">
+                                    <Image src={Human22} alt={'Pamela_brown'}/>
+                                </div>
+                                <div className="for-text">
+                                    <span className='text-20-26-500'>Pamela Brown</span>
+                                    <p className='text-18-26-500 text-blue-550 mt-2'>CEO, Aura Health</p>
+                                </div>
+                            </div>
+                            <div className={'card-body'}>
+                                <p className={'text-16-24-400'}>“Aura used Comston to conduct rigorous A/B testing and
+                                    iterate rapidly in a period of high growth.Comston has been an integral part of Aura`s
+                                    growth to millions of users.”</p>
+                            </div>
                         </div>
                     </div>
                 </div>
