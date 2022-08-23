@@ -282,7 +282,7 @@
     background-image: url("../public/Mockup.png");
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position: right bottom;
+    background-position: right center;
     height: calc(100vh - 80px);
 }
 
@@ -430,7 +430,25 @@ body {
     gap: 3.5rem;
 }
 
+@media (min-width: 902px) and (max-width: 1024px) {
+    .first-section-app {
+        background-image: url("../public/mockup1.png");
+        background-repeat: no-repeat;
+        background-size: 80%;
+        background-position: 35% 130%;
+        height: calc(100vh - 80px);
+    }
+}
+
 @media screen and (max-width: 901px) {
+    .first-section-app {
+        background-image: url("../public/mockup1.png");
+        background-repeat: no-repeat;
+        background-size: 90%;
+        background-position: 25% 100%;
+        height: calc(100vh - 80px);
+    }
+
     .text-30-44-600 {
         font-size: 24px;
         line-height: 32px;
@@ -495,6 +513,14 @@ body {
 
 
 @media screen and (max-width: 500px) {
+    .first-section-app {
+        background-image: url("../public/mockup1.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center 80%;
+        height: calc(100vh - 80px);
+    }
+
     .text-32-44-700 {
         font-size: 24px;
         line-height: 26px;

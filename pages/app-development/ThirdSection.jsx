@@ -9,9 +9,9 @@ import Image from "next/image";
 import AbsolutePart from "./Absolute-part";
 
 function ThirdSection() {
-    return (
-        <div className={"bg-blue-150 py-12 pb-24 relative"}>
-            <div className="container flex justify-between items-center">
+    return (<div className={"bg-blue-150 py-12 relative"}>
+            <div
+                className="container flex lg:flex-row flex-col gap-4 lg:text-left text-center justify-between items-center">
                 <div className={"w-full"}>
                     <h2 className={"text-40-56-700 mb-6 capitalize"}>Some of our humble <br/> <span
                         className={"text-blue-550"}>regonitions</span></h2>
@@ -20,8 +20,8 @@ function ThirdSection() {
                         Discover channel host Peter Nielsen in our 9 years in business. You are in a good company!
                     </p>
                 </div>
-                <div className={"w-full"}>
-                    <div className={"w-2/3 ml-auto grid grid-cols-3 gap-4 p-4 pr-0 text-center"}>
+                <div className={"w-full text-right"}>
+                    <div className={"w-2/3 lg:mr-0 ml-auto mr-auto grid grid-cols-3 gap-4 p-4"}>
                         <div><Image src={Logo1} alt={"Logo 1"}/></div>
                         <div><Image src={Logo2} alt={"Logo 1"}/></div>
                         <div><Image src={Logo3} alt={"Logo 1"}/></div>
@@ -32,8 +32,7 @@ function ThirdSection() {
                 </div>
             </div>
             <AbsolutePart/>
-        </div>
-    );
+        </div>);
 }
 
 export default ThirdSection;
