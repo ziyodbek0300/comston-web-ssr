@@ -7,7 +7,7 @@ import FImage3 from '../../public/icons/Others/Vector.svg';
 
 function Footer() {
     return (<div className={"bg-blue-950 py-16 text-white"}>
-        <div className={"container flex gap-10 justify-between"}>
+        <div className={"container flex lg:flex-row flex-col gap-10 justify-between"}>
             <div className={"w-full"}>
                 <div className={"mb-4"}>
                     <Image src={Logo} alt={"Logo"}/>

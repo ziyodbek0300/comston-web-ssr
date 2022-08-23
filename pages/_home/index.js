@@ -32,7 +32,7 @@ function HomePage() {
         <Twelve/>
         <Thirteen/>
         <Fourteen/>
-        {/*<Footer/>*/}
+        <Footer/>
     </div>)
 }
 
