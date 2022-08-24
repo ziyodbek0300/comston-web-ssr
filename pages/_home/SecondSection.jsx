@@ -9,19 +9,19 @@ function SecondSection() {
                     className={"text-blue-550 block"}>seen & heard</span></h2>
                 <div className={"second-home-stats pt-10"}>
                     <div className={""}>
-                        <p className={"text-50-60-800 mb-3 text-blue-950"}><CountUp end={258} duration={3}/>+</p>
+                        <p className={"text-50-60-800 mb-3 text-blue-950"}><CountUp end={258} duration={5}/>+</p>
                         <p className={"text-18-26-500"}>successful projects</p>
                     </div>
                     <div className={""}>
-                        <p className={"text-50-60-800 mb-3 text-blue-950"}><CountUp end={58} duration={3}/></p>
+                        <p className={"text-50-60-800 mb-3 text-blue-950"}><CountUp end={58} duration={5}/></p>
                         <p className={"text-18-26-500"}>successful projects</p>
                     </div>
                     <div className={""}>
-                        <p className={"text-50-60-800 mb-3 text-blue-950"}><CountUp end={7} duration={3}/>+</p>
+                        <p className={"text-50-60-800 mb-3 text-blue-950"}><CountUp end={7} duration={5}/>+</p>
                         <p className={"text-18-26-500"}>successful projects</p>
                     </div>
                     <div className={""}>
-                        <p className={"text-50-60-800 mb-3 text-blue-950"}><CountUp end={75} duration={3}/>%</p>
+                        <p className={"text-50-60-800 mb-3 text-blue-950"}><CountUp end={75} duration={5}/>%</p>
                         <p className={"text-18-26-500"}>successful projects</p>
                     </div>
                 </div>

@@ -11,7 +11,7 @@ function Ten() {
                 className={"text-blue-550"}>happy clients</span></h2>
             <div className={"min-w-max"}>
                 <div className={'grid grid-cols-3 gap-5'}>
-                    <div className={"w-80"}>
+                    <div data-aos={"fade-up"} data-aos-duration={"800"} className={"w-80"}>
                         <div className="shadow-card py-10 px-7 h-full rounded-2xl text-center hover:bg-blue-550">
                             <div className={"mb-9"}>
                                 <Image src={Human22} alt={"human1"}/>
@@ -25,7 +25,7 @@ function Ten() {
                                 rapidly in a period of high growth.</p>
                         </div>
                     </div>
-                    <div className={"w-80"}>
+                    <div data-aos={"fade-up"} data-aos-duration={"1000"} className={"w-80"}>
                         <div className="shadow-card py-10 px-7 h-full rounded-2xl text-center hover:bg-blue-550">
                             <div className={"mb-9"}>
                                 <Image src={Human33} alt={"human1"}/>
@@ -39,7 +39,7 @@ function Ten() {
                                 rapidly in a period of high growth.</p>
                         </div>
                     </div>
-                    <div className={"w-80"}>
+                    <div data-aos={"fade-up"} data-aos-duration={"1200"} className={"w-80"}>
                         <div className="shadow-card py-10 px-7 h-full rounded-2xl text-center hover:bg-blue-550">
                             <div className={"mb-9"}>
                                 <Image src={Human11} alt={"human1"}/>

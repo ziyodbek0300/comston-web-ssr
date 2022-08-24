@@ -8,6 +8,7 @@ export default function AbsolutePart() {
         "py-5 xl:px-20 md:px-10 sm:px-2 mx-auto bg-white rounded-xl shadow-ab bg-white-700 w-2/3 absolute"
       }
       style={{ left: "15%", top: "85%" }}
+      data-aos={"fade-up"} data-aos-duration={"1400"}
     >
       <div className="container flex justify-between items-center xl:flex-row flex-col xl:text-left text-center">
         <div>

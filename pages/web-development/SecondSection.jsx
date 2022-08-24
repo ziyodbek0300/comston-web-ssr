@@ -15,7 +15,7 @@ function SecondSection() {
             <p className={"text-16-24-400 text-gray-450 text-center capitalize mb-10 lg:w-full w-[90%] mx-auto"}>Grow Your business with a
                 conversion-driven website </p>
             <div className={"grid lg:grid-cols-3 md:grid-cols-2 gap-8"}>
-                <div>
+                <div data-aos={"fade-up"} data-aos-duration={"800"}>
                     <div className={"mb-6 w-16 h-16 flex items-center justify-center"}>
                         <Image src={Icon1} className={""} alt={"telemedicine"}/>
                     </div>
@@ -27,7 +27,7 @@ function SecondSection() {
                         websites.
                     </p>
                 </div>
-                <div>
+                <div data-aos={"fade-up"} data-aos-duration={"800"}>
                     <div className={"mb-4 w-16 h-16  flex items-center justify-center"}>
                         <Image src={Icon2} className={""} alt={"telemedicine"}/>
                     </div>
@@ -39,7 +39,7 @@ function SecondSection() {
                         deserunt ullamco est sit aliqua
                     </p>
                 </div>
-                <div>
+                <div data-aos={"fade-up"} data-aos-duration={"800"}>
                     <div className={"mb-4 w-16 h-16  flex items-center justify-center"}>
                         <Image src={Icon3} className={""} alt={"telemedicine"}/>
                     </div>
@@ -51,7 +51,7 @@ function SecondSection() {
                         to increased user engagement and conversion.
                     </p>
                 </div>
-                <div>
+                <div data-aos={"fade-up"} data-aos-duration={"1000"}>
                     <div className={"mb-4 w-16 h-16  flex items-center justify-center"}>
                         <Image src={Icon4} className={""} alt={"telemedicine"}/>
                     </div>
@@ -63,7 +63,7 @@ function SecondSection() {
                         deserunt ullamco est sit aliqua
                     </p>
                 </div>
-                <div>
+                <div data-aos={"fade-up"} data-aos-duration={"1000"}>
                     <div className={"mb-4 w-16 h-16  flex items-center justify-center"}>
                         <Image src={Icon5} className={""} alt={"telemedicine"}/>
                     </div>
@@ -75,7 +75,7 @@ function SecondSection() {
                         deserunt ullamco est sit aliqua
                     </p>
                 </div>
-                <div>
+                <div data-aos={"fade-up"} data-aos-duration={"1000"}>
                     <div className={"mb-4 w-16 h-16  flex items-center justify-center"}>
                         <Image src={Icon6} className={""} alt={"telemedicine"}/>
                     </div>

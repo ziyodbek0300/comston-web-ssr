@@ -12,7 +12,7 @@ function ThirdSection() {
     return (<div className={"bg-blue-150 py-12 pb-32 relative"}>
             <div
                 className="container flex lg:flex-row flex-col gap-4 lg:text-left text-center justify-between items-center">
-                <div className={"w-full"}>
+                <div className={"w-full"} data-aos={"fade-up"} data-aos-duration={"800"}>
                     <h2 className={"text-40-56-700 mb-6 capitalize"}>Some of our humble <br/> <span
                         className={"text-blue-550"}>regonitions</span></h2>
                     <p className={"text-16-24-400 text-gray-450"}>
@@ -20,7 +20,7 @@ function ThirdSection() {
                         Discover channel host Peter Nielsen in our 9 years in business. You are in a good company!
                     </p>
                 </div>
-                <div className={"w-full text-right"}>
+                <div className={"w-full text-right"} data-aos={"fade-up"} data-aos-duration={"1000"}>
                     <div className={"w-2/3 lg:mr-0 ml-auto mr-auto grid grid-cols-3 gap-4 p-4"}>
                         <div><Image src={Logo1} alt={"Logo 1"}/></div>
                         <div><Image src={Logo2} alt={"Logo 1"}/></div>

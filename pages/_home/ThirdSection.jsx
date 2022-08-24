@@ -8,7 +8,7 @@ import Image from "next/image";
 
 function ThirdSection() {
     return (<div className={"container second-section-home"} style={{padding: "100px 20px"}}>
-        <div className={"md:pt-10"} style={{ width: '70%' }}>
+        <div className={"md:pt-10"} style={{ width: '70%' }} data-aos={"fade-up"} data-aos-duration={"1200"}>
             <h3 className={"text-30-44-700 capitalize mb-6"}>
                 {/* eslint-disable-next-line react/no-unescaped-entities */}
                 We've taken a <span className={"text-blue-550"}>founder-first</span> approach, building a program for
@@ -19,9 +19,9 @@ function ThirdSection() {
                 Our program is designed for ambitious entrepreneurs who want to build an incredible business that
                 disrupts the market without disrupting their life
             </p>
-            <Button text={"View Portfolio"} classes={"bg-blue-950 hover:bg-blue-1000"} />
+            <Button duration={"1200"} text={"View Portfolio"} classes={"bg-blue-950 hover:bg-blue-1000"} />
         </div>
-        <div className={"w-full grid grid-cols-2 gap-7"}>
+        <div className={"w-full grid grid-cols-2 gap-7 "} data-aos={"fade-up"} data-aos-duration={"800"}>
             <div className={"rounded-lg shadow-b p-6"}>
                 <Image src={Computer} alt="computer" className={"mb-5"}/>
                 <p className="card-title text-18-26-500 mb-2">Fully Remote</p>

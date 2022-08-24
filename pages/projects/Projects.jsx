@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import Image from "next/image";
 import Img1 from "../../public/project-page images/image 44.png";
 import Img2 from "../../public/project-page images/Rectangle 11 (1).png";
@@ -9,8 +9,17 @@ import Img6 from "../../public/project-page images/Rectangle 11.png";
 import Navbar from "../../components/navbar";
 import Forteen from "../_home/Forteen";
 import Footer from "../../components/footer";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function FirstSection() {
+
+    useEffect(() => {
+        AOS.init()
+        AOS.refresh()
+        console.log("a")
+    }, []);
+
     return (<div>
             <Navbar/>
             <div className={"py-12 mb-10"}>
@@ -23,15 +32,15 @@ export default function FirstSection() {
                     facilisi praesent ipsum, urna, <br/> faucibus sed id dictumst. Cursus
                     laoreet
                 </p>
-                <div className="grid grid-cols-2 gap-7 container">
-                    <div className="grid gap-7">
+                <div className="grid lg:grid-cols-2 grid-cols-1 gap-7 container">
+                    <div data-aos={"fade-up"} data-aos-duration={"800"} className="grid gap-7">
                         <Image src={Img1} alt={"human 1"}/>
                         <div className="flex gap-7">
                             <Image src={Img3} alt={"human 1"}/>
                             <Image src={Img4} alt={"human 1"}/>
                         </div>
                     </div>
-                    <div className="grid gap-7">
+                    <div data-aos={"fade-up"} data-aos-duration={"1200"} className="grid gap-7">
                         <div className="flex gap-7">
                             <Image src={Img6} alt={"human 1"}/>
                             <Image src={Img2} alt={"human 1"}/>
@@ -42,7 +51,6 @@ export default function FirstSection() {
             </div>
             <div className="mb-14">
                 <Forteen/>
-
             </div>
             <Footer/>
         </div>);

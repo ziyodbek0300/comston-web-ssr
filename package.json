@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@react-hook/resize-observer": "^1.2.6",
-    "aos": "2.0.0",
+    "aos": "^2.3.4",
     "firebase": "^9.9.2",
     "firebase-admin": "^11.0.1",
     "firebase-functions": "^3.22.0",

@@ -14,7 +14,7 @@ function SeventhSection() {
           Our website{" "}
           <span className={"text-blue-550"}>Design & development</span> Process
         </h2>
-        <div className="lg:px-20 mx-auto mb-12 flex lg:flex-row flex-col lg:max-w-full max-w-2xl mx-auto lg:gap-8 gap-4">
+        <div data-aos={"fade-up"} data-aos-duration={"800"} className="lg:px-20 mx-auto mb-12 flex lg:flex-row flex-col lg:max-w-full max-w-2xl mx-auto lg:gap-8 gap-4">
           <div className={"w-full"}>
             <Image src={Img1} alt={"goals"} />
           </div>
@@ -39,7 +39,7 @@ function SeventhSection() {
             </a>
           </div>
         </div>
-        <div className="lg:px-20 mx-auto mb-12 flex lg:flex-row flex-col-reverse lg:max-w-full max-w-2xl mx-auto lg:gap-8 gap-4">
+        <div data-aos={"fade-up"} data-aos-duration={"1000"} className="lg:px-20 mx-auto mb-12 flex lg:flex-row flex-col-reverse lg:max-w-full max-w-2xl mx-auto lg:gap-8 gap-4">
           <div className={"w-full "}>
             <h3 className={"text-30-44-600 capitalize"}>View our case study</h3>
             <p className={"text-16-24-400 text-gray-450 pt-3"}>
@@ -64,7 +64,7 @@ function SeventhSection() {
             <Image src={Img1} className={"w-full"} alt={"goals"} />
           </div>
         </div>
-        <div className="lg:px-20 mx-auto mb-12 flex lg:flex-row flex-col lg:max-w-full max-w-2xl mx-auto lg:gap-8 gap-4">
+        <div data-aos={"fade-up"} data-aos-duration={"1200"} className="lg:px-20 mx-auto mb-12 flex lg:flex-row flex-col lg:max-w-full max-w-2xl mx-auto lg:gap-8 gap-4">
           <div className={"w-full"}>
             <Image src={Img1} alt={"goals"} />
           </div>

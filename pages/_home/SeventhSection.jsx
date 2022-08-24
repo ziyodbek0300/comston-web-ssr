@@ -9,7 +9,7 @@ import Icon6 from '../../public/Build/Vector-1.svg';
 
 function SeventhSection() {
     return (
-        <div className={"container"}>
+        <div className={"container"} data-aos={"fade-up"} data-aos-duration={"800"}>
             <div className={"py-24"}>
                 <h2 className={"capitalize text-32-44-700 text-center mb-14"}>Industries we’ve <span
                     className={"text-blue-550"}>excelled in</span></h2>

@@ -20,7 +20,7 @@ function FourthSection() {
                     </div>
                 </div>
                 <div className={"card flex lg:flex-row flex-col items-center mb-24 justify-between lg:gap-60 gap-10"}>
-                    <div className={"p-5 w-full"}>
+                    <div data-aos={"fade-up"} data-aos-duration={"800"} className={"p-5 w-full"}>
                         <div className={"card-header flex gap-4 mb-6"}>
                             <div
                                 className="text-16-24-400 bg-blue-950 text-white h-10 rounded-full w-10 flex justify-center items-center">01
@@ -33,16 +33,16 @@ function FourthSection() {
                             deciding on the best strategy for online success.
                         </div>
                     </div>
-                    <div className={"w-full"}>
+                    <div data-aos={"fade-up"} data-aos-duration={"800"} className={"w-full"}>
                         <Image src={Img1} className={'w-100'} alt={'goals'}/>
                     </div>
                 </div>
 
                 <div className={"card flex lg:flex-row flex-col-reverse items-center mb-24 justify-between lg:gap-60 gap-10"}>
-                    <div className={"w-full"}>
+                    <div data-aos={"fade-up"} data-aos-duration={"800"} className={"w-full"}>
                         <Image src={Img2} className={'w-100'} alt={'ideation'}/>
                     </div>
-                    <div className={"p-5 w-full"}>
+                    <div data-aos={"fade-up"} data-aos-duration={"800"} className={"p-5 w-full"}>
                         <div className={"card-header flex gap-4 mb-6"}>
                             <div
                                 className="text-16-24-400 bg-blue-950 text-white h-10 rounded-full w-10 flex justify-center items-center">02
@@ -59,7 +59,7 @@ function FourthSection() {
                 </div>
 
                 <div className={"card flex lg:flex-row flex-col items-center mb-24 justify-between lg:gap-60 gap-10"}>
-                    <div className={"p-5 w-full"}>
+                    <div data-aos={"fade-up"} data-aos-duration={"800"} className={"p-5 w-full"}>
                         <div className={"card-header flex gap-4 mb-6"}>
                             <div
                                 className="text-16-24-400 bg-blue-950 text-white h-10 rounded-full w-10 flex justify-center items-center">03
@@ -72,16 +72,16 @@ function FourthSection() {
                             deciding on the best strategy for online success.
                         </div>
                     </div>
-                    <div className={"w-full"}>
+                    <div data-aos={"fade-up"} data-aos-duration={"800"} className={"w-full"}>
                         <Image src={Img3} className={'w-100'} alt={'ideation'}/>
                     </div>
                 </div>
 
                 <div className={"card flex lg:flex-row flex-col-reverse items-center mb-24 justify-between lg:gap-60 gap-10"}>
-                    <div className={"w-full"}>
+                    <div data-aos={"fade-up"} data-aos-duration={"800"} className={"w-full"}>
                         <Image src={Img4} className={'w-100'} alt={'ideation'}/>
                     </div>
-                    <div className={"p-5 w-full"}>
+                    <div data-aos={"fade-up"} data-aos-duration={"800"} className={"p-5 w-full"}>
                         <div className={"card-header flex gap-4 mb-6"}>
                             <div
                                 className="text-16-24-400 bg-blue-950 text-white h-10 rounded-full w-10 flex justify-center items-center">04
@@ -98,7 +98,7 @@ function FourthSection() {
                 </div>
 
                 <div className={"card flex lg:flex-row flex-col items-center mb-24 justify-between lg:gap-60 gap-10"}>
-                    <div className={"p-5 w-full"}>
+                    <div data-aos={"fade-up"} data-aos-duration={"800"} className={"p-5 w-full"}>
                         <div className={"card-header flex gap-4 mb-6"}>
                             <div
                                 className="text-16-24-400 bg-blue-950 text-white h-10 rounded-full w-10 flex justify-center items-center">05
@@ -112,7 +112,7 @@ function FourthSection() {
                             you after the official closure
                         </div>
                     </div>
-                    <div className={"w-full"}>
+                    <div data-aos={"fade-up"} data-aos-duration={"800"} className={"w-full"}>
                         <Image src={Img5} className={'w-100'} alt={'goals'}/>
                     </div>
                 </div>

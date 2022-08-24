@@ -6,7 +6,7 @@ import Human3 from '../../public/humans/image 35.png';
 import Human4 from '../../public/humans/image 36.png';
 
 function EighthSection() {
-    return (<div className={"container py-20"}>
+    return (<div className={"container py-20"} data-aos={"fade-up"} data-aos-duration={"1000"}>
         <h2 className={"capitalize text-40-56-700 text-center mb-12"}>Introducing company <span
             className={"text-blue-550"}>leadership</span></h2>
         <div className="overflow-auto mb-16">

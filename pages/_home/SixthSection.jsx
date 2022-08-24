@@ -23,12 +23,12 @@ function SixthSection() {
         </div>
         <div className={"mt-8 p-0 m-0"}>
             <div className={"lg:flex grid sm:grid-cols-3 grid-cols-2 lg:text-left text-center items-center container p-0 justify-between"}>
-                <div><Image src={P1} className={"opacity-60 hover:opacity-100 hover:grayscale-0 transition-all grayscale"} alt={"hubspot"}/></div>
-                <div><Image src={P2} className={"opacity-40 hover:opacity-100 hover:grayscale-0 transition-all grayscale"} alt={"hubspot"}/></div>
-                <div><Image src={P3} className={"opacity-40 hover:opacity-100 hover:grayscale-0 transition-all grayscale"} alt={"hubspot"}/></div>
-                <div><Image src={P4} className={"opacity-60 hover:opacity-100 hover:grayscale-0 transition-all grayscale"} alt={"hubspot"}/></div>
-                <div><Image src={P5} className={"opacity-40 hover:opacity-100 hover:grayscale-0 transition-all grayscale"} alt={"hubspot"}/></div>
-                <div><Image src={P6} className={"opacity-40 hover:opacity-100 hover:grayscale-0 transition-all grayscale"} alt={"hubspot"}/></div>
+                <div data-aos={"fade-up"} data-aos-duration={"300"}><Image src={P1} className={"opacity-60 hover:opacity-100 hover:grayscale-0 transition-all grayscale"} alt={"hubspot"}/></div>
+                <div data-aos={"fade-up"} data-aos-duration={"500"}><Image src={P2} className={"opacity-40 hover:opacity-100 hover:grayscale-0 transition-all grayscale"} alt={"hubspot"}/></div>
+                <div data-aos={"fade-up"} data-aos-duration={"700"}><Image src={P3} className={"opacity-40 hover:opacity-100 hover:grayscale-0 transition-all grayscale"} alt={"hubspot"}/></div>
+                <div data-aos={"fade-up"} data-aos-duration={"900"}><Image src={P4} className={"opacity-60 hover:opacity-100 hover:grayscale-0 transition-all grayscale"} alt={"hubspot"}/></div>
+                <div data-aos={"fade-up"} data-aos-duration={"1100"}><Image src={P5} className={"opacity-40 hover:opacity-100 hover:grayscale-0 transition-all grayscale"} alt={"hubspot"}/></div>
+                <div data-aos={"fade-up"} data-aos-duration={"1300"}><Image src={P6} className={"opacity-40 hover:opacity-100 hover:grayscale-0 transition-all grayscale"} alt={"hubspot"}/></div>
             </div>
         </div>
     </div>);

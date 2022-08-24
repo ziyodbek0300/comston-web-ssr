@@ -39,7 +39,7 @@ function Thirteen() {
                 discuss your idea!</h2>
             <div className={"py-5"}>
                 <div className="accordion">
-                    <div className="accordion-item mb-4 shadow-a rounded-lg">
+                    <div data-aos={"fade-up"} data-aos-duration={"400"} className="accordion-item mb-4 shadow-a rounded-lg">
                         <div onClick={() => handleCollapse(0)}
                              className="accordion-header flex justify-between items-center cursor-pointer hover:bg-blue-150 rounded-t-lg p-4">
                             <p className={"text-18-26-500"}>How can I protect my idea from ...</p>
@@ -54,7 +54,7 @@ function Thirteen() {
                                 can take from 3-4 months.</p>
                         </div>
                     </div>
-                    <div className="accordion-item mb-4 shadow-a rounded-lg">
+                    <div data-aos={"fade-up"} data-aos-duration={"500"} className="accordion-item mb-4 shadow-a rounded-lg">
                         <div onClick={() => handleCollapse(1)}
                              className="accordion-header flex justify-between items-center cursor-pointer hover:bg-blue-150 rounded-t-lg p-4">
                             <p className={"text-18-26-500"}>How can I protect my idea from ...</p>
@@ -69,7 +69,7 @@ function Thirteen() {
                                 can take from 3-4 months.</p>
                         </div>
                     </div>
-                    <div className="accordion-item mb-4 shadow-a rounded-lg">
+                    <div data-aos={"fade-up"} data-aos-duration={"700"} className="accordion-item mb-4 shadow-a rounded-lg">
                         <div onClick={() => handleCollapse(2)}
                              className="accordion-header flex justify-between items-center cursor-pointer hover:bg-blue-150 rounded-t-lg p-4">
                             <p className={"text-18-26-500"}>How can I protect my idea from ...</p>
@@ -84,7 +84,7 @@ function Thirteen() {
                                 can take from 3-4 months.</p>
                         </div>
                     </div>
-                    <div className="accordion-item mb-4 shadow-a rounded-lg">
+                    <div data-aos={"fade-up"} data-aos-duration={"800"} className="accordion-item mb-4 shadow-a rounded-lg">
                         <div onClick={() => handleCollapse(3)}
                              className="accordion-header flex justify-between items-center cursor-pointer hover:bg-blue-150 rounded-t-lg p-4">
                             <p className={"text-18-26-500"}>How can I protect my idea from ...</p>
@@ -99,7 +99,7 @@ function Thirteen() {
                                 can take from 3-4 months.</p>
                         </div>
                     </div>
-                    <div className="accordion-item mb-4 shadow-a rounded-lg">
+                    <div data-aos={"fade-up"} data-aos-duration={"900"} className="accordion-item mb-4 shadow-a rounded-lg">
                         <div onClick={() => handleCollapse(4)}
                              className="accordion-header flex justify-between items-center cursor-pointer hover:bg-blue-150 rounded-t-lg p-4">
                             <p className={"text-18-26-500"}>How can I protect my idea from ...</p>

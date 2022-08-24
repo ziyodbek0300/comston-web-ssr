@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import Image from "next/image";
 import Img1 from '../../public/blog/rectangle6.png';
 import Img2 from "../../public/blog/rectangle.png";
@@ -9,8 +9,17 @@ import Img6 from '../../public/blog/rectangle5.png';
 import Link from "next/link";
 import Navbar from "../../components/navbar";
 import Footer from "../../components/footer";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function FirstSection() {
+
+    useEffect(() => {
+        AOS.init()
+        AOS.refresh()
+        console.log("a")
+    }, []);
+
     return (
         <>
             <Navbar/>
@@ -30,7 +39,7 @@ export default function FirstSection() {
                         </p>
                     </div>
                     <div className={"blog-cards grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-x-7 gap-y-12"}>
-                        <Link href={'/blog/1'}>
+                        <Link data-aos={"fade-up"} data-aos-duration={"800"} href={'/blog/1'}>
                             <div className={"card shadow-bl rounded-2xl"}>
                                 <div className="card-header rounded-t-full w-full">
                                     <Image layout={"responsive"} src={Img1} alt={'card-manufacturing'}/>
@@ -45,7 +54,7 @@ export default function FirstSection() {
                                 </div>
                             </div>
                         </Link>
-                        <div className={"card shadow-bl rounded-2xl"}>
+                        <div data-aos={"fade-up"} data-aos-duration={"800"} className={"card shadow-bl rounded-2xl"}>
                             <div className="card-header rounded-t-full">
                                 <Image layout={"responsive"} src={Img2} className={"w-full"} alt={'card-manufacturing'}/>
                             </div>
@@ -58,7 +67,7 @@ export default function FirstSection() {
                                 <p className={"text-16-24-400 text-gray-450"}>3 days ago</p>
                             </div>
                         </div>
-                        <div className={"card shadow-bl rounded-2xl"}>
+                        <div data-aos={"fade-up"} data-aos-duration={"800"} className={"card shadow-bl rounded-2xl"}>
                             <div className="card-header rounded-t-full">
                                 <Image layout={"responsive"} src={Img3} className={"w-full"} alt={'card-manufacturing'}/>
                             </div>
@@ -71,7 +80,7 @@ export default function FirstSection() {
                                 <p className={"text-16-24-400 text-gray-450"}>3 days ago</p>
                             </div>
                         </div>
-                        <div className={"card shadow-bl rounded-2xl"}>
+                        <div data-aos={"fade-up"} data-aos-duration={"1000"} className={"card shadow-bl rounded-2xl"}>
                             <div className="card-header rounded-t-full">
                                 <Image layout={"responsive"} src={Img4} className={"w-full"} alt={'card-manufacturing'}/>
                             </div>
@@ -85,7 +94,7 @@ export default function FirstSection() {
                                 <p className={"text-16-24-400 text-gray-450"}>3 days ago</p>
                             </div>
                         </div>
-                        <div className={"card shadow-bl rounded-2xl"}>
+                        <div data-aos={"fade-up"} data-aos-duration={"1000"} className={"card shadow-bl rounded-2xl"}>
                             <div className="card-header rounded-t-full">
                                 <Image layout={"responsive"} src={Img5} className={"w-full"} alt={'card-manufacturing'}/>
                             </div>
@@ -99,7 +108,7 @@ export default function FirstSection() {
                                 <p className={"text-16-24-400 text-gray-450"}>3 days ago</p>
                             </div>
                         </div>
-                        <div className={"card shadow-bl rounded-2xl"}>
+                        <div data-aos={"fade-up"} data-aos-duration={"1000"} className={"card shadow-bl rounded-2xl"}>
                             <div className="card-header rounded-t-full">
                                 <Image layout={"responsive"} src={Img6} className={"w-full"} alt={'card-manufacturing'}/>
                             </div>
@@ -112,7 +121,7 @@ export default function FirstSection() {
                                 <p className={"text-16-24-400 text-gray-450"}>3 days ago</p>
                             </div>
                         </div>
-                        <div className={"card shadow-bl rounded-2xl"}>
+                        <div data-aos={"fade-up"} data-aos-duration={"1200"} className={"card shadow-bl rounded-2xl"}>
                             <div className="card-header rounded-t-full">
                                 <Image layout={"responsive"} src={Img4} className={"w-full"} alt={'card-manufacturing'}/>
                             </div>
@@ -126,7 +135,7 @@ export default function FirstSection() {
                                 <p className={"text-16-24-400 text-gray-450"}>3 days ago</p>
                             </div>
                         </div>
-                        <div className={"card shadow-bl rounded-2xl"}>
+                        <div data-aos={"fade-up"} data-aos-duration={"1200"} className={"card shadow-bl rounded-2xl"}>
                             <div className="card-header rounded-t-full">
                                 <Image layout={"responsive"} src={Img5} className={"w-full"} alt={'card-manufacturing'}/>
                             </div>
@@ -140,7 +149,7 @@ export default function FirstSection() {
                                 <p className={"text-16-24-400 text-gray-450"}>3 days ago</p>
                             </div>
                         </div>
-                        <div className={"card shadow-bl rounded-2xl"}>
+                        <div data-aos={"fade-up"} data-aos-duration={"1200"} className={"card shadow-bl rounded-2xl"}>
                             <div className="card-header rounded-t-full">
                                 <Image layout={"responsive"} src={Img6} className={"w-full"} alt={'card-manufacturing'}/>
                             </div>

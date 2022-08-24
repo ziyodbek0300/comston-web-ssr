@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import Navbar from '../../components/navbar'
 import FirstSection from './FirstSection'
 import SecondSection from './SecondSection'
@@ -10,8 +10,18 @@ import SeventhSection from './SeventhSection'
 import Footer from '../../components/footer/Footer'
 import Ten from "../_home/Ten";
 import Forteen from "../_home/Forteen";
+import AOS from "aos";
+
+import "aos/dist/aos.css";
 
 export default function index() {
+
+    useEffect(() => {
+        AOS.init()
+        AOS.refresh()
+        console.log("a")
+    }, []);
+
     return (
         <div>
             <Navbar/>

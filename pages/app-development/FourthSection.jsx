@@ -13,7 +13,7 @@ export default function FourthSection() {
                     incorporate the latest features in your app.
                 </p>
                 <div className={"grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8"}>
-                    <div className="shadow-ca h-full bg-card-gr rounded-xl p-6">
+                    <div data-aos={"fade-up"} data-aos-duration={"800"} className="shadow-ca h-full bg-card-gr rounded-xl p-6">
                         <p className={"text-32-44-700 mb-12"}>01</p>
                         <p className={"text-20-24-700 uppercase mb-6"}>
                             Discovery Workshop
@@ -25,7 +25,7 @@ export default function FourthSection() {
                             preferences, consult with all the key stakeholders and finally
                         </p>
                     </div>
-                    <div className="colored-card shadow-ca h-full bg-card-gr rounded-xl p-6">
+                    <div data-aos={"fade-up"} data-aos-duration={"800"} className="colored-card shadow-ca h-full bg-card-gr rounded-xl p-6">
                         <p className={"text-32-44-700 mb-12"}>02</p>
                         <p className={"text-20-24-700 uppercase mb-6"}>
                             Planning
@@ -37,7 +37,7 @@ export default function FourthSection() {
                             preferences, consult with all the key stakeholders and finally
                         </p>
                     </div>
-                    <div className="shadow-ca h-full bg-card-gr rounded-xl p-6">
+                    <div data-aos={"fade-up"} data-aos-duration={"800"} className="shadow-ca h-full bg-card-gr rounded-xl p-6">
                         <p className={"text-32-44-700 mb-12"}>03</p>
                         <p className={"text-20-24-700 uppercase mb-6"}>
                             Design
@@ -49,7 +49,7 @@ export default function FourthSection() {
                             preferences, consult with all the key stakeholders and finally
                         </p>
                     </div>
-                    <div className="shadow-ca h-full bg-card-gr rounded-xl p-6">
+                    <div data-aos={"fade-up"} data-aos-duration={"1000"} className="shadow-ca h-full bg-card-gr rounded-xl p-6">
                         <p className={"text-32-44-700 mb-12"}>04</p>
                         <p className={"text-20-24-700 uppercase mb-6"}>
                             Design
@@ -61,7 +61,7 @@ export default function FourthSection() {
                             preferences, consult with all the key stakeholders and finally
                         </p>
                     </div>
-                    <div className="shadow-ca h-full bg-card-gr rounded-xl p-6">
+                    <div data-aos={"fade-up"} data-aos-duration={"1000"} className="shadow-ca h-full bg-card-gr rounded-xl p-6">
                         <p className={"text-32-44-700 mb-12"}>05</p>
                         <p className={"text-20-24-700 uppercase mb-6"}>
                             Design
@@ -73,7 +73,7 @@ export default function FourthSection() {
                             preferences, consult with all the key stakeholders and finally
                         </p>
                     </div>
-                    <div className="shadow-ca h-full bg-card-gr rounded-xl p-6">
+                    <div data-aos={"fade-up"} data-aos-duration={"1000"} className="shadow-ca h-full bg-card-gr rounded-xl p-6">
                         <p className={"text-32-44-700 mb-12"}>05</p>
                         <p className={"text-20-24-700 uppercase mb-6"}>
                             Design
