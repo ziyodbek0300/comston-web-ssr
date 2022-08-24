@@ -60,8 +60,10 @@ function Footer() {
                     <li className={"text-white mb-3 text-16-24-400"}><Image width={20} height={20} src={FImage3}
                                                                             alt={"location-icon"}/>&nbsp; &nbsp;<span
                         className={"text-white"}>
-                        <a target={"_blank"}
-                        href="https://www.google.com/maps/place/8010+Sunport+Dr+STE+122,+Orlando,+FL+32809,+USA/@28.4503038,-81.3777283,17z/data=!3m1!4b1!4m5!3m4!1s0x88e77cfcf51958df:0xa3980848743cd73e!8m2!3d28.4502991!4d-81.3755396">
+                        <a
+                            href="https://www.google.com/maps/place/8010+Sunport+Dr+STE+122,+Orlando,+FL+32809,+USA/@28.4503038,-81.3777283,17z/data=!3m1!4b1!4m5!3m4!1s0x88e77cfcf51958df:0xa3980848743cd73e!8m2!3d28.4502991!4d-81.3755396"
+                            target={"#"}
+                        >
                         8010 Sunport Dr., Ste
                         122, Orlando, Florida, 32809
                     </a></span>
