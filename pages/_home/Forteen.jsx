@@ -5,8 +5,53 @@ import Time from "../../public/icons/Edit/Vector.svg";
 import Hand from "../../public/icons/Edit/Vector-1.svg";
 import Guaranteed from "../../public/icons/Office/Vector.svg";
 import Button from "../../components/button";
+import axios from "axios";
+import {toast} from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
 
 function Fourteen() {
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        const chatIds = [10435088226, 631087023, 1152682790];
+        console.log(e.target[0])
+        console.log(e.target[1])
+        console.log(e.target[2])
+        console.log(e.target[3])
+        console.log(e.target[4])
+        console.log(e.target[4])
+        let text = `From user form: \n\n👨: ${e.target[0].value}\n📥: ${e.target[1].value}\n📞: ${e.target[2].value}\n🖇: ${e.target[3].value}`;
+        // axios.get(`https://api.telegram.org/bot5169605455:AAHvb8lJ27GQLdB0lKp19Mbwa6jZYLwnBj0/sendMessage?chat_id=${chatIds[0]}&text=${encodeURIComponent(text)}`)
+        // axios.get(`https://api.telegram.org/bot5169605455:AAHvb8lJ27GQLdB0lKp19Mbwa6jZYLwnBj0/sendMessage?chat_id=${chatIds[1]}&text=${encodeURIComponent(text)}`)
+        axios.get(`https://api.telegram.org/bot5169605455:AAHvb8lJ27GQLdB0lKp19Mbwa6jZYLwnBj0/sendMessage?chat_id=${chatIds[2]}&text=${encodeURIComponent(text)}`).then(res => {
+            console.log("asd")
+            alert("asd")
+
+            toast("Your information sent!", {
+                position: "top-right",
+                autoClose: 5000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+            });
+
+            setTimeout(() => {
+                toast("We will contact you very soon!", {
+                    position: "top-right",
+                    autoClose: 5000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                });
+            }, 1000)
+
+        })
+    }
+
     return (
         <div className={"container"}>
             <div className={"py-12"}>
@@ -65,16 +110,17 @@ function Fourteen() {
                             </div>
                         </div>
                     </div>
-                    <div data-aos={"fade-up"} data-aos-duration={"1200"} className={"lg:w-[45%] w-full sm:w-2/3 mx-auto lg:m-0"}>
-                        <form className={"md:p-10 p-4 shadow-a rounded-2xl"}>
+                    <div data-aos={"fade-up"} data-aos-duration={"1200"}
+                         className={"lg:w-[45%] w-full sm:w-2/3 mx-auto lg:m-0"}>
+                        <form onSubmit={handleSubmit} className={"md:p-10 p-4 shadow-a rounded-2xl"}>
                             <div className={"mb-4"}>
                                 <label className={"text-16-20-500"} htmlFor="name">Your Name</label>
-                                <input type="text" id={"name"} placeholder={"John Smith"}
+                                <input required type="text" id={"name"} placeholder={"John Smith"}
                                        className={"bg-gray-350 mt-2 p-3 rounded outline-blue-550 w-full"}/>
                             </div>
                             <div className={"mb-4"}>
                                 <label className={"text-16-20-500"} htmlFor="email">Your Email</label>
-                                <input type="text" id={"email"} placeholder={"johnsmith@example.com"}
+                                <input required type="text" id={"email"} placeholder={"johnsmith@example.com"}
                                        className={"bg-gray-350 mt-2 p-3 rounded outline-blue-550 w-full"}/>
                             </div>
                             <div className={"mb-4"}>
@@ -89,10 +135,11 @@ function Fourteen() {
                             </div>
                             <div className={"mb-4"}>
                                 <input type="checkbox" id={"isProtected"} className={"border border-blue-550"}/>
-                                <label className={"ml-3 text-16-20-500"} htmlFor="isProtected">Protect my project idea</label>
+                                <label className={"ml-3 text-16-20-500"} htmlFor="isProtected">Protect my project
+                                    idea</label>
                             </div>
                             <div className="mb-4">
-                                <Button duration={"0"} classes={"bg-blue-550 w-full"} text={"Apply"} />
+                                <Button type={"submit"} duration={"0"} classes={"bg-blue-550 w-full"} text={"Apply"}/>
                             </div>
                         </form>
                     </div>

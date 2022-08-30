@@ -10,7 +10,7 @@ function Footer() {
     return (<div className={"bg-blue-950 py-16 text-white"}>
         <div className={"container flex lg:flex-row flex-col gap-10 justify-between"}>
             <div className={"w-full"}>
-                <div className={"mb-4"}>
+                <div className={"pb-4"}>
                     <Image src={Logo} alt={"Logo"}/>
                 </div>
                 <p className={"text-16-24-400 text-white font-extralight"}>© 2022 All rights reserved Comston

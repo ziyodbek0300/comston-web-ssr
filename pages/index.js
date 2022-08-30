@@ -2,6 +2,7 @@ import Head from 'next/head'
 import HomePage from "./_home";
 import Navbar from "../components/navbar";
 import Script from "next/script";
+import {ToastContainer} from "react-toastify";
 
 export default function Home() {
     return (<div>
@@ -14,6 +15,7 @@ export default function Home() {
         </Head>
         <Navbar/>
         <main>
+            <ToastContainer/>
             <HomePage/>
         </main>
 

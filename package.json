@@ -11,6 +11,7 @@
   "dependencies": {
     "@react-hook/resize-observer": "^1.2.6",
     "aos": "^2.3.4",
+    "axios": "^0.27.2",
     "firebase": "^9.9.2",
     "firebase-admin": "^11.0.1",
     "firebase-functions": "^3.22.0",
@@ -18,7 +19,8 @@
     "next": "12.2.5",
     "react": "18.2.0",
     "react-countup": "^6.3.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-toastify": "^9.0.8"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.8",
