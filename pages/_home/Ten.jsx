@@ -17,12 +17,9 @@ function Ten() {
                                 <Image src={Human22} alt={"human1"}/>
                             </div>
                             {/* eslint-disable-next-line react/no-unescaped-entities */}
-                            <p className={"text-20-26-500 mb-5"}>“Comston has been an integral part of Aura's growth to
-                                millions of users.”</p>
-                            <p className={"text-18-26-500 mb-9 text-blue-550"}>Co-founder / CEO, Aura Health</p>
-                            <p className={"text-16-24-400"}>Aura used Comston to conduct rigorous A/B testing and
-                                iterate
-                                rapidly in a period of high growth.</p>
+                            <p className={"text-20-26-500 mb-5"}>"I like how their dev team is a subject matter expert on anything tech related...Best dev company..."</p>
+                            <p className={"text-18-26-500 mb-9 text-blue-550"}>CEO, D.B. Taxi</p>
+                            <p className={"text-16-24-400"}>D.B. Taxi benefitted from Comston&apos;s Web Development and Marketing services</p>
                         </div>
                     </div>
                     <div data-aos={"fade-up"} data-aos-duration={"1000"} className={"w-80"}>
@@ -31,12 +28,9 @@ function Ten() {
                                 <Image src={Human33} alt={"human1"}/>
                             </div>
                             {/* eslint-disable-next-line react/no-unescaped-entities */}
-                            <p className={"text-20-26-500 mb-5"}>“Comston has been an integral part of Aura's growth to
-                                millions of users.”</p>
-                            <p className={"text-18-26-500 mb-9 text-blue-550"}>Co-founder / CEO, Aura Health</p>
-                            <p className={"text-16-24-400"}>Aura used Comston to conduct rigorous A/B testing and
-                                iterate
-                                rapidly in a period of high growth.</p>
+                            <p className={"text-20-26-500 mb-5"}>"Our company scaled quite a bit and operations improved significantly after we collaborated with Comston."</p>
+                            <p className={"text-18-26-500 mb-9 text-blue-550"}>Operations Manager, Kings Mountain National Carriers</p>
+                            <p className={"text-16-24-400"}>All-in-one web/mobile ERP software for KMNC operations.</p>
                         </div>
                     </div>
                     <div data-aos={"fade-up"} data-aos-duration={"1200"} className={"w-80"}>
@@ -45,13 +39,9 @@ function Ten() {
                                 <Image src={Human11} alt={"human1"}/>
                             </div>
                             {/* eslint-disable-next-line react/no-unescaped-entities */}
-                            <p className={"text-20-26-500 mb-5"}>"Comston" combination of prebuilt and custom options
-                                made it a good fit that was in my price range, as opposed to more traditional custom
-                                development shops.”</p>
-                            <p className={"text-18-26-500 mb-9 text-blue-550"}>Co-founder / CEO, Aura Health</p>
-                            <p className={"text-16-24-400"}>Aura used Comston to conduct rigorous A/B testing and
-                                iterate
-                                rapidly in a period of high growth.</p>
+                            <p className={"text-20-26-500 mb-5"}>"I appreciate how they approach their customers. There was no trouble in communication and delivery of the service."</p>
+                            <p className={"text-18-26-500 mb-9 text-blue-550"}>CEO, PR LLC</p>
+                            <p className={"text-16-24-400"}>Full-scale digital transformation with an ERP system and a mobile management software.</p>
                         </div>
                     </div>
                 </div>

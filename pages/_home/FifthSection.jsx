@@ -251,26 +251,25 @@ function FifthSection() {
                 </div>
             </div>
         </> : <>
+        {/* enterprise formula */}
             <div className={"lg:flex hidden flex-col"}>
                 <div className={"flex text-left"}>
                     <div className={"w-full px-5 flex items-end"}>
-                        <p className={"text-24-30-700 mb-5 uppercase mx-3"}>Week 1 E</p>
+                        <p className={"text-24-30-700 mb-5 uppercase mx-3"}>Week 1</p>
                     </div>
                     <div className={"w-full px-5"}>
-                        <p className={"text-20-24-700 mb-3"}>Research + Proposal E</p>
+                        <p className={"text-20-24-700 mb-3"}>Research + Proposal</p>
                         <p className={"text-16-24-400 mb-16"}>
-                            Research and document industry leading practice and approach for proposal delivery E
+                        Research and document industry leading practice and approach for proposal delivery
                         </p>
                     </div>
                     <div className={"w-full px-5 flex items-end"}>
-                        <p className={"text-24-30-700 mb-5 uppercase mx-3"}>Week 3 and 4 E</p>
+                        <p className={"text-24-30-700 mb-5 uppercase mx-3"}>Week 3 and 4</p>
                     </div>
                     <div className={"w-full px-5"}>
-                        <p className={"text-20-24-700 mb-3"}>Development + Testing E</p>
+                        <p className={"text-20-24-700 mb-3"}>Development + Testing</p>
                         <p className={"text-16-24-400 mb-16"}>
-                            Typical Development process takes 2-3 months with 1 month of testing depending on the
-                            scale of
-                            the project
+                        Typical Development process takes 4-6 months with 1 month of testing depending on the scale of the project 
                         </p>
                     </div>
                     <div className={"w-full px-5 flex items-end"}>
@@ -291,7 +290,11 @@ function FifthSection() {
                         </div>
                         <p className={"text-20-24-700 mt-14 mb-3"}>Ideas + Discovery</p>
                         <p className={"text-16-24-400"}>
-                            Discuss and discover what you would like to accomplish through application development
+                        Discuss and discover what you would like to accomplish through Mobile Management Software for your business:
+                        <br/>
+                        -current software infrastructure
+                        <br/>
+                        -personal capabilities
                         </p>
                     </div>
                     <div className={"w-full relative p-5"}>
@@ -317,16 +320,14 @@ function FifthSection() {
                                 </div>
                             </div>
                         </div>
-                        <p className={"text-20-24-700 mt-14 mb-3"}>Proof by UI/UX Prototype</p>
+                        <p className={"text-20-24-700 mt-14 mb-3"}>Technical Documentation</p>
                         <p className={"text-16-24-400"}>
-                            Prototype Development including the initial feature set from first 2 weeks of Discovery
-                            and
-                            Research
+                        Technical Documentation for Enterprise software to be developed, Developer Team Assignment and Start Development
                         </p>
                     </div>
                     <div className={"w-full relative p-5"}>
                         {/*<div>02</div>*/}
-                        <p className={"text-24-30-700 mb-5 uppercase mt-6 mx-3"}>2-3 months</p>
+                        <p className={"text-24-30-700 mb-5 uppercase mt-6 mx-3"}>4-6 months</p>
                         <div className={"w-full h-5 bg-blue-350 left-0 top-0 absolute bg-blue-550 shadow-g"}></div>
                         <div className={"h-64 bg-gray-450 absolute left-0"} style={{width: '1px', top: "-197px"}}>
                             <div className={"relative h-full w-full"}>
@@ -347,9 +348,9 @@ function FifthSection() {
                                 </div>
                             </div>
                         </div>
-                        <p className={"text-20-24-700 mt-14 mb-3"}>Marketing Consultation</p>
+                        <p className={"text-20-24-700 mt-14 mb-3"}>Training & Integration</p>
                         <p className={"text-16-24-400"}>
-                            Discounted professional marketing consultation from our expert partners
+                        Personnel Training and System Integration for smooth transformation
                         </p>
                     </div>
                 </div>

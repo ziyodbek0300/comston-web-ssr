@@ -13,7 +13,7 @@ function Footer() {
                 <div className={"pb-4"}>
                     <Image src={Logo} alt={"Logo"}/>
                 </div>
-                <p className={"text-16-24-400 text-white font-extralight"}>© 2022 All rights reserved Comston
+                <p className={"text-16-24-400 text-white font-extralight"}>© 2022 All rights reserved <br/>Comston
                     Technologies LLC</p>
             </div>
             <div className={"w-full"}>
@@ -49,7 +49,7 @@ function Footer() {
                     <li className={"text-white mb-3 text-16-24-400"}><Image width={20} height={20} src={FImage1}
                                                                             alt={"phone-icon"}/>&nbsp; &nbsp; <span
                         className={"text-white"}>
-                        <a href="tel:+1 (407) 683-5894">+1 (407) 683-5894</a>
+                        <a href="tel:+1 (407) 683-5894">+1 (727) 4084725</a>
                     </span></li>
                     <li className={"text-white mb-3 text-16-24-400"}><Image width={20} height={20} src={FImage2}
                                                                             alt={"envelope-icon"}/>&nbsp; &nbsp;&nbsp;

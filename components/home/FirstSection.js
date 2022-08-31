@@ -5,8 +5,8 @@ function FirstSection(props) {
 
     return (<div ref={props.contentRef}  className={"container first-section flex items-center"}>
         <div className={"w-3/4 mx-auto text-center"}>
-            <h1 className={"text-48-70-700 mb-4"}>Mobile <span
-                className={"text-blue-550"}>Web/App</span> Development For Technical & Non-technical Founders</h1>
+            <h1 className={"text-48-70-700 mb-4"}><span
+                className={"text-blue-550"}>Web & Mobile</span> Software Development For Technical & Non-technical Founders</h1>
             <p onClick={props.handleMove} className={"text-20-30-500 w-3/4 px-10 mx-auto mb-14"}>We help non-technical founders to <span
                 className={"text-blue-550 border-b border-blue-550 pb-1"}>bring idea to execution</span> or help
                 them scale</p>

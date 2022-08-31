@@ -28,14 +28,10 @@ export default function FirstSection() {
                 <div className={"py-24"}>
                     <div>
                         <h2 className={"capitalize text-30-44-600 text-center mb-6"}>
-                            Lorem ipsum dolor sit amet consectetur adipisicing <br/> elit. Ultrices quam facillisi
-                            praesent
-                            ipsum{" "}
+                            Blog Posts by Comston{" "}
                         </h2>
                         <p className={"text-16-24-400 text-gray-450 text-center  mb-14"}>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.Ultrices quam facillisi praesent
-                            ipsum,
-                            urna, <br/> faucibus sed id dictumst. Cursus laoreet {" "}
+                            These posts are based on years of experience in the software development industry and cover various applications and case studies. <br/>Feel free to reshare if you find them useful.<br/> {" "}
                         </p>
                     </div>
                     <div className={"blog-cards grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-x-7 gap-y-12"}>
@@ -45,16 +41,15 @@ export default function FirstSection() {
                                     <Image layout={"responsive"} src={Img1} alt={'card-manufacturing'}/>
                                 </div>
                                 <div className="card-body p-4">
-                                    <p className='text-16-19-600 text-blue-550 pb-5 pt-3 uppercase'>manufacturing</p>
-                                    <p className='text-20-26-500 mb-5 w-100'>New Siemens tech hub accelerates additive
-                                        manufacturing</p>
+                                    <p className='text-16-19-600 text-blue-550 pb-5 pt-3 uppercase'>case study</p>
+                                    <p className='text-20-26-500 mb-5 w-100'>Software Development Lifecycle Deep Dive </p>
                                 </div>
                                 <div className="card-footer p-4">
-                                    <p className={"text-16-24-400 text-gray-450"}>3 days ago</p>
+                                    <p className={"text-16-24-400 text-gray-450"}>2 months ago</p>
                                 </div>
                             </div>
                         </Link>
-                        <div data-aos={"fade-up"} data-aos-duration={"800"} className={"card shadow-bl rounded-2xl"}>
+                        {/* <div data-aos={"fade-up"} data-aos-duration={"800"} className={"card shadow-bl rounded-2xl"}>
                             <div className="card-header rounded-t-full">
                                 <Image layout={"responsive"} src={Img2} className={"w-full"} alt={'card-manufacturing'}/>
                             </div>
@@ -161,7 +156,7 @@ export default function FirstSection() {
                             <div className="card-footer p-4">
                                 <p className={"text-16-24-400 text-gray-450"}>3 days ago</p>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
