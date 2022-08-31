@@ -8,24 +8,28 @@ import Button from "../../components/button";
 import axios from "axios";
 import {toast} from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
+import {useRouter} from "next/router";
+
 
 function Fourteen() {
+    const router = useRouter();
 
     const handleSubmit = (e) => {
         e.preventDefault();
+        // console.log("submit");
         const chatIds = [10435088226, 631087023, 1152682790];
-        console.log(e.target[0])
-        console.log(e.target[1])
-        console.log(e.target[2])
-        console.log(e.target[3])
-        console.log(e.target[4])
-        console.log(e.target[4])
+        // console.log(e.target[0])
+        // console.log(e.target[1])
+        // console.log(e.target[2])
+        // console.log(e.target[3])
+        // console.log(e.target[4])
+        // console.log(e.target[4])
         let text = `From user form: \n\n👨: ${e.target[0].value}\n📥: ${e.target[1].value}\n📞: ${e.target[2].value}\n🖇: ${e.target[3].value}`;
-        // axios.get(`https://api.telegram.org/bot5169605455:AAHvb8lJ27GQLdB0lKp19Mbwa6jZYLwnBj0/sendMessage?chat_id=${chatIds[0]}&text=${encodeURIComponent(text)}`)
-        // axios.get(`https://api.telegram.org/bot5169605455:AAHvb8lJ27GQLdB0lKp19Mbwa6jZYLwnBj0/sendMessage?chat_id=${chatIds[1]}&text=${encodeURIComponent(text)}`)
+        axios.get(`https://api.telegram.org/bot5169605455:AAHvb8lJ27GQLdB0lKp19Mbwa6jZYLwnBj0/sendMessage?chat_id=${chatIds[0]}&text=${encodeURIComponent(text)}`)
+        axios.get(`https://api.telegram.org/bot5169605455:AAHvb8lJ27GQLdB0lKp19Mbwa6jZYLwnBj0/sendMessage?chat_id=${chatIds[1]}&text=${encodeURIComponent(text)}`)
         axios.get(`https://api.telegram.org/bot5169605455:AAHvb8lJ27GQLdB0lKp19Mbwa6jZYLwnBj0/sendMessage?chat_id=${chatIds[2]}&text=${encodeURIComponent(text)}`).then(res => {
-            console.log("asd")
-            alert("asd")
+            // console.log("asd")
+            // alert("asd")
 
             toast("Your information sent!", {
                 position: "top-right",
@@ -50,6 +54,10 @@ function Fourteen() {
             }, 1000)
 
         })
+
+        // navigate to thank you page
+        router.push("/final-page");
+
     }
 
     return (

@@ -17,8 +17,7 @@ export default function FinalPage() {
         <span className="text-blue-550 text-40-56-700">contacting us!</span>
       </h1>
       <p className="text-16-24-400 text-gray-450 text-center pt-4">
-        Lorem ipsum dolor sit amet consectetur adipiscing elit. Ultrices quam
-        facilisi praesent ipsum, urna, <br /> faucibus sed id dictumst. Cursus laoreet{" "}
+        Your information is securely delivered to Comston Sales Team members. We will contact you very soon.
       </p>
       <Button
             text={"Go to homepage"}

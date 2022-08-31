@@ -13,15 +13,15 @@ function SecondSection() {
                         <p className={"text-18-26-500"}>successful projects</p>
                     </div>
                     <div className={""}>
-                        <p className={"text-50-60-800 mb-3 text-blue-950"}><CountUp end={98} duration={5}/>%</p>
-                        <p className={"text-18-26-500"}>successful completion</p>
+                        <p className={"text-50-60-800 mb-3 text-blue-950"}><CountUp end={95} duration={5}/>%</p>
+                        <p className={"text-18-26-500"}>satisfied customers</p>
                     </div>
                     <div className={""}>
                         <p className={"text-50-60-800 mb-3 text-blue-950"}><CountUp end={7} duration={5}/>+</p>
                         <p className={"text-18-26-500"}>years of experience</p>
                     </div>
                     <div className={""}>
-                        <p className={"text-50-60-800 mb-3 text-blue-950"}><CountUp end={95} duration={5}/>%</p>
+                        <p className={"text-50-60-800 mb-3 text-blue-950"}><CountUp end={65} duration={5}/>%</p>
                         <p className={"text-18-26-500"}>of clients collaborated further</p>
                     </div>
                 </div>

@@ -1,11 +1,12 @@
 import React, {useEffect} from "react";
 import Image from "next/image";
-import Img1 from '../../public/blog/rectangle6.png';
+import Img1 from '../../public/enterprises.png';
 import Img2 from "../../public/blog/rectangle.png";
 import Img3 from '../../public/blog/rectangle2.png';
 import Img4 from '../../public/blog/rectangle3.png';
 import Img5 from '../../public/blog/rectangle4.png';
 import Img6 from '../../public/blog/rectangle5.png';
+
 import Link from "next/link";
 import Navbar from "../../components/navbar";
 import Footer from "../../components/footer";

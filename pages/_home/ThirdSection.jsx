@@ -19,7 +19,7 @@ function ThirdSection() {
                 Our program is designed for ambitious entrepreneurs who want to build an incredible business that
                 disrupts the market without disrupting their life
             </p>
-            <Button duration={"1200"} text={"View Portfolio"} classes={"bg-blue-950 hover:bg-blue-1000"} />
+            <Button link="/projects" duration={"1200"} text={"View Portfolio"} classes={"bg-blue-950 hover:bg-blue-1000"} />
         </div>
         <div className={"w-full grid grid-cols-2 gap-7 "} data-aos={"fade-up"} data-aos-duration={"800"}>
             <div className={"rounded-lg shadow-b p-6"}>
