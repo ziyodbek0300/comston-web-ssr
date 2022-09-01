@@ -36,8 +36,8 @@ function Footer() {
             <div className={"w-full"}>
                 <p className={"text-16-19-600 text-white mb-4 uppercase"}>Resources</p>
                 <ul>
-                    <li className={"text-white mb-3 text-16-24-400 font-extralight"}>Privacy policy</li>
-                    <li className={"text-white mb-3 text-16-24-400 font-extralight"}>Terms & conditions</li>
+                    <li className={"text-white mb-3 text-16-24-400 font-extralight"}><a href="https://www.privacypolicygenerator.info/live.php?token=2RnmpKjvgvjVMnnKOku8ece9EtUE7CzG" target="#">Privacy Policy</a></li>
+                    {/* <li className={"text-white mb-3 text-16-24-400 font-extralight"}>Terms & conditions</li> */}
                     <li className={"text-white mb-3 text-16-24-400 font-extralight"}>
                         <Link href={"/#faqs"}>FAQ</Link>
                     </li>
