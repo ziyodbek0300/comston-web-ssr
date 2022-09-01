@@ -11,6 +11,13 @@ function EighthSection() {
             className={"text-blue-550"}>leadership</span></h2>
         <div className="overflow-auto mb-16">
             <div className={"flex gap-3 min-w-max justify-between mb-4"}>
+            <div>
+                    <div className={"card-human2 overflow-hidden flex bg-blue-950 pt-16 rounded-2xl mb-4"}>
+                        <Image src={Human2} alt={"human 2"}/>
+                    </div>
+                    <p className={"text-20-24-700 mb-2"}>Kenny Abdul</p>
+                    <p className={"text-18-26-500 text-gray-450"}>Chief Exclusive Officer</p>
+                </div>
                 <div>
                     <div className={"card-human1 overflow-hidden flex bg-blue-950 pt-16 rounded-2xl mb-4"}>
                         <Image src={Human1} alt={"human 1"}/>
@@ -19,26 +26,21 @@ function EighthSection() {
                     <p className={"text-18-26-500 text-gray-450"}>Board Advisor</p>
                 </div>
                 <div>
-                    <div className={"card-human2 overflow-hidden flex bg-blue-950 pt-16 rounded-2xl mb-4"}>
-                        <Image src={Human2} alt={"human 2"}/>
-                    </div>
-                    <p className={"text-20-24-700 mb-2"}>Kenny Abdul</p>
-                    <p className={"text-18-26-500 text-gray-450"}>Chief Exclusive Officer</p>
-                </div>
-                <div>
                     <div className={"card-human3 overflow-hidden flex bg-blue-950 pt-16 rounded-2xl mb-4"}>
                         <Image src={Human3} alt={"human 3"}/>
                     </div>
                     <p className={"text-20-24-700 mb-2"}>Abror Khaytbayev</p>
-                    <p className={"text-18-26-500 text-gray-450"}>Chief Technical Officer</p>
+                    <p className={"text-18-26-500 text-gray-450"}>Tech Lead</p>
                 </div>
-                <div>
+                
+                
+                {/* <div>
                     <div className={"card-human4 overflow-hidden flex bg-blue-950 pt-16 rounded-2xl mb-4"}>
                         <Image src={Human4} alt={"human 4"}/>
                     </div>
                     <p className={"text-20-24-700 mb-2"}>Abror Damanov</p>
                     <p className={"text-18-26-500 text-gray-450"}>Project Manager</p>
-                </div>
+                </div> */}
             </div>
         </div>
     </div>);

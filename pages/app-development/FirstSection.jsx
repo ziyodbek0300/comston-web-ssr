@@ -6,10 +6,10 @@ function FirstSection() {
         <div className={"container flex lg:flex-row flex-col"}>
             <div className={"pt-10 lg:w-[45%] w-full pb-10"}>
                 <h3 data-aos={"fade-up"} data-aos-duration={"800"} className={"text-40-56-700 uppercase lg:w-full w-[90%] mx-auto mb-6 mt-14"}>
-                    Full-cycle mobile <span className={"text-blue-550"}>app
+                Full-cycle <span className={"text-blue-550"}>mobile app
                     development</span> company
-                    in
-                    Florida
+                    in {""}
+                    <span className={"text-green-550"}>Florida</span>
                 </h3>
                 <p data-aos={"fade-up"} data-aos-duration={"1000"} className={"text-16-24-400 mb-10 lg:w-full w-2/3 mx-auto"}>
                     Fulfill your business objectives with creative solutions

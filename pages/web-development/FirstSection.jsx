@@ -9,8 +9,8 @@ function FirstSection() {
             <div className={"pt-10 lg:w-[45%] w-full"}>
                 <h3 data-aos={"fade-up"} data-aos-duration={"800"} className={"text-40-56-700 capitalize mb-4 lg:w-full w-[90%] mx-auto"}>
                     {/* eslint-disable-next-line react/no-unescaped-entities */}
-                    RESPONSIVE & <span className={"text-blue-550"}>PROFESSIONAL
-                WEBSITE</span> DEVELOPMENT
+                    <span className={"text-blue-550"}>RESPONSIVE & PROFESSIONAL
+                </span> <br/>WEBSITE DEVELOPMENT
                 </h3>
                 <p data-aos={"fade-up"} data-aos-duration={"1000"} className={"text-16-24-400 mb-10 lg:w-full w-2/3 mx-auto"}>
                     Our vetted website developers will create a customized website to

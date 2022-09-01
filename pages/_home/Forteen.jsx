@@ -8,24 +8,28 @@ import Button from "../../components/button";
 import axios from "axios";
 import {toast} from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
+import {useRouter} from "next/router";
+
 
 function Fourteen() {
+    const router = useRouter();
 
     const handleSubmit = (e) => {
         e.preventDefault();
+        // console.log("submit");
         const chatIds = [10435088226, 631087023, 1152682790];
-        console.log(e.target[0])
-        console.log(e.target[1])
-        console.log(e.target[2])
-        console.log(e.target[3])
-        console.log(e.target[4])
-        console.log(e.target[4])
+        // console.log(e.target[0])
+        // console.log(e.target[1])
+        // console.log(e.target[2])
+        // console.log(e.target[3])
+        // console.log(e.target[4])
+        // console.log(e.target[4])
         let text = `From user form: \n\n👨: ${e.target[0].value}\n📥: ${e.target[1].value}\n📞: ${e.target[2].value}\n🖇: ${e.target[3].value}`;
         axios.get(`https://api.telegram.org/bot5169605455:AAHvb8lJ27GQLdB0lKp19Mbwa6jZYLwnBj0/sendMessage?chat_id=${chatIds[0]}&text=${encodeURIComponent(text)}`)
         axios.get(`https://api.telegram.org/bot5169605455:AAHvb8lJ27GQLdB0lKp19Mbwa6jZYLwnBj0/sendMessage?chat_id=${chatIds[1]}&text=${encodeURIComponent(text)}`)
         axios.get(`https://api.telegram.org/bot5169605455:AAHvb8lJ27GQLdB0lKp19Mbwa6jZYLwnBj0/sendMessage?chat_id=${chatIds[2]}&text=${encodeURIComponent(text)}`).then(res => {
-            console.log("asd")
-            alert("asd")
+            // console.log("asd")
+            // alert("asd")
 
             toast("Your information sent!", {
                 position: "top-right",
@@ -50,6 +54,10 @@ function Fourteen() {
             }, 1000)
 
         })
+
+        // navigate to thank you page
+        router.push("/final-page");
+
     }
 
     return (
@@ -61,9 +69,9 @@ function Fourteen() {
                             className={"text-blue-550"}>your idea</span> with our IT consultants now!</h2>
                         {/* eslint-disable-next-line react/no-unescaped-entities */}
                         <p className={"text-16-24-400 mb-12"}>We helped business owners and start-ups to get ahead of
-                            competition.Fill
+                            their competition. Fill
                             {/* eslint-disable-next-line react/no-unescaped-entities */}
-                            out the form and we'll send you a few times to chat.</p>
+                            out the form, and we'll offer you a few time slots to discuss your idea.</p>
                         <div className={"w-full grid sm:grid-cols-2 grid-cols-1 gap-14"}>
                             <div className={"rounded-lg pb-6"}>
                                 <div className={"mb-5"}>
@@ -74,7 +82,7 @@ function Fourteen() {
                                     {/* eslint-disable-next-line react/no-unescaped-entities */}
                                     Our consulting team will reach out to schedule a brief scoping call to understand
                                     {/* eslint-disable-next-line react/no-unescaped-entities */}
-                                    exactly what you're building
+                                    {" "}exactly what you're building
                                 </p>
                             </div>
                             <div className={"rounded-lg pb-6"}>
@@ -84,7 +92,7 @@ function Fourteen() {
                                 <p className="card-title text-18-26-500 mb-2">Plan</p>
                                 <p className="card-text text-16-24-400 text-gray-450">
                                     Once we clearly understand your build plan, we’ll send you a detailed proposal
-                                    explaining the full scope of work to be delivered.
+                                    explaining the full scope of work to be delivered
                                 </p>
                             </div>
                             <div className={"rounded-lg pb-6"}>
@@ -93,8 +101,8 @@ function Fourteen() {
                                 </div>
                                 <p className="card-title text-18-26-500 mb-2">Development</p>
                                 <p className="card-text text-16-24-400 text-gray-450">
-                                    Once you approve our proposal, we will assign a product manager and team of
-                                    developers who will work with you every step of the way.
+                                    Once you approve of our proposal, we will assign a product manager and team of
+                                    developers who will work with you every step of the way
                                 </p>
                             </div>
                             <div className={"rounded-lg pb-6"}>
@@ -104,7 +112,7 @@ function Fourteen() {
                                 <p className="card-title text-18-26-500 mb-2">Check-ins</p>
                                 <p className="card-text text-16-24-400 text-gray-450">
                                     {/* eslint-disable-next-line react/no-unescaped-entities */}
-                                    You’ll enjoy daily and weekly check-ins until your app is live, and ongoing support
+                                    You’ll enjoy daily and weekly check-ins until your app is live as well as the ongoing support
                                     and iteration from there
                                 </p>
                             </div>

@@ -11,8 +11,8 @@ function SeventhSection() {
     return (
         <div className={"container"} data-aos={"fade-up"} data-aos-duration={"800"}>
             <div className={"py-24"}>
-                <h2 className={"capitalize text-32-44-700 text-center mb-14"}>Industries we’ve <span
-                    className={"text-blue-550"}>excelled in</span></h2>
+                <h2 className={"capitalize text-32-44-700 text-center mb-14"}><span
+                    className={"text-blue-550"}>Industries</span> we&apos;ve excelled in</h2>
                 <div className={"grid lg:grid-cols-3 md:grid-cols-2 gap-8"}>
                     <div>
                         <div className={"mb-4 bg-blue-150 w-16 h-16 rounded-xl flex items-center justify-center"}>
@@ -30,16 +30,16 @@ function SeventhSection() {
                         </div>
                         <p className={"text-18-26-500 mb-4"}>Government</p>
                         <p className={"text-16-24-400 text-gray-450"}>
-                            Government projects are strict. We bring our innovative approach to it
+                            Government projects are strict. We bring our experts into work to make sure the solutions we provide are sustainable and reliable
                         </p>
                     </div>
                     <div>
                         <div className={"mb-4 bg-blue-150 w-16 h-16 rounded-xl flex items-center justify-center"}>
                             <Image src={Icon3} className={""} alt={"telemedicine"}/>
                         </div>
-                        <p className={"text-18-26-500 mb-4"}>Dating Apps</p>
+                        <p className={"text-18-26-500 mb-4"}>Blockchain Apps</p>
                         <p className={"text-16-24-400 text-gray-450"}>
-                            It is hard to find your second half but building a dating app shouldn’t be
+                            Blockchain is the future. Decentralized apps (dApps) will be the main utility to process the data on blockchain. Why not build your own dApp?
                         </p>
                     </div>
                     <div>
