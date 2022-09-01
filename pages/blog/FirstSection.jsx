@@ -43,7 +43,7 @@ export default function FirstSection() {
                                 </div>
                                 <div className="card-body p-4">
                                     <p className='text-16-19-600 text-blue-550 pb-5 pt-3 uppercase'>case study</p>
-                                    <p className='text-20-26-500 mb-5 w-100'>Software Development Lifecycle Deep Dive </p>
+                                    <p className='text-20-26-500 mb-5 w-100'>Software Development Lifecycle: Deep Dive with Comston</p>
                                 </div>
                                 <div className="card-footer p-4">
                                     <p className={"text-16-24-400 text-gray-450"}>2 months ago</p>

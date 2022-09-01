@@ -30,7 +30,7 @@ function EighthSection() {
                         <Image src={Human3} alt={"human 3"}/>
                     </div>
                     <p className={"text-20-24-700 mb-2"}>Abror Khaytbayev</p>
-                    <p className={"text-18-26-500 text-gray-450"}>Chief Technical Officer</p>
+                    <p className={"text-18-26-500 text-gray-450"}>Tech Lead</p>
                 </div>
                 
                 

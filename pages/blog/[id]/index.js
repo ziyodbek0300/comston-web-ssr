@@ -14,7 +14,7 @@ export default function Details() {
           <div className={"pt-10"}>
             <p className={"text-blue-550 text-16-19-600 pb-4"}>25 June, 2022</p>
             <p className={"text-30-44-600"}>
-              Software Development Lifecycle Deep Dive
+              Software Development Lifecycle: Deep Dive with Comston
             </p>
           </div>
 

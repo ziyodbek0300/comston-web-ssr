@@ -31,7 +31,7 @@ export default function Index() {
             <FourthSection/>
             <FifthSection/>
             <SixthSection/>
-            <SeventhSection/>
+            {/* <SeventhSection/> */}
             <Ten/>
             <Forteen/>
             <Footer/>

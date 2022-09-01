@@ -25,6 +25,7 @@ function FirstSection() {
 
     return (<div className={"container first-section flex items-center"}>
         <div className={"w-3/4 mx-auto text-center"}>
+
             <h1 className={"text-48-70-700 mb-4"} data-aos="fade-up" data-aos-duration={"1000"}><span
                 className={"text-blue-550"}>Web & Mobile</span> Software Development For Technical & Non-technical Founders</h1>
             <p className={"text-20-30-500 md:w-3/4 md:px-10 mx-auto mb-14"} data-aos="fade-up"
