@@ -12,7 +12,8 @@ function FifthSection() {
         <h2 className={"capitalize text-40-56-700"}>We can guarantee <span
             className={"text-blue-550"}>success</span> because we spent 7+ years finding a repeatable <span
             className={"text-blue-550"}>startup formula</span></h2>
-        <div data-aos={"fade-up"} data-aos-duration={"600"} style={{width: "318px"}} className={"mx-auto rounded-100 p-1 shadow-s mb-14 mt-10 flex switcher gap-1"}>
+        <div data-aos={"fade-up"} data-aos-duration={"600"} style={{width: "318px"}}
+             className={"mx-auto rounded-100 p-1 shadow-s mb-14 mt-10 flex switcher gap-1"}>
             <div
                 className={!active ? "switcher-item p-2 text-white bg-blue-550 px-3 rounded-100 cursor-pointer text-20-30-500" : "switcher-item p-2 px-3 rounded-100 cursor-pointer text-20-30-500"}
                 onClick={() => setActive(false)}
@@ -127,7 +128,7 @@ function FifthSection() {
                     </div>
                 </div>
             </div>
-            <div className={"lg:hidden"}>
+            <div className={"lg:hidden table-c"}>
                 <div className={"flex relative"}>
                     <div className={"absolute flex w-full items-center -top-4 -left-24"}>
                         <div className={"w-full px-5 flex items-end"}>
@@ -354,7 +355,7 @@ function FifthSection() {
                     </div>
                 </div>
             </div>
-            <div className={"lg:hidden"}>
+            <div className={"lg:hidden table-c"}>
                 <div className={"flex relative"}>
                     <div className={"absolute flex w-full items-center -top-4 -left-24"}>
                         <div className={"w-full px-5 flex items-end"}>
@@ -478,6 +479,143 @@ function FifthSection() {
                 </div>
             </div>
         </>}
+        {/*mobile */}
+        {!active ? <div className={"mobile text-left relative"}>
+                <div className={"relative pb-16 pl-12"}>
+                    <div
+                        className={"h-full w-5 rounded-t-xl left-0 top-0 absolute bg-purple-450 shadow-g"}></div>
+                    <div className={"flex w-full items-center mb-4"}>
+                        <div
+                            className={"bg-blue-950 text-white rounded-full h-10 w-10 flex items-center justify-center text-16-24-400"}>01
+                        </div>
+                        <p className={"text-24-30-700 uppercase ml-3"}>Week 1</p>
+                    </div>
+                    <p className={"text-20-24-700 mb-3"}>Ideas + Discovery</p>
+                    <p className={"text-16-24-400"}>
+                        Discuss and discover what you would like to accomplish through application development
+                    </p>
+                </div>
+                <div className={"relative pb-16 pl-12"}>
+                    <div className={"h-full w-5 left-0 top-0 absolute bg-red-350 shadow-g"}></div>
+                    <div className={"flex w-full items-center mb-4"}>
+                        <div
+                            className={"bg-blue-950 text-white rounded-full h-10 w-10 flex items-center justify-center text-16-24-400"}>02
+                        </div>
+                        <p className={"text-24-30-700 uppercase ml-3"}>Week 2</p>
+                    </div>
+                    <p className={"text-20-24-700 mb-3"}>Ideas + Discovery</p>
+                    <p className={"text-16-24-400"}>
+                        Discuss and discover what you would like to accomplish through application development
+                    </p>
+                </div>
+                <div className={"relative pb-16 pl-12"}>
+                    <div className={"h-full w-5 left-0 top-0 absolute bg-green-350 shadow-g"}></div>
+                    <div className={"flex w-full items-center mb-4"}>
+                        <div
+                            className={"bg-blue-950 text-white rounded-full h-10 w-10 flex items-center justify-center text-16-24-400"}>03
+                        </div>
+                        <p className={"text-24-30-700 uppercase ml-3"}>Week 3 and 4</p>
+                    </div>
+                    <p className={"text-20-24-700 mb-3"}>Ideas + Discovery</p>
+                    <p className={"text-16-24-400"}>
+                        Discuss and discover what you would like to accomplish through application development
+                    </p>
+                </div>
+                <div className={"relative pb-16 pl-12"}>
+                    <div className={"h-full w-5 left-0 top-0 absolute bg-blue-550 shadow-g"}></div>
+                    <div className={"flex w-full items-center mb-4"}>
+                        <div
+                            className={"bg-blue-950 text-white rounded-full h-10 w-10 flex items-center justify-center text-16-24-400"}>04
+                        </div>
+                        <p className={"text-24-30-700 uppercase ml-3"}>2-3 Months</p>
+                    </div>
+                    <p className={"text-20-24-700 mb-3"}>Ideas + Discovery</p>
+                    <p className={"text-16-24-400"}>
+                        Discuss and discover what you would like to accomplish through application development
+                    </p>
+                </div>
+                <div className={"relative pb-16 pl-12"}>
+                    <div className={"h-full w-5 rounded-b-xl left-0 top-0 absolute bg-green-550 shadow-g"}></div>
+                    <div className={"flex w-full items-center mb-4"}>
+                        <div
+                            className={"bg-blue-950 text-white rounded-full h-10 w-10 flex items-center justify-center text-16-24-400"}>05
+                        </div>
+                        <p className={"text-24-30-700 uppercase ml-3"}>1 Months</p>
+                    </div>
+                    <p className={"text-20-24-700 mb-3"}>Ideas + Discovery</p>
+                    <p className={"text-16-24-400"}>
+                        Discuss and discover what you would like to accomplish through application development
+                    </p>
+                </div>
+            </div> :
+            <div className={"mobile text-left relative"}>
+                <div className={"relative pb-16 pl-12"}>
+                    <div
+                        className={"h-full w-5 rounded-t-xl left-0 top-0 absolute bg-purple-450 shadow-g"}></div>
+                    <div className={"flex w-full items-center mb-4"}>
+                        <div
+                            className={"bg-blue-950 text-white rounded-full h-10 w-10 flex items-center justify-center text-16-24-400"}>01
+                        </div>
+                        <p className={"text-24-30-700 uppercase ml-3"}>Week 1</p>
+                    </div>
+                    <p className={"text-20-24-700 mb-3"}>Ideas + Discovery</p>
+                    <p className={"text-16-24-400"}>
+                        Discuss and discover what you would like to accomplish through application development
+                    </p>
+                </div>
+                <div className={"relative pb-16 pl-12"}>
+                    <div className={"h-full w-5 left-0 top-0 absolute bg-red-350 shadow-g"}></div>
+                    <div className={"flex w-full items-center mb-4"}>
+                        <div
+                            className={"bg-blue-950 text-white rounded-full h-10 w-10 flex items-center justify-center text-16-24-400"}>02
+                        </div>
+                        <p className={"text-24-30-700 uppercase ml-3"}>Week 2</p>
+                    </div>
+                    <p className={"text-20-24-700 mb-3"}>Ideas + Discovery</p>
+                    <p className={"text-16-24-400"}>
+                        Discuss and discover what you would like to accomplish through application development
+                    </p>
+                </div>
+                <div className={"relative pb-16 pl-12"}>
+                    <div className={"h-full w-5 left-0 top-0 absolute bg-green-350 shadow-g"}></div>
+                    <div className={"flex w-full items-center mb-4"}>
+                        <div
+                            className={"bg-blue-950 text-white rounded-full h-10 w-10 flex items-center justify-center text-16-24-400"}>03
+                        </div>
+                        <p className={"text-24-30-700 uppercase ml-3"}>Week 3 and 4</p>
+                    </div>
+                    <p className={"text-20-24-700 mb-3"}>Ideas + Discovery</p>
+                    <p className={"text-16-24-400"}>
+                        Discuss and discover what you would like to accomplish through application development
+                    </p>
+                </div>
+                <div className={"relative pb-16 pl-12"}>
+                    <div className={"h-full w-5 left-0 top-0 absolute bg-blue-550 shadow-g"}></div>
+                    <div className={"flex w-full items-center mb-4"}>
+                        <div
+                            className={"bg-blue-950 text-white rounded-full h-10 w-10 flex items-center justify-center text-16-24-400"}>04
+                        </div>
+                        <p className={"text-24-30-700 uppercase ml-3"}>2-3 Months</p>
+                    </div>
+                    <p className={"text-20-24-700 mb-3"}>Ideas + Discovery</p>
+                    <p className={"text-16-24-400"}>
+                        Discuss and discover what you would like to accomplish through application development
+                    </p>
+                </div>
+                <div className={"relative pb-16 pl-12"}>
+                    <div className={"h-full w-5 rounded-b-xl left-0 top-0 absolute bg-green-550 shadow-g"}></div>
+                    <div className={"flex w-full items-center mb-4"}>
+                        <div
+                            className={"bg-blue-950 text-white rounded-full h-10 w-10 flex items-center justify-center text-16-24-400"}>05
+                        </div>
+                        <p className={"text-24-30-700 uppercase ml-3"}>1 Months</p>
+                    </div>
+                    <p className={"text-20-24-700 mb-3"}>Ideas + Discovery</p>
+                    <p className={"text-16-24-400"}>
+                        Discuss and discover what you would like to accomplish through application development
+                    </p>
+                </div>
+            </div>}
     </div>);
 }
 

@@ -529,8 +529,20 @@ body {
     width: 100% !important;
 }
 
+.table-c {
+    display: block;
+}
+.mobile {
+    display: none !important;
+}
 
 @media screen and (max-width: 500px) {
+    .table-c {
+        display: none !important;
+    }
+    .mobile {
+        display: block !important;
+    }
     .development-fourthSection {
         background-image: url("../public/bg/Vector.svg"), url("../public/bg/Vector-1.svg"), url("../public/bg/Vector-2.svg"), url("../public/bg/Vector-3.svg");
         background-repeat: no-repeat, no-repeat,no-repeat, no-repeat;
