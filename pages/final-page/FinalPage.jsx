@@ -1,16 +1,16 @@
 import React from "react";
 import Image from "next/image";
-import tick from "../../public/final-page images/Vector 41.png";
+import Tick from "../../public/final-page images/Vector 41.png";
 import Button from "/components/button";
 
 export default function FinalPage() {
   return (
     <div
-      style={{ height: "100vh" }}
+      style={{ height: "80vh" }}
       className="container flex flex-col items-center justify-center"
     >
-      <div className="finalPage__img ">
-        <Image className="tick-img" src={tick} alt={"tick"} />
+      <div className="bg-blue-550 rounded-full h-36 mb-6 w-36 flex items-center justify-center">
+        <Image className="tick-img" src={Tick} alt={"tick"} />
       </div>
       <h1 className="text-40-56-700">
         Thank you for{" "}
