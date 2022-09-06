@@ -26,5 +26,7 @@ export default function Home() {
         <script>
             AOS.init()
         </script>
+
+
     </div>)
 }
