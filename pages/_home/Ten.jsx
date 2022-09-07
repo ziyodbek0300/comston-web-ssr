@@ -6,7 +6,7 @@ import Human33 from '../../public/humans/avatar.png';
 
 function Ten() {
     return (<div className={"my-10 container overflow-auto"}>
-        <div className={"py-10"}>
+        <div className={"py-10 overflow-hidden"}>
             <h2 className={"capitalize text-center text-40-56-700 mb-12"}>Meet a few of our <span
                 className={"text-blue-550"}>happy clients</span></h2>
             <div className={"min-w-max"}>
