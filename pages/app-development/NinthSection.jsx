@@ -92,7 +92,7 @@ function NinthSection() {
                                 <label className={"ml-3 text-16-20-500"} htmlFor="isProtected">Protect my project idea</label>
                             </div>
                             <div className="mb-4">
-                                <Button classes={"bg-blue-550 w-full"} text={"Apply"} />
+                                <Button classes={"bg-blue-550 w-full"} text={"Submit"} />
                             </div>
                         </form>
                     </div>

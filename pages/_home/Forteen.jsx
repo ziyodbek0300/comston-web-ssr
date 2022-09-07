@@ -147,7 +147,7 @@ function Fourteen() {
                                     idea</label>
                             </div>
                             <div className="mb-4">
-                                <Button type={"submit"} duration={"0"} classes={"bg-blue-550 w-full"} text={"Apply"}/>
+                                <Button type={"submit"} duration={"0"} classes={"bg-blue-550 w-full"} text={"Submit"}/>
                             </div>
                         </form>
                     </div>
