@@ -5,8 +5,32 @@ import FImage1 from '../../public/icons/Base/Vector (Stroke).svg';
 import FImage2 from '../../public/icons/Base/Vector.svg';
 import FImage3 from '../../public/icons/Others/Vector.svg';
 import Link from "next/link";
+import {generateETag} from "next/dist/server/lib/etag";
 
 function Footer() {
+    const handleEmailClick = () => {
+        var callback = function () {
+            if (typeof (url) != 'undefined') {
+                window.location = url;
+            }
+        };
+        generateETag('event', 'conversion', {
+            'send_to': 'AW-10933023663/wTnfCJDAtdwDEK_not0o',
+            'event_callback': callback
+        });
+        return false;
+    }
+
+    const handlePhoneClick = () => {
+        try {
+            generateETag('config', 'AW-10933023663/ZTcPCJ7qrNwDEK_not0o', {
+                'phone_conversion_number': '(332) 322-2244'
+            });
+        } catch (e) {
+            console.log("phone tracking", e)
+        }
+    }
+
     return (<div className={"bg-blue-950 py-16 text-white"}>
         <div className={"container flex lg:flex-row flex-col gap-10 justify-between"}>
             <div className={"w-full"}>
@@ -36,7 +60,9 @@ function Footer() {
             <div className={"w-full"}>
                 <p className={"text-16-19-600 text-white mb-4 uppercase"}>Resources</p>
                 <ul>
-                    <li className={"text-white mb-3 text-16-24-400 font-extralight"}><a href="https://www.privacypolicygenerator.info/live.php?token=2RnmpKjvgvjVMnnKOku8ece9EtUE7CzG" target="#">Privacy Policy</a></li>
+                    <li className={"text-white mb-3 text-16-24-400 font-extralight"}><a
+                        href="https://www.privacypolicygenerator.info/live.php?token=2RnmpKjvgvjVMnnKOku8ece9EtUE7CzG"
+                        target="#">Privacy Policy</a></li>
                     {/* <li className={"text-white mb-3 text-16-24-400 font-extralight"}>Terms & conditions</li> */}
                     <li className={"text-white mb-3 text-16-24-400 font-extralight"}>
                         <Link href={"/#faqs"}>FAQ</Link>
@@ -49,12 +75,12 @@ function Footer() {
                     <li className={"text-white mb-3 text-16-24-400"}><Image width={20} height={20} src={FImage1}
                                                                             alt={"phone-icon"}/>&nbsp; &nbsp; <span
                         className={"text-white"}>
-                        <a href="tel:3323222244">(332) 322-2244</a>
+                        <a href="tel:3323222244" onClick={handlePhoneClick}>(332) 322-2244</a>
                     </span></li>
                     <li className={"text-white mb-3 text-16-24-400"}><Image width={20} height={20} src={FImage2}
                                                                             alt={"envelope-icon"}/>&nbsp; &nbsp;&nbsp;
                         <span className={"text-white"}>
-                        <a href="mailto:contact@comston.io">contact@comston.io</a>
+                        <a href="mailto:contact@comston.io" onClick={handleEmailClick}>contact@comston.io</a>
                     </span>
                     </li>
                     <li className={"text-white mb-3 text-16-24-400"}><Image width={20} height={20} src={FImage3}

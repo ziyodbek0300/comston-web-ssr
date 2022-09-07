@@ -27,11 +27,11 @@ function FirstSection() {
                data-aos-duration={"1200"}>We help non-technical founders to <span
                 className={"text-blue-550 border-b border-blue-550 pb-1"}>bring idea to execution</span> or help
                 them scale</p>
-            {truth && (<div style={{'padding': '56.25% 0 0 0'}} className="relative">
+            {truth && (<div style={{'padding': '43.25% 0 0 0'}} className="relative">
                 <iframe
                     src="https://player.vimeo.com/video/744365603?h=8aa2e6f794&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
                     frameBorder="0" allow="autoplay; fullscreen; picture-in-picture"
-                    style={{'position': 'absolute', 'top': '0', 'left': '0', 'width': '100%', 'height': '85%'}}
+                    style={{'position': 'absolute', 'top': '0', 'left': '0', 'width': '100%', 'height': '100%'}}
                     title="Comston Technologies Intro"></iframe>
             </div>)}
             {!truth && (<Button type="submit" showFunc={showVideo} duration={"1400"} text={"Get started"}

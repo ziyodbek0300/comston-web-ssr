@@ -9,6 +9,7 @@ import axios from "axios";
 import {toast} from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 import {useRouter} from "next/router";
+import {generateETag} from "next/dist/server/lib/etag";
 
 
 function Fourteen() {
@@ -16,48 +17,44 @@ function Fourteen() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // console.log("submit");
         const chatIds = [10435088226, 631087023, 1152682790];
-        // console.log(e.target[0])
-        // console.log(e.target[1])
-        // console.log(e.target[2])
-        // console.log(e.target[3])
-        // console.log(e.target[4])
-        // console.log(e.target[4])
         let text = `From user form: \n\n👨: ${e.target[0].value}\n📥: ${e.target[1].value}\n📞: ${e.target[2].value}\n🖇: ${e.target[3].value}`;
-        axios.get(`https://api.telegram.org/bot5169605455:AAHvb8lJ27GQLdB0lKp19Mbwa6jZYLwnBj0/sendMessage?chat_id=${chatIds[0]}&text=${encodeURIComponent(text)}`)
+        // axios.get(`https://api.telegram.org/bot5169605455:AAHvb8lJ27GQLdB0lKp19Mbwa6jZYLwnBj0/sendMessage?chat_id=${chatIds[0]}&text=${encodeURIComponent(text)}`)
         axios.get(`https://api.telegram.org/bot5169605455:AAHvb8lJ27GQLdB0lKp19Mbwa6jZYLwnBj0/sendMessage?chat_id=${chatIds[1]}&text=${encodeURIComponent(text)}`)
         axios.get(`https://api.telegram.org/bot5169605455:AAHvb8lJ27GQLdB0lKp19Mbwa6jZYLwnBj0/sendMessage?chat_id=${chatIds[2]}&text=${encodeURIComponent(text)}`).then(res => {
-            // console.log("asd")
-            // alert("asd")
-
-            toast("Your information sent!", {
-                position: "top-right",
-                autoClose: 5000,
-                hideProgressBar: false,
-                closeOnClick: true,
-                pauseOnHover: true,
-                draggable: true,
-                progress: undefined,
-            });
-
-            setTimeout(() => {
-                toast("We will contact you very soon!", {
-                    position: "top-right",
-                    autoClose: 5000,
-                    hideProgressBar: false,
-                    closeOnClick: true,
-                    pauseOnHover: true,
-                    draggable: true,
-                    progress: undefined,
-                });
-            }, 1000)
+            // toast("Your information sent!", {
+            //     position: "top-right",
+            //     autoClose: 5000,
+            //     hideProgressBar: false,
+            //     closeOnClick: true,
+            //     pauseOnHover: true,
+            //     draggable: true,
+            //     progress: undefined,
+            // });
+            //
+            // setTimeout(() => {
+            //     toast("We will contact you very soon!", {
+            //         position: "top-right",
+            //         autoClose: 5000,
+            //         hideProgressBar: false,
+            //         closeOnClick: true,
+            //         pauseOnHover: true,
+            //         draggable: true,
+            //         progress: undefined,
+            //     });
+            // }, 1000)
 
         })
 
-        // navigate to thank you page
+        try {
+            console.log("before")
+            generateETag('event', 'conversion', {'send_to': 'AW-10933023663/ntddCLDIsNwDEK_not0o'});
+            console.log("after")
+            // navigate to thank you page
+        } catch (e) {
+            console.log("generateEtag", e)
+        }
         router.push("/final-page");
-
     }
 
     return (
@@ -112,7 +109,8 @@ function Fourteen() {
                                 <p className="card-title text-18-26-500 mb-2">Check-ins</p>
                                 <p className="card-text text-16-24-400 text-gray-450">
                                     {/* eslint-disable-next-line react/no-unescaped-entities */}
-                                    You’ll enjoy daily and weekly check-ins until your app is live as well as the ongoing support
+                                    You’ll enjoy daily and weekly check-ins until your app is live as well as the
+                                    ongoing support
                                     and iteration from there
                                 </p>
                             </div>

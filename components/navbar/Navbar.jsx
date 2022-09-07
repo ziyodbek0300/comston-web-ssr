@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Logo from "../../public/Logo.svg";
 import useResizeObserver from '@react-hook/resize-observer'
 import Link from "next/link";
+import {generateETag} from "next/dist/server/lib/etag";
 
 const useSize = (target) => {
     const [size, setSize] = React.useState()
@@ -39,6 +40,16 @@ function Navbar() {
 
     const handleOpenNav = () => {
         setOpened(prev => !prev);
+    }
+
+    const handlePhoneClick = () => {
+        try {
+            generateETag('config', 'AW-10933023663/ZTcPCJ7qrNwDEK_not0o', {
+                'phone_conversion_number': '(332) 322-2244'
+            });
+        } catch (e) {
+            console.log("phone tracking", e)
+        }
     }
 
     return (<div className={"shadow-h bg-white sticky z-40 top-0"} ref={target}>
@@ -86,7 +97,8 @@ function Navbar() {
                         <Link href={"/#contacts"}>Contacts</Link>
                     </li>
                     <li className={"nav-item phone hover:text-blue-550 cursor-pointer inline-block"}>
-                        <a href="tel:3323222244" className={!opened ? "nav-link phone" : "nav-link phone-mobile"}>(332) 322-2244</a>
+                        <a href="tel:3323222244" onClick={handlePhoneClick}
+                           className={!opened ? "nav-link phone" : "nav-link phone-mobile"}>(332) 322-2244</a>
                     </li>
                 </ul>
             </nav>
