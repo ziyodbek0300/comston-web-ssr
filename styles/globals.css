@@ -270,7 +270,7 @@
 .first-section {
     height: calc(100vh - 80px);
     background-image: url("../public/1.svg"), url("../public/Vector-2.svg"), url("../public/Vector-1.svg"), url("../public/Ellipse 2.svg"), url("/aaa.svg");
-    background-position: 95% 14%, 5% 20%, 0 64%, 90% 70%, 50% 112%;
+    background-position: 95% 14%, 5% 20%, 0 64%, 90% 70%, 49% 112%;
     background-repeat: no-repeat, no-repeat;
 }
 
