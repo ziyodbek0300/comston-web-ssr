@@ -51,8 +51,8 @@ function Fourteen() {
             generateETag('event', 'conversion', {'send_to': 'AW-10933023663/ntddCLDIsNwDEK_not0o'});
             console.log("after")
             // navigate to thank you page
-        } catch (e) {
-            console.log("generateEtag", e)
+        } catch (event) {
+            console.log("generateEtag", event)
         }
         router.push("/final-page");
     }

@@ -5,23 +5,31 @@ import FImage1 from '../../public/icons/Base/Vector (Stroke).svg';
 import FImage2 from '../../public/icons/Base/Vector.svg';
 import FImage3 from '../../public/icons/Others/Vector.svg';
 import Link from "next/link";
-// import {generateETag} from "next/dist/server/lib/etag";
+import {generateETag} from "next/dist/server/lib/etag";
 
 function Footer() {
     const handleEmailClick = () => {
-        var callback = function () {
-            if (typeof(url) != 'undefined') {
-                window.location = url;
-            }
-        };
-        gtag('event', 'conversion', {
-            'send_to': 'AW-10933023663/wTnfCJDAtdwDEK_not0o',
-            'event_callback': callback
-        });
+        console.log("Email Clicked")
+        try {
+            var callback = function () {
+                if (typeof (url) != 'undefined') {
+                    window.location = url;
+                } else if (url === 'http://localhost:3000') {
+                    window.location = url;
+                }
+            };
+            generateETag('event', 'conversion', {
+                'send_to': 'AW-10933023663/wTnfCJDAtdwDEK_not0o',
+                'event_callback': callback
+            });
+        } catch (e) {
+            console.log("Gtag", e)
+        }
         return false;
     }
 
     const handlePhoneClick = () => {
+        console.log("Phone Clicked")
         try {
             generateETag('config', 'AW-10933023663/ZTcPCJ7qrNwDEK_not0o', {
                 'phone_conversion_number': '(332) 322-2244'
