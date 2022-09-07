@@ -229,7 +229,7 @@
 }
 
 .dropdown::after:hover {
-    background: url("../public/dropdown.svg") 90% 95% no-repeat;
+    background: url("/dropdown.svg") 90% 95% no-repeat;
 }
 
 .nav-link {
