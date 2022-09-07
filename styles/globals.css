@@ -225,9 +225,9 @@
     display: inline-block;
     height: 1rem;
     width: 1.5rem;
-    background-image: url("../public/dropdown.svg");
-    background-repeat: no-repeat;
-    background-position: 90% 95%;
+    background: url("../public/dropdown.svg") 90% 95% no-repeat;
+    /*background-repeat: ;*/
+    /*background-position: ;*/
 }
 
 .dropdown::after:hover {
