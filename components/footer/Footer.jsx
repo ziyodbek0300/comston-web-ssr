@@ -49,7 +49,7 @@ function Footer() {
                     <li className={"text-white mb-3 text-16-24-400"}><Image width={20} height={20} src={FImage1}
                                                                             alt={"phone-icon"}/>&nbsp; &nbsp; <span
                         className={"text-white"}>
-                        <a href="tel:+1 (407) 683-5894">+1 (407) 683-5894</a>
+                        <a href="tel:3323222244">(332) 322-2244</a>
                     </span></li>
                     <li className={"text-white mb-3 text-16-24-400"}><Image width={20} height={20} src={FImage2}
                                                                             alt={"envelope-icon"}/>&nbsp; &nbsp;&nbsp;

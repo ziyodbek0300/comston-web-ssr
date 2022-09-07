@@ -86,8 +86,7 @@ function Navbar() {
                         <Link href={"/#contacts"}>Contacts</Link>
                     </li>
                     <li className={"nav-item phone hover:text-blue-550 cursor-pointer inline-block"}>
-                        <a href="tel:+3212455850" className={!opened ? "nav-link phone" : "nav-link phone-mobile"}>(321)
-                            245-5850</a>
+                        <a href="tel:3323222244" className={!opened ? "nav-link phone" : "nav-link phone-mobile"}>(332) 322-2244</a>
                     </li>
                 </ul>
             </nav>
