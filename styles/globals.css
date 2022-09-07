@@ -225,11 +225,15 @@
     display: inline-block;
     height: 1rem;
     width: 1.5rem;
-    background-image: url("/dropdown.svg") 90% 95% no-repeat;
+    background-image: url("/dropdown.svg");
+    background-repeat: no-repeat;
+    background-position: 90% 95%;
 }
 
 .dropdown::after:hover {
-    background-image: url("/dropdown.svg") 90% 95% no-repeat;
+    background-image: url("/dropdown.svg");
+    background-repeat: no-repeat;
+    background-position: 90% 95%;
 }
 
 .nav-link {
@@ -432,7 +436,7 @@ body {
 
 .development-fourthSection {
     background-image: url("../public/bg/Vector.svg"), url("../public/bg/Vector-1.svg"), url("../public/bg/Vector-2.svg"), url("../public/bg/Vector-3.svg");
-    background-repeat: no-repeat, no-repeat,no-repeat, no-repeat;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
     background-position: left 20%, right top, left 80%, right;
     background-size: 10%, 10%, 10%, 10%;
 }
@@ -450,7 +454,7 @@ body {
 @media screen and (max-width: 901px) {
     .development-fourthSection {
         background-image: url("../public/bg/Vector.svg"), url("../public/bg/Vector-1.svg"), url("../public/bg/Vector-2.svg"), url("../public/bg/Vector-3.svg");
-        background-repeat: no-repeat, no-repeat,no-repeat, no-repeat;
+        background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
         background-position: left 20%, right top, left 80%, right;
         background-size: 18%, 18%, 18%, 18%;
     }
@@ -532,6 +536,7 @@ body {
 .table-c {
     display: block;
 }
+
 .mobile {
     display: none !important;
 }
@@ -540,15 +545,18 @@ body {
     .table-c {
         display: none !important;
     }
+
     .mobile {
         display: block !important;
     }
+
     .development-fourthSection {
         background-image: url("../public/bg/Vector.svg"), url("../public/bg/Vector-1.svg"), url("../public/bg/Vector-2.svg"), url("../public/bg/Vector-3.svg");
-        background-repeat: no-repeat, no-repeat,no-repeat, no-repeat;
+        background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
         background-position: left 20%, right top, left 90%, right;
         background-size: 25%, 25%, 25%, 25%;
     }
+
     .first-section-app {
         background-image: url("../public/mockup1.png");
         background-repeat: no-repeat;
