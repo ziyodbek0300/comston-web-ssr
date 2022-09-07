@@ -121,7 +121,7 @@ function Fourteen() {
                         <form onSubmit={handleSubmit} className={"md:p-10 p-4 shadow-a rounded-2xl"}>
                             <div className={"mb-4"}>
                                 <label className={"text-16-20-500"} htmlFor="name">Your Name</label>
-                                <input required type="text" id={"name"} placeholder={"John Smith"}
+                                <input type="text" id={"name"} placeholder={"John Smith"}
                                        className={"bg-gray-350 mt-2 p-3 rounded outline-blue-550 w-full"}/>
                             </div>
                             <div className={"mb-4"}>
@@ -131,7 +131,7 @@ function Fourteen() {
                             </div>
                             <div className={"mb-4"}>
                                 <label className={"text-16-20-500"} htmlFor="phone">Your Phone</label>
-                                <input type="text" id={"phone"} placeholder={"+1 (999) 999-9999"}
+                                <input required type="text" id={"phone"} placeholder={"+1 (999) 999-9999"}
                                        className={"bg-gray-350 mt-2 p-3 rounded outline-blue-550 w-full"}/>
                             </div>
                             <div className={"mb-4"}>
