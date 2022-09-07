@@ -6,6 +6,7 @@ import {ToastContainer} from "react-toastify";
 
 export default function Home() {
     return (<div>
+        {/* eslint-disable-next-line @next/next/no-script-component-in-head */}
         <Head>
             <title>Comston Technologies</title>
             <meta name="description" content="Mobile & web software development company"/>
