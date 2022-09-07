@@ -5,16 +5,16 @@ import FImage1 from '../../public/icons/Base/Vector (Stroke).svg';
 import FImage2 from '../../public/icons/Base/Vector.svg';
 import FImage3 from '../../public/icons/Others/Vector.svg';
 import Link from "next/link";
-import {generateETag} from "next/dist/server/lib/etag";
+// import {generateETag} from "next/dist/server/lib/etag";
 
 function Footer() {
     const handleEmailClick = () => {
         var callback = function () {
-            if (typeof (url) != 'undefined') {
+            if (typeof(url) != 'undefined') {
                 window.location = url;
             }
         };
-        generateETag('event', 'conversion', {
+        gtag('event', 'conversion', {
             'send_to': 'AW-10933023663/wTnfCJDAtdwDEK_not0o',
             'event_callback': callback
         });
