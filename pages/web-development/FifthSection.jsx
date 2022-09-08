@@ -14,7 +14,7 @@ export default function FifthSection() {
                 <div className="card bg-white p-8 rounded-2xl">
                     <div className={"card-header flex mb-5 items-center gap-4"}>
                         <div className="for-img">
-                            <Image src={Human22} alt={'Pamela_brown'}/>
+                            <Image quality={100} src={Human22} alt={'Pamela_brown'}/>
                         </div>
                         <div className="for-text">
                             <span className='text-20-26-500'>Pamela Brown</span>

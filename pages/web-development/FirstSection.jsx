@@ -19,7 +19,7 @@ function FirstSection() {
                 <Button link={"/#contacts"} duration={"1200"} text={"Get started"} classes={"bg-blue-950 hover:bg-blue-1000"}/>
             </div>
             <div data-aos={"fade-up"} data-aos-duration={"1000"} className={"lg:w-[55%] lg:pt-0 pt-10 w-full"}>
-                <Image className={"w-full"} src={Interface} alt={"interface"}/>
+                <Image quality={100} className={"w-full"} src={Interface} alt={"interface"}/>
             </div>
         </div>
     </div>);

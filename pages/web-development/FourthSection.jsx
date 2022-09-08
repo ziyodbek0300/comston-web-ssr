@@ -1,11 +1,11 @@
 import React from 'react';
 import Image from "next/image";
 
-import Img1 from '../../public/web-development-images/img1.svg';
-import Img2 from '../../public/web-development-images/img3.svg';
-import Img3 from '../../public/web-development-images/img2.svg';
-import Img4 from '../../public/web-development-images/img4.svg';
-import Img5 from '../../public/web-development-images/img5.svg';
+import Img1 from '../../public/web-development-images/05.svg';
+import Img2 from '../../public/web-development-images/04.svg';
+import Img3 from '../../public/web-development-images/03.svg';
+import Img4 from '../../public/web-development-images/02.svg';
+import Img5 from '../../public/web-development-images/01.svg';
 
 
 function FourthSection() {
@@ -34,7 +34,7 @@ function FourthSection() {
                         </div>
                     </div>
                     <div data-aos={"fade-up"} data-aos-duration={"800"} className={"w-full"}>
-                        <Image src={Img1} className={'w-100'} alt={'goals'}/>
+                        <Image quality={1} layout={'fixed'} src={Img1} className={'w-100'} alt={'goals'}/>
                     </div>
                 </div>
 
