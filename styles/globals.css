@@ -276,7 +276,15 @@
     background-repeat: no-repeat, no-repeat;
 }
 
+.hoverable:hover .hoverable-image {
+    transition: .4s;
+    transform: scale(1);
+}
 
+.hoverable:hover .hoverable-image {
+    transform: scale(1.1);
+    transition: .4s;
+}
 
 .first-section-web {
     height: calc(100vh - 80px);
