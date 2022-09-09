@@ -14,7 +14,7 @@ function Footer() {
             var callback = function () {
                 if (typeof (url) != 'undefined') {
                     window.location = url;
-                } else if (url === 'http://localhost:3000') {
+                } else if (url === 'http://www.comston.io') {
                     window.location = url;
                 }
             };
