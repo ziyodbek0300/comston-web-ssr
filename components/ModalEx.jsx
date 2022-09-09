@@ -7,6 +7,7 @@ import Img4 from "../public/project-page images/4.png";
 import Img5 from "../public/project-page images/5.png";
 import Img6 from "../public/project-page images/6.png";
 import Image from "next/image";
+import Button from "./button";
 
 function ModalEx({isOpen, closeModal, ind}) {
 
@@ -14,7 +15,7 @@ function ModalEx({isOpen, closeModal, ind}) {
         overlay: {
             backgroundColor: 'rgba(0, 0, 0, 0.20)', zIndex: '99'
         }, content: {
-            top: '50%',
+            top: '40%',
             left: '50%',
             right: 'auto',
             bottom: 'auto',
@@ -37,16 +38,46 @@ function ModalEx({isOpen, closeModal, ind}) {
         >
             {ind === 0 ? (<div>
                 <Image src={Img1} alt={"qwerty"}/>
+                <div className={"py-2"}>
+                    <h1 className={"text-2xl font-bold"}></h1>
+                    <p className={""}></p>
+                    {/*<button className={"bg-blue-800 text-white py-2 px-4 rounded-lg mt-4"}>Contact us</button>*/}
+                </div>
             </div>) : ind === 1 ? (<div>
                 <Image src={Img2} alt={"qwerty"}/>
+                <div className={"py-2"}>
+                    <h1 className={"text-2xl font-bold"}></h1>
+                    <p className={""}></p>
+                    {/*<button className={"bg-blue-800 text-white py-2 px-4 rounded-lg mt-4"}>Contact us</button>*/}
+                </div>
             </div>) : ind === 2 ? (<div>
                 <Image src={Img3} alt={"qwerty"}/>
+                <div className={"py-2"}>
+                    <h1 className={"text-2xl font-bold"}></h1>
+                    <p className={""}></p>
+                    {/*<button className={"bg-blue-800 text-white py-2 px-4 rounded-lg mt-4"}>Contact us</button>*/}
+                </div>
             </div>) : ind === 3 ? (<div>
                 <Image src={Img4} alt={"qwerty"}/>
+                <div className={"py-2"}>
+                    <h1 className={"text-2xl font-bold"}></h1>
+                    <p className={""}></p>
+                    {/*<button className={"bg-blue-800 text-white py-2 px-4 rounded-lg mt-4"}>Contact us</button>*/}
+                </div>
             </div>) : ind === 4 ? (<div>
                 <Image src={Img5} alt={"qwerty"}/>
+                <div className={"py-2"}>
+                    <h1 className={"text-2xl font-bold"}></h1>
+                    <p className={""}></p>
+                    {/*<button className={"bg-blue-800 text-white py-2 px-4 rounded-lg mt-4"}>Contact us</button>*/}
+                </div>
             </div>) : (<div>
                 <Image src={Img6} alt={"qwerty"}/>
+                <div className={"py-2"}>
+                    <h1 className={"text-2xl font-bold"}></h1>
+                    <p className={""}></p>
+                    {/*<button className={"bg-blue-800 text-white py-2 px-4 rounded-lg mt-4"}>Contact us</button>*/}
+                </div>
             </div>)}
         </Modal>
     </div>);
