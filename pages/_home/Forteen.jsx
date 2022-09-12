@@ -132,7 +132,7 @@ function Fourteen() {
                             </div>
                             <div className={"mb-4"}>
                                 <label className={"text-16-20-500"} htmlFor="phone">Your Phone</label>
-                                <input required type="text" id={"phone"} pattern={"^\+?[1-9][0-9]{7,14}$"} placeholder={"+1 (999) 999-9999"}
+                                <input required type="text" id={"phone"} pattern={"^(?:\\d{10,12}|\\+\\d{10,12}|\\w+@\\w+\\.\\w{2,4})$"} placeholder={"+1 (999) 999-9999"}
                                        className={"bg-gray-350 mt-2 p-3 rounded outline-blue-550 w-full"}/>
                             </div>
                             <div className={"mb-4"}>
