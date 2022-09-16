@@ -4,9 +4,9 @@ const { Readable } = require("stream");
 export default async (req, res) => {
   // An array with your links
   const links = [
-    { url: "/app-development/", changefreq: "daily", priority: 0.3 },
-    { url: "/web-development", changefreq: "daily", priority: 0.3 },
-    { url: "/blog/1/", changefreq: "daily", priority: 0.3 },
+    { url: "/products/", changefreq: "daily", priority: 0.3 },
+    { url: "/projects", changefreq: "daily", priority: 0.3 },
+    { url: "/products/marble", changefreq: "daily", priority: 0.3 },
     { url: "/", changefreq: "daily", priority: 0.3 },
   ];
 
