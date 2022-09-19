@@ -3,9 +3,9 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    loader: 'akamai',
-    path: '',
-    unoptimized: true
+    path: '/_next/image',
+    disableStaticImages: false,
+    dangerouslyAllowSVG: true,
   },
 
 }
