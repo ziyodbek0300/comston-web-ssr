@@ -9,6 +9,7 @@ import Ten from "../_home/Ten";
 import Forteen from "../_home/Forteen";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Head from 'next/head'
 
 function WebDevelopment() {
 
@@ -20,6 +21,10 @@ function WebDevelopment() {
 
     return (
         <div>
+            <Head>
+                <title>Best Website Design & Development Company in Orlando</title>
+                <meta name="description" content="Get affordable web design & development services from our experienced team in your timeline. Grow your business with a conversion-driven website."/>
+            </Head>
             <Navbar/>
             <FirstSection/>
             <SecondSection/>

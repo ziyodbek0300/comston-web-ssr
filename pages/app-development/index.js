@@ -11,7 +11,7 @@ import Footer from '../../components/footer/Footer'
 import Ten from "../_home/Ten";
 import Forteen from "../_home/Forteen";
 import AOS from "aos";
-
+import Head from 'next/head'
 import "aos/dist/aos.css";
 
 export default function Index() {
@@ -24,6 +24,11 @@ export default function Index() {
 
     return (
         <div>
+            <Head>
+                <title>Mobile App Development Company in Orlando | Comston</title>
+                <meta name="description" content="Comston offers mobile app development services at an affordable price. Experienced mobile App developers delivering iOS and Android smartphones/tablet apps for over 7 years."/>
+            </Head>
+
             <Navbar/>
             <FirstSection/>
             <SecondSection/>
