@@ -6,6 +6,7 @@ const nextConfig = {
         path: '/_next/image',
         disableStaticImages: false,
         dangerouslyAllowSVG: true,
+        unoptimized: true,
     }
 }
 
