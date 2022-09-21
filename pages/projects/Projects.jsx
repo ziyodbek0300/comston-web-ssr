@@ -41,20 +41,21 @@ export default function FirstSection() {
                 entrepreneurs just like you
             </h2>
             <p className={"text-16-24-400 text-center text-gray-450 pt-6 pb-9"}>
-                Lorem ipsum dolor sit amet consectetur adipiscing elit. Ultrices quam
-                facilisi praesent ipsum, urna, <br/> faucibus sed id dictumst. Cursus
-                laoreet
+                Take a look at some of the companies we’ve helped to scale and excel in their industries
             </p>
             <div className="grid lg:grid-cols-2 grid-cols-1 gap-7 container">
                 <div data-aos={"fade-up"} data-aos-duration={"800"} className="relative hoverable rounded-xl overflow-hidden" onClick={() => openModal(0)}>
                     <Image layout="responsive" className={"hoverable-image"} src={Img1} alt={"human 1"}/>
                     <div className={"opacity-0 transition hover:opacity-100"}>
                         <div className={"flex h-full w-full flex justify-center items-center absolute z-50 top-0 left-0"}>
-                            <h1 className={"text-white"}>Some Text</h1>
+                            <h1 className={"text-white"}>Web & Desktop Software for Laundris</h1>
+
                         </div>
                         <div
                             className="absolute rounded-lg flex justify-center items-center text-white h-full w-full top-0 left-0 bg-zinc-900 opacity-50 z-40">
+                                 
                         </div>
+                        
                     </div>
                 </div>
                 <div data-aos={"fade-up"} data-aos-duration={"800"} className="relative hoverable rounded-xl overflow-hidden" onClick={() => openModal(1)}>
@@ -62,7 +63,7 @@ export default function FirstSection() {
                     <div className={"opacity-0 transition hover:opacity-100"}>
                         <div
                             className={"flex h-full w-full flex justify-center items-center absolute z-50 top-0 left-0"}>
-                            <h1 className={"text-white"}>Some Text</h1>
+                            <h1 className={"text-white"}>Web and Mobile Management Software for Pride Roofing</h1>
                         </div>
                         <div
                             className="absolute rounded-lg flex justify-center items-center text-white h-full w-full top-0 left-0 bg-zinc-900 opacity-50  ">
@@ -74,7 +75,7 @@ export default function FirstSection() {
                     <div className={"opacity-0 transition hover:opacity-100"}>
                         <div
                             className={"flex h-full w-full flex justify-center items-center absolute z-50 top-0 left-0"}>
-                            <h1 className={"text-white"}>Some Text</h1>
+                            <h1 className={"text-white"}>TMS & Landing Website for Kardan Trucking</h1>
                         </div>
                         <div
                             className="absolute rounded-lg flex justify-center items-center text-white h-full w-full top-0 left-0 bg-zinc-900 opacity-50  ">
@@ -86,7 +87,7 @@ export default function FirstSection() {
                     <div className={"opacity-0 transition hover:opacity-100"}>
                         <div
                             className={"flex h-full w-full flex justify-center items-center absolute z-50 top-0 left-0"}>
-                            <h1 className={"text-white"}>Some Text</h1>
+                            <h1 className={"text-white"}>Landing Website for Multi Stone Masters</h1>
                         </div>
                         <div
                             className="absolute rounded-lg flex justify-center items-center text-white h-full w-full top-0 left-0 bg-zinc-900 opacity-50  ">
@@ -98,7 +99,7 @@ export default function FirstSection() {
                     <div className={"opacity-0 transition hover:opacity-100"}>
                         <div
                             className={"flex h-full w-full flex justify-center items-center absolute z-50 top-0 left-0"}>
-                            <h1 className={"text-white"}>Some Text</h1>
+                            <h1 className={"text-white"}>UI/UX Design for CBRE</h1>
                         </div>
                         <div
                             className="absolute rounded-lg flex justify-center items-center text-white h-full w-full top-0 left-0 bg-zinc-900 opacity-50  ">
@@ -110,7 +111,7 @@ export default function FirstSection() {
                     <div className={"opacity-0 transition hover:opacity-100"}>
                         <div
                             className={"flex h-full w-full flex justify-center items-center absolute z-50 top-0 left-0"}>
-                            <h1 className={"text-white"}>Some Text</h1>
+                            <h1 className={"text-white"}>Automation software for LoopCV</h1>
                         </div>
                         <div
                             className="absolute rounded-lg flex justify-center items-center text-white h-full w-full top-0 left-0 bg-zinc-900 opacity-50  ">
