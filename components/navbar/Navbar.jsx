@@ -80,9 +80,9 @@ function Navbar() {
                             <Link href={'/web-development'}>Web Development</Link>
                         </li>
                     </ul>
-                    {/*<li className={"nav-item hover:text-blue-550 cursor-pointer inline-block"}>*/}
-                    {/*    <Link href={"/projects"}>Projects</Link>*/}
-                    {/*</li>*/}
+                    <li className={"nav-item hover:text-blue-550 cursor-pointer inline-block"}>
+                       <Link href={"/projects"}>Projects</Link>
+                    </li>
                     <li className={"nav-item hover:text-blue-550 cursor-pointer inline-block"}>
                         <Link href="/#comments">Reviews</Link>
                     </li>
