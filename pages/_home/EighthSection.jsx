@@ -16,7 +16,7 @@ function EighthSection() {
                         <Image src={Human2} alt={"human 2"}/>
                     </div>
                     <p className={"text-20-24-700 mb-2"}>Kenny Abdul</p>
-                    <p className={"text-18-26-500 text-gray-450"}>Chief Exclusive Officer</p>
+                    <p className={"text-18-26-500 text-gray-450"}>Chief Executive Officer</p>
                 </div>
                 <div>
                     <div className={"card-human1 overflow-hidden flex bg-blue-950 pt-16 rounded-2xl mb-4"}>
