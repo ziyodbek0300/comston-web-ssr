@@ -29,7 +29,7 @@ function EighthSection() {
                     <div className={"card-human3 overflow-hidden flex bg-blue-950 pt-16 rounded-2xl mb-4"}>
                         <Image src={Human3} alt={"human 3"}/>
                     </div>
-                    <p className={"text-20-24-700 mb-2"}>Abror Khaytbayev</p>
+                    <p className={"text-20-24-700 mb-2"}>Abror Khaytbaev</p>
                     <p className={"text-18-26-500 text-gray-450"}>Tech Lead</p>
                 </div>
                 

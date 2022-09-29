@@ -12,22 +12,28 @@ export default function Home() {
             <meta name="description" content="Mobile & web software development company"/>
             <link rel="icon" href="/Logo.svg"/>
             <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
-            {/*/!* eslint-disable-next-line @next/next/no-sync-scripts *!/*/}
-            {/*<Script async={true} src="https://www.googletagmanager.com/gtag/js?id=G-ZGXQT0Y6WD"*/}
-            {/*        strategy={"lazyOnload"}/>*/}
-            {/*<Script id={"sadf"} strategy="lazyOnload">*/}
-            {/*    {`window.dataLayer = window.dataLayer || []; */}
-            {/*function gtag(){dataLayer.push(arguments)}; */}
-            {/*gtag('js', new*/}
-            {/*Date()); gtag('config', 'G-ZGXQT0Y6WD');`}*/}
-            {/*</Script>*/}
-            {/*<Script async src="https://www.googletagmanager.com/gtag/js?id=AW-10933023663"/>*/}
-            {/*<Script id={"as"} strategy="lazyOnload">*/}
-            {/*    {`window.dataLayer = window.dataLayer || [];*/}
-            {/*function gtag(){dataLayer.push(arguments);}*/}
-            {/*gtag('js', new Date());*/}
-            {/*gtag('config', 'AW-10933023663');`}*/}
-            {/*</Script>*/}
+        {/* <script>
+            {`
+                (function(w, d, s, o){
+                    var j = d.createElement(s); j.async = true; j.src = '//script.marquiz.io/v2.js';j.onload = function() {
+                      if (document.readyState !== 'loading') Marquiz.init(o);
+                      else document.addEventListener("DOMContentLoaded", function() {
+                        Marquiz.init(o);
+                      });
+                    };
+                    d.head.insertBefore(j, d.head.firstElementChild);
+                  })(window, document, 'script', {
+                      host: '//quiz.marquiz.io',
+                      region: 'us',
+                      id: '6335ed38ff00140027311ec6',
+                      autoOpen: 5,
+                      autoOpenFreq: 'once',
+                      openOnExit: false,
+                      disableOnMobile: false
+                    }
+                  );
+            `}
+        </script> */}
         </Head>
         <Navbar/>
         <main>
