@@ -12,6 +12,7 @@ import Footer from "../../components/footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import ModalEx from "../../components/ModalEx";
+import Script from "next/script";
 
 export default function FirstSection() {
     const [modal, setModal] = useState(false);
