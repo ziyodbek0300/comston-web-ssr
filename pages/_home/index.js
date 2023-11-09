@@ -25,7 +25,7 @@ function HomePage() {
         <FifthSection/>
         <SixthSection/>
         <SeventhSection/>
-        {/* <EighthSection/> */}
+        <EighthSection/>
         <NinthSection/>
         <Ten/>
         {/* <Eleventh/> */}

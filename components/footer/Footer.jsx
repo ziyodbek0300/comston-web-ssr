@@ -32,7 +32,7 @@ function Footer() {
         console.log("Phone Clicked")
         try {
             generateETag('config', 'AW-10933023663/ZTcPCJ7qrNwDEK_not0o', {
-                'phone_conversion_number': '(332) 322-2244'
+                'phone_conversion_number': '(707) 717-4444'
             });
         } catch (e) {
             console.log("phone tracking", e)
@@ -83,7 +83,7 @@ function Footer() {
                     <li className={"text-white mb-3 text-16-24-400"}><Image width={20} height={20} src={FImage1}
                                                                             alt={"phone-icon"}/>&nbsp; &nbsp; <span
                         className={"text-white"}>
-                        <a href="tel:3323222244" onClick={handlePhoneClick}>(332) 322-2244</a>
+                        <a href="tel:3323222244" onClick={handlePhoneClick}>(707) 717-4444</a>
                     </span></li>
                     <li className={"text-white mb-3 text-16-24-400"}><Image width={20} height={20} src={FImage2}
                                                                             alt={"envelope-icon"}/>&nbsp; &nbsp;&nbsp;
@@ -95,11 +95,10 @@ function Footer() {
                                                                             alt={"location-icon"}/>&nbsp; &nbsp;<span
                         className={"text-white"}>
                         <a
-                            href="https://www.google.com/maps/place/8010+Sunport+Dr+STE+122,+Orlando,+FL+32809,+USA/@28.4503038,-81.3777283,17z/data=!3m1!4b1!4m5!3m4!1s0x88e77cfcf51958df:0xa3980848743cd73e!8m2!3d28.4502991!4d-81.3755396"
+                            href="https://www.google.com/maps/place/6925+Lake+Ellenor+Dr,+Orlando,+FL+32809/@28.4655806,-81.4023714,17z/data=!3m1!4b1!4m6!3m5!1s0x88e77d4979f909f9:0x7a5c0fe59d9724bd!8m2!3d28.4655759!4d-81.3997965!16s%2Fg%2F11kc745rrz?entry=ttu"
                             target={"#"}
                         >
-                        8010 Sunport Dr., Ste
-                        122, Orlando, Florida, 32809
+                        6925 Lake Ellenor Dr, <br/> &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;Orlando, FL 32809
                     </a></span>
                     </li>
                 </ul>

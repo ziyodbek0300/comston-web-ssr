@@ -45,7 +45,7 @@ function Navbar() {
     const handlePhoneClick = () => {
         try {
             generateETag('config', 'AW-10933023663/ZTcPCJ7qrNwDEK_not0o', {
-                'phone_conversion_number': '(332) 322-2244'
+                'phone_conversion_number': '(707) 717-4444'
             });
         } catch (e) {
             console.log("phone tracking", e)
@@ -98,7 +98,7 @@ function Navbar() {
                     </li>
                     <li className={"nav-item phone hover:text-blue-550 cursor-pointer inline-block"}>
                         <a href="tel:3323222244" onClick={handlePhoneClick}
-                           className={!opened ? "nav-link phone" : "nav-link phone-mobile"}>(332) 322-2244</a>
+                           className={!opened ? "nav-link phone" : "nav-link phone-mobile"}>(707) 717-4444</a>
                     </li>
                 </ul>
             </nav>
