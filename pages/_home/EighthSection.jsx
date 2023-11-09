@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from "next/image";
-import Human1 from '../../public/humans/kenny.png';
+import Human1 from '/public/humans/kenny.png';
 import Human2 from '../../public/humans/image 34.png';
 import Human3 from '../../public/humans/image 35.png';
 import Human4 from '../../public/humans/image 36.png';
