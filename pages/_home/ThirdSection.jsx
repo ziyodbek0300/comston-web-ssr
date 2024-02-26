@@ -28,7 +28,7 @@ function ThirdSection() {
           At the heart of our consultancy lies a commitment to guiding logistics
           entrepreneurs through every step of their journey. We understand the
           complexities of starting and scaling in the logistics sector, and
-          we're here to make it easier:
+          we&apos;re here to make it easier:
         </p>
         <Button
           link="/projects"
@@ -53,14 +53,14 @@ function ThirdSection() {
           <Image src={Time} alt="computer" className={"mb-5"} />
           <p className="card-title text-18-26-500 mb-2">Business Launch Guidance</p>
           <p className="card-text text-16-24-400 text-gray-450">
-          From navigating administrative tasks to setting up your business structure, we're with you from day one.
+          From navigating administrative tasks to setting up your business structure, we&apos;re with you from day one.
           </p>
         </div>
         <div className={"rounded-lg shadow-b p-6"}>
           <Image src={Guaranteed} alt="computer" className={"mb-5"} />
         <p className="card-title text-18-26-500 mb-2">Permits and Licenses</p>
           <p className="card-text text-16-24-400 text-gray-450">
-          We help you with the process of obtaining the necessary permits and licenses, ensuring you're compliant and ready to operate.
+          We help you with the process of obtaining the necessary permits and licenses, ensuring you&apos;re compliant and ready to operate.
           </p>
         </div>
         <div className={"rounded-lg shadow-b p-6"}>

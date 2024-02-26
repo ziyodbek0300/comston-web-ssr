@@ -64,7 +64,7 @@ function Fourteen() {
                     <div data-aos={"fade-up"} data-aos-duration={"800"} className={"lg:w-[55%]"}>
                         <h2 className={"text-40-56-700 capitalize mb-5"}>Connect With Our <br/><span
                             className={"text-blue-550"}>Logistics Tech Experts</span> <br/>Today!</h2>
-                        <p className={"text-16-24-400 mb-12"}>We&apos;ve propelled business owners and startups ahead of their competition in the logistics sector. Complete the form, and we'll provide several time slots for a consultation to explore your question.</p>
+                        <p className={"text-16-24-400 mb-12"}>We&apos;ve propelled business owners and startups ahead of their competition in the logistics sector. Complete the form, and we&apos;ll provide several time slots for a consultation to explore your question.</p>
                         <div className={"w-full grid sm:grid-cols-2 grid-cols-1 gap-14"}>
                             <div className={"rounded-lg pb-6"}>
                                 <div className={"mb-5"}>
