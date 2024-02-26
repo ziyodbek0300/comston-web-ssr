@@ -25,8 +25,8 @@ export default function Index() {
     return (
         <div>
             <Head>
-                <title>Mobile App Development Company in Orlando | Comston</title>
-                <meta name="description" content="Comston offers mobile app development services at an affordable price. Experienced mobile App developers delivering iOS and Android smartphones/tablet apps for over 7 years."/>
+                <title>Logistics Tech Consultancy in Orlando | Comston</title>
+                <meta name="description" content="Comston offers guidance to companies through digital transformation, offering consultancy on implementing software solutions and automating processes."/>
             </Head>
 
             <Navbar/>

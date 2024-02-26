@@ -55,10 +55,10 @@ function Footer() {
                         <Link href={"/"}>Home</Link>
                     </li>
                     <li className={"text-white mb-3 text-16-24-400 font-extralight"}>
-                        <Link href={"/app-development"}>App Development</Link>
+                        <Link href={"/app-development"}>Services</Link>
                     </li>
                     <li className={"text-white mb-3 text-16-24-400 font-extralight"}>
-                        <Link href={"/web-development"}>Web Development</Link>
+                        <Link href={"/web-development"}>Projects</Link>
                     </li>
                     <li className={"text-white mb-3 text-16-24-400 font-extralight"}>
                         <Link href={"/#comments"}>Reviews</Link>

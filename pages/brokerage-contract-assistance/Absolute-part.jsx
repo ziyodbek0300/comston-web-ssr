@@ -13,13 +13,13 @@ export default function AbsolutePart() {
       <div className="container flex justify-between items-center xl:flex-row flex-col xl:text-left text-center">
         <div>
           <h3 className={"text-blue-gr text-30-44-600 xl:mb-4 mb-2"}>
-            Got a Project or Idea?
+          Struggling with logistics operations?
           </h3>
           <p className={"text-16-24-400 text-gray-450"}>
             Leave your details and we’ll be in touch within 1 hour.
           </p>
         </div>
-        <Button text={"Get started"} classes={"bg-gradient-btn text-18-26-500 xl:mr-0 ml-auto mr-auto xl:mt-0 mt-5"}/>
+        <Button text={"Get Started"} classes={"bg-gradient-btn text-18-26-500 xl:mr-0 ml-auto mr-auto xl:mt-0 mt-5"}/>
       </div>
     </div>
   );

@@ -74,10 +74,22 @@ function Navbar() {
                     <ul className={!opened ? "m-0 p-0 absolute -left-2 top-8 shadow-c rounded-lg bg-white hidden" : "m-0 p-0 absolute -left-2 top-12 shadow-c rounded-lg bg-white hidden"}
                         ref={dropRef}>
                         <li className={"p-5 hover:bg-blue-150 hover:text-blue-550 cursor-pointer rounded-t-lg"}>
-                            <Link href={'/app-development'}>App Development</Link>
+                            <Link href={'/business-launch-guidance'}>Business Launch Guidance</Link>
                         </li>
+                        {/* <li className={"p-5 hover:bg-blue-150 hover:text-blue-550 cursor-pointer rounded-b-lg"}>
+                            <Link href={'/permits-licences'}>Permits and Licenses</Link>
+                        </li> */}
+                        {/* <li className={"p-5 hover:bg-blue-150 hover:text-blue-550 cursor-pointer rounded-b-lg"}>
+                            <Link href={'/fleet-acquisition'}>Fleet Acquisition</Link>
+                        </li> */}
                         <li className={"p-5 hover:bg-blue-150 hover:text-blue-550 cursor-pointer rounded-b-lg"}>
-                            <Link href={'/web-development'}>Web Development</Link>
+                            <Link href={'/software-solutions'}>Software Solutions</Link>
+                        </li>
+                        {/* <li className={"p-5 hover:bg-blue-150 hover:text-blue-550 cursor-pointer rounded-b-lg"}>
+                            <Link href={'/unified-platform'}>Unified Platform Development</Link>
+                        </li> */}
+                        <li className={"p-5 hover:bg-blue-150 hover:text-blue-550 cursor-pointer rounded-b-lg"}>
+                            <Link href={'/brokerage-contract-assistance'}>Brokerage and Contract Assistance</Link>
                         </li>
                     </ul>
                     <li className={"nav-item hover:text-blue-550 cursor-pointer inline-block"}>
@@ -86,12 +98,12 @@ function Navbar() {
                     <li className={"nav-item hover:text-blue-550 cursor-pointer inline-block"}>
                         <Link href="/#comments">Reviews</Link>
                     </li>
-                    <li className={"nav-item hover:text-blue-550 cursor-pointer inline-block"}>
+                    {/* <li className={"nav-item hover:text-blue-550 cursor-pointer inline-block"}>
                         <Link href={'/blog'}>Blog</Link>
-                    </li>
+                    </li> */}
                     {/* eslint-disable-next-line react/no-unescaped-entities */}
                     <li className={"nav-item hover:text-blue-550 cursor-pointer inline-block"}>
-                        <Link href={"/#faqs"}>FAQ`s</Link>
+                        <Link href={"/#faqs"}>FAQ</Link>
                     </li>
                     <li className={"nav-item hover:text-blue-550 cursor-pointer inline-block"}>
                         <Link href={"/#contacts"}>Contacts</Link>

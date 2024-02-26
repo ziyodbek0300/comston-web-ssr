@@ -37,8 +37,7 @@ function Thirteen() {
         <h2 className={"capitalize lg:text-center text-left text-40-56-700"}>
           Get answers for{" "}
           <span className={"text-blue-550"}>your questions</span> here <br />{" "}
-          and <span className={"text-blue-550"}>call us</span> to discuss your
-          idea!
+          and <span className={"text-blue-550"}>call us today!</span>
         </h2>
         <div className={"py-5"}>
           <div className="accordion">
@@ -52,7 +51,7 @@ function Thirteen() {
                 className="accordion-header flex justify-between items-center cursor-pointer hover:bg-blue-150 rounded-t-lg p-4"
               >
                 <p className={"text-18-26-500"}>
-                  How can I protect my idea from ... ?
+                What services does Comston offer to logistics companies?
                 </p>
                 <div ref={icon1}>
                   <Image src={Arrow} className={"ccc"} alt={"arrow-down"} />
@@ -63,11 +62,7 @@ function Thirteen() {
                 className="accordion-body overflow-hidden p-0 h-0"
               >
                 <p className={"text-16-24-400 text-gray-450 lg:w-1/2"}>
-                  First of all, you should always request an NDA form to sign
-                  from any company you are dealing with. As non-disclosure
-                  agreements are an important legal framework used to protect
-                  sensitive and confidential information from being made
-                  available by the recipient of that information.
+                Learn about the range of services we provide, from AI-driven tech solutions to securing long-term contracts and boosting sales.
                 </p>
               </div>
             </div>
@@ -81,7 +76,7 @@ function Thirteen() {
                 className="accordion-header flex justify-between items-center cursor-pointer hover:bg-blue-150 rounded-t-lg p-4"
               >
                 <p className={"text-18-26-500"}>
-                How soon can I launch my product?
+                How can Comston help my company secure long-term contracts?
                 </p>
                 <div ref={icon2}>
                   <Image src={Arrow} className={"ccc"} alt={"arrow-down"} />
@@ -92,7 +87,7 @@ function Thirteen() {
                 className="accordion-body overflow-hidden p-0 h-0"
               >
                 <p className={"text-16-24-400 text-gray-450 lg:w-1/2"}>
-                It depends on the scope of the project, for example, average time for app development can take from 3-4 months.
+                Discover the strategies and tools we use to help your logistics company find and secure valuable, long-term contracts.
                 </p>
               </div>
             </div>
@@ -106,7 +101,7 @@ function Thirteen() {
                 className="accordion-header flex justify-between items-center cursor-pointer hover:bg-blue-150 rounded-t-lg p-4"
               >
                 <p className={"text-18-26-500"}>
-                Do you help my newly developed application to go public?
+                What makes Comston different from other logistics tech consultancies?
                 </p>
                 <div ref={icon3}>
                   <Image src={Arrow} className={"ccc"} alt={"arrow-down"} />
@@ -117,7 +112,7 @@ function Thirteen() {
                 className="accordion-body overflow-hidden p-0 h-0"
               >
                 <p className={"text-16-24-400 text-gray-450 lg:w-1/2"}>
-                Yes, we have great marketing partners who are GURU at what they do. They specialize in growing newly developed start ups and ongoing businesses to maximise their profit with their best industry experience.
+                Understand what sets us apart, including our specialized focus on AI implementation and our proven track record in enhancing sales and operational efficiency.
                 </p>
               </div>
             </div>
@@ -131,7 +126,7 @@ function Thirteen() {
                 className="accordion-header flex justify-between items-center cursor-pointer hover:bg-blue-150 rounded-t-lg p-4"
               >
                 <p className={"text-18-26-500"}>
-                How do you develop my project?
+                Can Comston assist a small or mid-sized logistics company in growing its business?
                 </p>
                 <div ref={icon4}>
                   <Image src={Arrow} className={"ccc"} alt={"arrow-down"} />
@@ -142,7 +137,7 @@ function Thirteen() {
                 className="accordion-body overflow-hidden p-0 h-0"
               >
                 <p className={"text-16-24-400 text-gray-450 lg:w-1/2"}>
-                We have IT consultants who specialize in each industry. For instance, if a project is in the Logistics sector then our IT consultant in Logistics industry joins the team and gives their best advice based on a proven experience.
+                Find out how we tailor our services to fit the unique needs of both small and mid-sized logistics companies, driving growth and improving efficiency.
                 </p>
               </div>
             </div>
@@ -156,7 +151,7 @@ function Thirteen() {
                 className="accordion-header flex justify-between items-center cursor-pointer hover:bg-blue-150 rounded-t-lg p-4"
               >
                 <p className={"text-18-26-500"}>
-                Can I do additions in functionality throughout the development phase?
+                How does Comston integrate emerging technologies to enhance logistics operations?
                 </p>
                 <div ref={icon5}>
                   <Image src={Arrow} className={"ccc"} alt={"arrow-down"} />
@@ -168,7 +163,7 @@ function Thirteen() {
                 className="accordion-body overflow-hidden p-0 h-0"
               >
                 <p className={"text-16-24-400 text-gray-450 lg:w-1/2"}>
-                As we have experience in most of the industries we decide to collaborate on, we know ups and downs of your product. Besides, we will not just develop your app based on your requirements - every idea and functionality requested will be deeply researched to make the application outstand in the market.
+                We adopt advanced technologies such as IoT and data analytics to streamline logistics, improving speed and transparency without overwhelming complexity.
                 </p>
               </div>
             </div>

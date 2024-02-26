@@ -5,7 +5,7 @@ function NinthSection() {
     return (
         <div className={"py-14 bg-blue-950 text-center nineSection"} data-aos={"fade-up"} data-aos-duration={"800"}>
             <div className="container">
-                <h2 className={"text-white text-40-56-700 mb-5"}>Would you like an expert feedback on <br/> your idea?</h2>
+                <h2 className={"text-white text-40-56-700 mb-5"}>Seeking Technical Insight on Your <br/>Logistics Concept?</h2>
                 <Button link={"/#contacts"} id={"comments"} duration={"100"} classes={"bg-gradient text-white border-none"} text={"Get started"}/>
             </div>
         </div>

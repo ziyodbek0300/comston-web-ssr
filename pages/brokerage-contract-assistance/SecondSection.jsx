@@ -12,7 +12,7 @@ function SecondSection() {
             </div>
             <div className={" pt-14 lg:text-left text-center"} data-aos={"fade-up"} data-aos-duration={"1200"}>
                 <h2 className={"capitalize text-32-44-700 sm:w-2/3 lg:w-full mx-auto text-left"}>
-                    Comston <span className={"text-blue-550"}>App Development</span> services</h2>
+                    Comston <span className={"text-blue-550"}>Highlights</span> </h2>
                 <p className={"text-16-24-400 text-gray-450 pt-6 pb-5 sm:w-2/3 lg:w-full mx-auto text-left"}>
                     Our software development center provides you with the best resources and
                     expertise.
@@ -20,27 +20,19 @@ function SecondSection() {
                 <ul className={"sm:w-2/3 lg:w-full mx-auto text-left"}>
                     <li className={"text-16-24-400 pb-3"}>
                         <Image src={appDevEllipse} alt={"app dev ellipse"}/>
-                        <span className={"inline-block ml-3"}>Telemedicine Apps</span>
+                        <span className={"inline-block ml-3"}>Tailored Support</span>
                     </li>
                     <li className={"text-16-24-400 pb-3"}>
                         <Image src={appDevEllipse} alt={"app dev ellipse"}/>
-                        <span className={"inline-block ml-3"}>E-commerce Apps</span>
+                        <span className={"inline-block ml-3"}>Comprehensive Coverage</span>
                     </li>
                     <li className={"text-16-24-400 pb-3"}>
                         <Image src={appDevEllipse} alt={"app dev ellipse"}/>
-                        <span className={"inline-block ml-3"}>Dating Apps</span>
+                        <span className={"inline-block ml-3"}>Expert Advice</span>
                     </li>
                     <li className={"text-16-24-400 pb-3"}>
                         <Image src={appDevEllipse} alt={"app dev ellipse"}/>
-                        <span className={"inline-block ml-3"}>Social Media Apps</span>
-                    </li>
-                    <li className={"text-16-24-400 pb-3"}>
-                        <Image src={appDevEllipse} alt={"app dev ellipse"}/>
-                        <span className={"inline-block ml-3"}>Decentralized Apps (DApps)</span>
-                    </li>
-                    <li className={"text-16-24-400 pb-3"}>
-                        <Image src={appDevEllipse} alt={"app dev ellipse"}/>
-                        <span className={"inline-block ml-3"}>Various apps for non-profit organizations</span>
+                        <span className={"inline-block ml-3"}>Technology and Infrastructure</span>
                     </li>
                     <Button link={"/#contacts"} duration={"1200"} text={"Contact Us"} classes={"bg-blue-550 hover:bg-blue-1000 mt-8"}/>
                 </ul>

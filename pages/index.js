@@ -9,7 +9,7 @@ export default function Home() {
         {/* eslint-disable-next-line @next/next/no-script-component-in-head */}
         <Head>
             <title>Comston Technologies</title>
-            <meta name="description" content="Mobile & web software development company"/>
+            <meta name="description" content="Logistics Tech Consultancy"/>
             <link rel="icon" href="/Logo.svg"/>
             <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
         {/* <script>

@@ -11,8 +11,8 @@ import Img5 from '../../public/web-development-images/01.svg';
 function FourthSection() {
     return (<div className={'development-fourthSection'}>
         <div className={'container'}>
-            <h2 className={"capitalize text-32-44-700 text-center mt-20 mb-14"}>Our website <span
-                className={"text-blue-550"}>Design & development</span> Process</h2>
+            <h2 className={"capitalize text-32-44-700 text-center mt-20 mb-14"}>Here are the  <span
+                className={"text-blue-550"}>five key steps</span>  we follow:</h2>
             <div className="container-md relative">
                 <div className={"absolute lg:left-1/2 left-0 dashed w-1 h-full"}>
                     <div className={"h-full relative"}>
@@ -25,12 +25,10 @@ function FourthSection() {
                             <div
                                 className="text-16-24-400 bg-blue-950 text-white h-10 rounded-full w-10 flex justify-center items-center">01
                             </div>
-                            <p className={'text-30-44-600 capitalize'}>your goals</p>
+                            <p className={'text-30-44-600 capitalize'}>Requirement Analysis</p>
                         </div>
                         <div className="card-body">
-                            Because your website is unique, we take the time to learn about the objectives you
-                            want to achieve. We research your needs, brand, and corporate identity before
-                            deciding on the best strategy for online success.
+                        We start by understanding your business objectives, challenges, and the specific requirements of your logistics operations. This involves detailed discussions to gather all necessary information to tailor a solution that fits your needs.
                         </div>
                     </div>
                     <div data-aos={"fade-up"} data-aos-duration={"800"} className={"w-full"}>
@@ -47,13 +45,10 @@ function FourthSection() {
                             <div
                                 className="text-16-24-400 bg-blue-950 text-white h-10 rounded-full w-10 flex justify-center items-center">02
                             </div>
-                            <p className={'text-30-44-600 capitalize'}>Ideation</p>
+                            <p className={'text-30-44-600 capitalize'}>Design and Prototyping</p>
                         </div>
                         <div className="card-body">
-                            After we`ve done our research, our professional website designers will sketch up the
-                            fundamental design concepts. These designs are just blueprints or mockups that serve
-                            as a starting point for building great online experiences that will convey and
-                            connect your business with your customers.
+                        Based on the requirements analysis, our team designs a prototype of the software solution. This step allows us to visualize the end product and make adjustments based on your feedback, ensuring the final product aligns with your expectations.
                         </div>
                     </div>
                 </div>
@@ -64,12 +59,10 @@ function FourthSection() {
                             <div
                                 className="text-16-24-400 bg-blue-950 text-white h-10 rounded-full w-10 flex justify-center items-center">03
                             </div>
-                            <p className={'text-30-44-600 capitalize'}>Design</p>
+                            <p className={'text-30-44-600 capitalize'}>Development</p>
                         </div>
                         <div className="card-body">
-                            Because your website is unique, we take the time to learn about the objectives you
-                            want to achieve. We research your needs, brand, and corporate identity before
-                            deciding on the best strategy for online success.
+                        With the design in place, our developers begin coding the software, building out the features and functionalities discussed during the analysis phase. We use agile methodologies to ensure flexibility and efficiency throughout the development process.
                         </div>
                     </div>
                     <div data-aos={"fade-up"} data-aos-duration={"800"} className={"w-full"}>
@@ -86,13 +79,10 @@ function FourthSection() {
                             <div
                                 className="text-16-24-400 bg-blue-950 text-white h-10 rounded-full w-10 flex justify-center items-center">04
                             </div>
-                            <p className={'text-30-44-600 capitalize'}>Development</p>
+                            <p className={'text-30-44-600 capitalize'}>Testing and Quality Assurance</p>
                         </div>
                         <div className="card-body">
-                            After the design work is complete and you approve a final mockup, we send it off to
-                            our website development team to turn your vision into reality. Our web development
-                            team will work on building a gorgeous website while focusing on usability and
-                            responsive web design.
+                        After development, the software undergoes rigorous testing to identify and fix any bugs or issues. Our quality assurance team ensures that the software meets all specifications and performs reliably under various conditions.
                         </div>
                     </div>
                 </div>
@@ -103,13 +93,10 @@ function FourthSection() {
                             <div
                                 className="text-16-24-400 bg-blue-950 text-white h-10 rounded-full w-10 flex justify-center items-center">05
                             </div>
-                            <p className={'text-30-44-600 capitalize'}>Launch</p>
+                            <p className={'text-30-44-600 capitalize'}>Deployment and Support</p>
                         </div>
                         <div className="card-body">
-                            After you are completely satisfied with all aspects of your website, our team will
-                            set your new website live for the world to see! We will continue to monitor your
-                            site post-launch to ensure all is working as it should be & handover the project to
-                            you after the official closure
+                        Once testing is complete and the software is approved, we proceed with deployment. We provide comprehensive support and training to ensure smooth integration into your operations. Post-deployment, we remain available for ongoing maintenance and updates to support your business&apos;s growth and evolving needs.
                         </div>
                     </div>
                     <div data-aos={"fade-up"} data-aos-duration={"800"} className={"w-full"}>

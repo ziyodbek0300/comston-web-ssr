@@ -62,24 +62,17 @@ function Fourteen() {
             <div className={"py-12"}>
                 <div className={"flex lg:flex-row flex-col gap-10"}>
                     <div data-aos={"fade-up"} data-aos-duration={"800"} className={"lg:w-[55%]"}>
-                        <h2 className={"text-40-56-700 capitalize mb-5"}>Discuss <span
-                            className={"text-blue-550"}>your idea</span> with our IT consultants now!</h2>
-                        {/* eslint-disable-next-line react/no-unescaped-entities */}
-                        <p className={"text-16-24-400 mb-12"}>We helped business owners and start-ups to get ahead of
-                            their competition. Fill
-                            {/* eslint-disable-next-line react/no-unescaped-entities */}
-                            out the form, and we'll offer you a few time slots to discuss your idea.</p>
+                        <h2 className={"text-40-56-700 capitalize mb-5"}>Connect With Our <br/><span
+                            className={"text-blue-550"}>Logistics Tech Experts</span> <br/>Today!</h2>
+                        <p className={"text-16-24-400 mb-12"}>We&apos;ve propelled business owners and startups ahead of their competition in the logistics sector. Complete the form, and we'll provide several time slots for a consultation to explore your question.</p>
                         <div className={"w-full grid sm:grid-cols-2 grid-cols-1 gap-14"}>
                             <div className={"rounded-lg pb-6"}>
                                 <div className={"mb-5"}>
                                     <Image src={Computer} alt="computer" className={"mb-5"}/>
                                 </div>
                                 <p className="card-title text-18-26-500 mb-2">Consultancy & Research</p>
-                                <p className="card-text text-16-24-400 text-gray-450">
-                                    {/* eslint-disable-next-line react/no-unescaped-entities */}
-                                    Our consulting team will reach out to schedule a brief scoping call to understand
-                                    {/* eslint-disable-next-line react/no-unescaped-entities */}
-                                    {" "}exactly what you're building
+                                <p className="card-text text-16-24-400 text-gray-450">                
+                                    Understand exactly what you need
                                 </p>
                             </div>
                             <div className={"rounded-lg pb-6"}>
@@ -88,18 +81,16 @@ function Fourteen() {
                                 </div>
                                 <p className="card-title text-18-26-500 mb-2">Plan</p>
                                 <p className="card-text text-16-24-400 text-gray-450">
-                                    Once we clearly understand your build plan, we’ll send you a detailed proposal
-                                    explaining the full scope of work to be delivered
+                                    Come up with Plan of Action
                                 </p>
                             </div>
                             <div className={"rounded-lg pb-6"}>
                                 <div className="mb-5">
                                     <Image src={Time} alt="computer" className={"mb-5"}/>
                                 </div>
-                                <p className="card-title text-18-26-500 mb-2">Development</p>
+                                <p className="card-title text-18-26-500 mb-2">Execution</p>
                                 <p className="card-text text-16-24-400 text-gray-450">
-                                    Once you approve of our proposal, we will assign a product manager and team of
-                                    developers who will work with you every step of the way
+                                Project Manager and a team of experts
                                 </p>
                             </div>
                             <div className={"rounded-lg pb-6"}>
@@ -109,9 +100,7 @@ function Fourteen() {
                                 <p className="card-title text-18-26-500 mb-2">Check-ins</p>
                                 <p className="card-text text-16-24-400 text-gray-450">
                                     {/* eslint-disable-next-line react/no-unescaped-entities */}
-                                    You’ll enjoy daily and weekly check-ins until your app is live as well as the
-                                    ongoing support
-                                    and iteration from there
+                                    Until your project is finished
                                 </p>
                             </div>
                         </div>
@@ -135,15 +124,15 @@ function Fourteen() {
                                        className={"bg-gray-350 mt-2 p-3 rounded outline-blue-550 w-full"}/>
                             </div>
                             <div className={"mb-4"}>
-                                <label className={"text-16-20-500"} htmlFor="name">Describe Your Project</label>
+                                <label className={"text-16-20-500"} htmlFor="name">Your Question</label>
                                 <textarea className={"bg-gray-350 mt-2 p-3 rounded outline-blue-550 w-full"}
                                           name="description" id="description" cols="30" rows="10"></textarea>
                             </div>
-                            <div className={"mb-4"}>
+                            {/* <div className={"mb-4"}>
                                 <input type="checkbox" id={"isProtected"} className={"border border-blue-550"}/>
                                 <label className={"ml-3 text-16-20-500"} htmlFor="isProtected">Protect my project
                                     idea</label>
-                            </div>
+                            </div> */}
                             <div className="mb-4">
                                 <Button type={"submit"} duration={"0"} classes={"bg-blue-550 w-full"} text={"Submit"}/>
                             </div>
