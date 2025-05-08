@@ -98,7 +98,7 @@ function Footer() {
                             href="https://www.google.com/maps/place/6900+Tavistock+Lakes+Blvd,+Orlando,+FL+32827/@28.3725651,-81.2789186,21z/data=!4m15!1m8!3m7!1s0x88dd8923ec57832f:0x47bce6ef4ddce065!2s6900+Tavistock+Lakes+Blvd,+Orlando,+FL+32827!3b1!8m2!3d28.3726349!4d-81.2788881!16s%2Fg%2F11ng7ckyj7!3m5!1s0x88dd8923ec57832f:0x47bce6ef4ddce065!8m2!3d28.3726349!4d-81.2788881!16s%2Fg%2F11ng7ckyj7?entry=ttu"
                             target={"#"}
                         >
-                        6900 Tavistock Lakes Blvd, <br/>Ste 465 <br/> &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;Orlando, FL 32827
+                        6900 Tavistock Lakes Blvd, <br/>&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;Ste 465 <br/> &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;Orlando, FL 32827
                     </a></span>
                     </li>
                 </ul>
